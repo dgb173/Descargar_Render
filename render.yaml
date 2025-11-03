@@ -8,6 +8,7 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11
+        key: REDIS_URL
       - fromService:
           type: redis
           name: cache
@@ -16,3 +17,4 @@ services:
   - type: redis
     name: cache
     plan: free
+     ipAllowList: []
