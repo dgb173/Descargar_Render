@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: descarga-todo-app
+    env: python
+    plan: free
+    buildCommand: "./render-build.sh"
+    startCommand: "gunicorn --worker-class gevent --bind 0.0.0.0:$PORT app:app"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
+      - fromService:
+          type: redis
+          name: cache
+          property: connectionString
+
+  - type: redis
+    name: cache
+    plan: free

@@ -1,0 +1,105 @@
+{
+    "home_team": "Millonarios",
+    "away_team": "Deportiva Once Caldas",
+    "recent_form": {
+        "home": {
+            "wins": 0,
+            "total": 8
+        },
+        "away": {
+            "wins": 0,
+            "total": 8
+        }
+    },
+    "recent_indirect": {
+        "last_home": {
+            "home": "Millonarios",
+            "away": "Atletico Bucaramanga",
+            "score": "1:1",
+            "ah": "0.5",
+            "ou": "-",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">9</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">95</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">106</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">32</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">34</span>"
+                },
+                {
+                    "label": "Red Cards",
+                    "home": 0,
+                    "away": 0
+                }
+            ],
+            "date": "22-10-2025"
+        },
+        "last_away": {
+            "home": "Llaneros FC",
+            "away": "Deportiva Once Caldas",
+            "score": "2:0",
+            "ah": "0",
+            "ou": "-",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">8</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">49</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">110</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">22</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">51</span>"
+                },
+                {
+                    "label": "Red Cards",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "date": "19-10-2025"
+        },
+        "h2h_col3": null
+    },
+    "handicap": {
+        "ah_line": "0.5",
+        "favorite": "Millonarios",
+        "cover_on_last_h2h": "NO CUBIERTO"
+    },
+    "dangerous_attacks": {},
+    "favorite_dangerous_attacks": null,
+    "h2h_indirect": {
+        "home_better": 0,
+        "away_better": 0,
+        "draws": 0,
+        "samples": []
+    },
+    "h2h_stats": {
+        "home_wins": 0,
+        "away_wins": 0,
+        "draws": 0
+    }
+}

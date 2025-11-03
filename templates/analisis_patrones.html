@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Análisis de Patrones Similares</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { padding: 2rem; }
+        .match-header { margin-bottom: 1.5rem; }
+        .spinner-border { vertical-align: middle; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="match-header">
+            <h3>Buscando partidos con patrones similares a:</h3>
+            <h4 id="seed-match-info">Cargando...</h4>
+        </div>
+
+        <div id="loading-indicator">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Buscando...</span>
+            </div>
+            <strong>Buscando y analizando partidos futuros...</strong>
+        </div>
+
+        <table class="table table-striped table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Hora</th>
+                    <th>Partido</th>
+                    <th>Hándicap Actual</th>
+                    <th>% Similitud</th>
+                </tr>
+            </thead>
+            <tbody id="results-table-body">
+                <!-- Las filas de resultados se insertarán aquí dinámicamente -->
+            </tbody>
+        </table>
+        <p id="status-message"></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const seedMatchId = "{{ seed_match_id }}";
+            const seedMatchInfo = "{{ seed_match_info }}";
+            document.getElementById('seed-match-info').textContent = seedMatchInfo;
+            const resultsTableBody = document.getElementById('results-table-body');
+            const loadingIndicator = document.getElementById('loading-indicator');
+            const statusMessage = document.getElementById('status-message');
+
+            fetch(`/api/find_similar/${seedMatchId}`)
+                .then(response => {
+                    const reader = response.body.getReader();
+                    const decoder = new TextDecoder();
+
+                    function read() {
+                        reader.read().then(({ done, value }) => {
+                            if (done) {
+                                loadingIndicator.style.display = 'none';
+                                if (resultsTableBody.rows.length === 0) {
+                                    statusMessage.textContent = 'Búsqueda completada. No se encontraron partidos con patrones similares.';
+                                }
+                                return;
+                            }
+
+                            loadingIndicator.style.display = 'none';
+                            const chunk = decoder.decode(value, { stream: true });
+                            const jsonObjects = chunk.split('\n').filter(s => s.trim() !== '');
+
+                            jsonObjects.forEach(jsonString => {
+                                try {
+                                    const data = JSON.parse(jsonString);
+                                    if (data.error) {
+                                        console.error('Error del servidor:', data.error);
+                                        statusMessage.textContent = `Error: ${data.error}`;
+                                        return;
+                                    }
+                                    if (data.status === 'complete') {
+                                        if (resultsTableBody.rows.length === 0) {
+                                            statusMessage.textContent = data.message;
+                                        }
+                                        return;
+                                    }
+
+                                    const row = resultsTableBody.insertRow();
+                                    row.innerHTML = `
+                                        <td>${data.start_time || 'N/A'}</td>
+                                        <td>${data.home_team || 'N/A'} vs ${data.away_team || 'N/A'}</td>
+                                        <td>${data.handicap || 'N/A'}</td>
+                                        <td><strong>${data.similarity_percent ? data.similarity_percent.toFixed(1) : 'N/A'}</strong></td>
+                                    `;
+                                } catch (e) {
+                                    console.error('Error al parsear JSON del stream:', e, 'String:', jsonString);
+                                }
+                            });
+
+                            read(); // Continuar leyendo el stream
+                        });
+                    }
+
+                    read();
+                })
+                .catch(error => {
+                    console.error('Error al conectar con el API de streaming:', error);
+                    loadingIndicator.style.display = 'none';
+                    statusMessage.textContent = 'Error de conexión al iniciar la búsqueda.';
+                });
+        });
+    </script>
+</body>
+</html>

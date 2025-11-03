@@ -1,0 +1,191 @@
+perfecto. te dejo el **prompt completo y claro** para que lo pegues directamente en **Google Gemini CLI** y genere el módulo que integre **tu lógica exacta de filtrado progresivo por handicaps** dentro de tu programa actual (con actualización visual en HTML y búsqueda incremental).
+
+---
+
+# 🧠 PROMPT PARA GOOGLE CLI — MÓDULO DE FILTRO POR HANDICAPS Y SIMILITUDES
+
+**ROL:** eres un ingeniero que trabaja dentro de un proyecto python-streamlit (o flask) ya existente para análisis de partidos y apuestas.
+tu tarea es crear un nuevo **módulo de filtrado inteligente** basado en los *handicaps asiáticos (AH)* que ya aparecen en caché y que después serán complementados con scraping “vista previa rápida”.
+
+---
+
+## 🎯 OBJETIVO GENERAL
+
+crear un sistema que:
+
+1. reciba un **partido semilla** (ya en caché) → ejemplo: `Managua FC vs Matagalpa FC`.
+2. lea los datos de **partidos futuros** (como los que aparecen en la tabla de la tercera imagen).
+3. **filtre en tiempo real** de forma progresiva y ultrarrápida:
+
+   * **primer filtro:** por similitud de **handicap local**.
+   * **segundo filtro:** por similitud de **handicap visitante**.
+   * si ambos filtros fallan → descartar sin calcular más.
+4. para los que pasen, calcule un **índice de similitud global (%)** según:
+
+   * coincidencia exacta o aproximada del AH (0.25 de tolerancia).
+   * signo (positivo = no favorito / negativo = favorito).
+   * movimiento de línea si está disponible.
+   * condición de favorito local.
+   * resultados recientes (si existen en el caché).
+5. **muestre los resultados en el propio HTML mientras busca**, no todo al final.
+
+   * cada partido que cumpla los dos filtros debe mostrarse en la tabla incrementalmente.
+6. devuelva los campos:
+   `match_id, home_team, away_team, ah_current, start_time, similarity_%`.
+
+---
+
+## 🧩 ESTRUCTURA A CREAR
+
+### archivo principal
+
+`modules/pattern_filter_fast.py`
+
+### clases y funciones
+
+```python
+class PatternFilter:
+    def __init__(self, cache_df, upcoming_df):
+        # cache_df: DataFrame de partidos almacenados (con resultados)
+        # upcoming_df: partidos obtenidos por scraping (sin resultados)
+        # incluye columnas: match_id, home_team, away_team, ah_current, date/time, line_move_ah, home_is_favorite
+        ...
+
+    def _similar_handicap(self, seed_value, cand_value):
+        # devuelve True si ambos handicaps tienen mismo signo
+        # y diferencia absoluta <= 0.25
+        ...
+
+    def _passes_local_filter(self, seed_row, cand_row):
+        # aplica _similar_handicap() al AH local
+        ...
+
+    def _passes_away_filter(self, seed_row, cand_row):
+        # aplica _similar_handicap() al AH visitante
+        ...
+
+    def compute_similarity(self, seed_row, cand_row):
+        # calcula porcentaje 0-100 combinando:
+        #   handicap similarity 40%
+        #   line move 20%
+        #   favorito mismo signo 20%
+        #   últimos resultados 10%
+        #   otros factores 10%
+        ...
+
+    def incremental_search(self, seed_id, callback=None):
+        # recorre upcoming_df
+        # aplica primero filtro local, luego visitante
+        # si falla alguno → continue
+        # si pasa ambos → calcula similitud, guarda fila
+        # si callback está definido, llama callback(resultado_parcial)
+        # retorna lista ordenada por similitud descendente
+        ...
+```
+
+### modo CLI
+
+`python -m modules.pattern_filter_fast --seed-id <id> --top-k 30`
+
+---
+
+## ⚙️ LÓGICA EXACTA DEL FILTRADO (según tus capturas)
+
+1. **primer filtro:**
+
+   * compara `ah_current` del equipo **local** del seed con el del partido candidato.
+   * si ambos son negativos → mismo patrón (favorito).
+   * si ambos son positivos → mismo patrón (no favorito).
+   * tolerancia de ±0.25 (ejemplo: 0.5 ≈ 0.25 ≈ 0.75).
+   * si no cumple → **descartar inmediatamente**.
+
+2. **segundo filtro:**
+
+   * igual que el anterior, pero con el **visitante**.
+   * si no cumple → descartar.
+
+3. **tercer paso:**
+
+   * calcular similitud combinada (si pasa ambos filtros).
+   * agregarlo al DataFrame resultado.
+
+4. **ordenar por % de similitud** y devolver solo los top-K.
+
+---
+
+## ⚡ RENDIMIENTO
+
+* usar operaciones **vectorizadas** con pandas y `query()` para los filtros.
+* no usar bucles pesados ni apply por fila.
+* el primer filtro (local) debe eliminar ≥ 80 % de partidos antes de pasar al siguiente.
+* permitir **streaming parcial**: cada vez que encuentra coincidencia, ejecuta `callback` que actualiza la tabla HTML en vivo.
+
+---
+
+## 🖥️ INTEGRACIÓN CON TU FRONTEND ACTUAL
+
+* tu interfaz ya muestra tablas con columnas: Hora, Partido, Hándicap, Línea de Goles, Análisis Avanzado, Vista Previa Rápida.
+* debes añadir una nueva pestaña o modo “**Buscar Partidos Similares**”.
+* al seleccionar un partido de la tabla y pulsar **“Buscar Similares”**:
+
+  1. se llama a `PatternFilter.incremental_search(seed_id, callback=update_html)`.
+  2. cada vez que el callback recibe un resultado parcial, se inserta una fila en la tabla de HTML (sin recargar la página).
+  3. al finalizar, se ordena la tabla completa por similitud descendente.
+* el botón “Vista Previa Rápida” mantiene su funcionalidad, mostrando los datos que ya traes del caché (las 2 capturas anteriores).
+
+---
+
+## 🧮 PESOS DE SIMILITUD (base 100 %)
+
+| Factor                                 | Peso | Descripción                      |
+| :------------------------------------- | :--: | :------------------------------- |
+| Handicap (local y visitante)           | 40 % | igualdad de signo + rango ≤ 0.25 |
+| Movimiento de línea                    | 20 % | diferencia ≤ 0.25 → +20 %        |
+| Condición de favorito                  | 20 % | mismo patrón de favorito         |
+| Resultados recientes                   | 10 % | W/D/L similares                  |
+| Otros (comparativas indirectas, goles) | 10 % | opcional                         |
+
+---
+
+## 📤 SALIDA
+
+`DataFrame` o `JSON` con:
+
+```json
+[
+  {
+    "match_id": "28341",
+    "home_team": "JEF United",
+    "away_team": "Consadole Sapporo",
+    "ah_current": 0.75,
+    "start_time": "2025-11-03T07:00",
+    "similarity_%": 94.6
+  },
+  {
+    "match_id": "28342",
+    "home_team": "Iwaki FC",
+    "away_team": "Fujieda MYFC",
+    "ah_current": 0.5,
+    "start_time": "2025-11-03T07:00",
+    "similarity_%": 91.2
+  }
+]
+```
+
+---
+
+## 🧰 COMANDO DE EJECUCIÓN
+
+```
+gemini code --prompt-file prompt_filter_fast.md --apply
+```
+
+Luego prueba en tu entorno:
+
+```
+python -m modules.pattern_filter_fast --seed-id 20251102-001 --top-k 50
+```
+
+---
+
+¿quieres que ahora te genere la **versión extendida del prompt** que incluya también la **actualización visual en streamlit / html (callback incremental)** y el código del **callback update_html()** para que se actualice la tabla automáticamente mientras filtra?
