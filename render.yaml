@@ -19,4 +19,4 @@ services:
     plan: free
      ipAllowList:
       - source: 0.0.0.0/0
-       description: "Permitir todas las conexiones"
+        description: "Permitir todas las conexiones"
