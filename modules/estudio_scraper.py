@@ -876,7 +876,7 @@ def extract_indirect_comparison_data(soup):
 
 # --- FUNCIÓN PRINCIPAL DE EXTRACCIÓN ---
 
-async def obtener_datos_completos_partido_async(match_id: str, soup_completo: BeautifulSoup, driver):
+async def obtener_datos_completos_partido_async(match_id: str, soup_completo: BeautifulSoup, details_h2h_col3: dict):
     """
     Función ASÍNCRONA que recibe el soup principal y orquesta las peticiones secundarias.
     """
@@ -914,16 +914,7 @@ async def obtener_datos_completos_partido_async(match_id: str, soup_completo: Be
         # --- Tareas CONCURRENTES (peticiones de red) ---
         tasks = {}
 
-        # Tarea para H2H Col3 (rivales comunes) - se hace de forma síncrona con Selenium para poder seleccionar el proveedor de odds
-        key_id_a, rival_a_id, rival_a_name = get_rival_a_for_original_h2h_of(soup_completo, league_id)
-        _, rival_b_id, rival_b_name = get_rival_b_for_original_h2h_of(soup_completo, league_id)
-        
-        details_h2h_col3 = {}
-        if key_id_a and rival_a_id and rival_b_id:
-            details_h2h_col3 = get_h2h_details_for_original_logic_of(
-                driver, key_id_a, rival_a_id, rival_b_id, rival_a_name, rival_b_name
-            )
-        
+
         # Tareas para estadísticas de progresión
         match_ids_to_fetch = {
             'last_home': (last_home_match or {}).get('match_id'),
@@ -1086,6 +1077,18 @@ def obtener_datos_completos_partido(match_id: str):
                 continue
         
         soup_completo = BeautifulSoup(driver.page_source, "lxml")
+
+        # --- PASO 2: Obtener datos de H2H Col3 de forma síncrona ---
+        _, _, league_id, _, _, _ = get_team_league_info_from_script_of(soup_completo)
+        key_id_a, rival_a_id, rival_a_name = get_rival_a_for_original_h2h_of(soup_completo, league_id)
+        _, rival_b_id, rival_b_name = get_rival_b_for_original_h2h_of(soup_completo, league_id)
+        
+        details_h2h_col3 = {}
+        if key_id_a and rival_a_id and rival_b_id:
+            details_h2h_col3 = get_h2h_details_for_original_logic_of(
+                driver, key_id_a, rival_a_id, rival_b_id, rival_a_name, rival_b_name
+            )
+
     except Exception as e:
         print(f"ERROR CRÍTICO durante la carga con Selenium: {e}")
         return {"error": f"Error durante la carga inicial con Selenium: {type(e).__name__}: {e}"}
@@ -1096,12 +1099,12 @@ def obtener_datos_completos_partido(match_id: str):
             except:
                 pass
 
-    # --- PASO 2: Ejecutar el resto de peticiones en paralelo con aiohttp ---
+    # --- PASO 3: Ejecutar el resto de peticiones en paralelo con aiohttp ---
     try:
         if os.name == 'nt':
             asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-        # Pasamos el soup ya parseado y el driver a la función asíncrona
-        return asyncio.run(obtener_datos_completos_partido_async(match_id, soup_completo, driver))
+        # Pasamos el soup y los datos de H2H a la función asíncrona
+        return asyncio.run(obtener_datos_completos_partido_async(match_id, soup_completo, details_h2h_col3))
     except Exception as e:
         print(f"ERROR CRÍTICO en el runner async de datos completos para {match_id}: {e}")
         return {"error": f"No se pudieron obtener los datos completos (async runner): {type(e).__name__}"}

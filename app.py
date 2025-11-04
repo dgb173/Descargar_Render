@@ -1,4 +1,6 @@
 
+from gevent import monkey; monkey.patch_all()
+
 # app.py - Servidor web principal (Flask) - VERSIÓN DE PRODUCCIÓN
 from flask import Flask, render_template, abort, request, jsonify, Response, stream_with_context
 import json
