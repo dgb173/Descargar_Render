@@ -1052,7 +1052,6 @@ def obtener_datos_completos_partido(match_id: str):
     if not match_id or not match_id.isdigit():
         return {"error": "ID de partido inválido."}
 
-    # --- PASO 1: Carga inicial con Selenium (lento pero necesario) ---
     options = ChromeOptions()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
@@ -1062,13 +1061,12 @@ def obtener_datos_completos_partido(match_id: str):
     options.add_argument('--blink-settings=imagesEnabled=false')
     driver = None
     try:
+        # --- PASO 1: Carga inicial con Selenium (lento pero necesario) ---
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-        # Usamos la URL original, Selenium se encargará de la selección
         main_page_url = f"{BASE_URL_OF}/match/h2h-{match_id}"
         driver.get(main_page_url)
         WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.ID, "table_v1")))
         
-        # Acción clave: seleccionar el proveedor de cuotas correcto en los desplegables
         for select_id in ["hSelect_1", "hSelect_2", "hSelect_3"]:
             try:
                 Select(WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, select_id)))).select_by_value("8")
@@ -1089,25 +1087,20 @@ def obtener_datos_completos_partido(match_id: str):
                 driver, key_id_a, rival_a_id, rival_b_id, rival_a_name, rival_b_name
             )
 
+        # --- PASO 3: Ejecutar el resto de peticiones en paralelo con aiohttp ---
+        if os.name == 'nt':
+            asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+        return asyncio.run(obtener_datos_completos_partido_async(match_id, soup_completo, details_h2h_col3))
+
     except Exception as e:
-        print(f"ERROR CRÍTICO durante la carga con Selenium: {e}")
-        return {"error": f"Error durante la carga inicial con Selenium: {type(e).__name__}: {e}"}
+        print(f"ERROR CRÍTICO durante la obtención de datos completos para {match_id}: {e}")
+        return {"error": f"Error durante la obtención de datos: {type(e).__name__}: {e}"}
     finally:
         if driver:
             try:
                 driver.quit()
-            except:
-                pass
-
-    # --- PASO 3: Ejecutar el resto de peticiones en paralelo con aiohttp ---
-    try:
-        if os.name == 'nt':
-            asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-        # Pasamos el soup y los datos de H2H a la función asíncrona
-        return asyncio.run(obtener_datos_completos_partido_async(match_id, soup_completo, details_h2h_col3))
-    except Exception as e:
-        print(f"ERROR CRÍTICO en el runner async de datos completos para {match_id}: {e}")
-        return {"error": f"No se pudieron obtener los datos completos (async runner): {type(e).__name__}"}
+            except Exception as e:
+                print(f"Error al cerrar el driver de Selenium: {e}")
 
 
 # EN modules/estudio_scraper.py
