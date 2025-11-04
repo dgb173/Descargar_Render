@@ -8,7 +8,6 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11
-        fromService:
       - fromService:
           type: redis
           name: cache
