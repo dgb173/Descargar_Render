@@ -19,6 +19,6 @@ services:
   - type: redis
     name: cache
     plan: free
-     ipAllowList:
-      - source: 0.0.0.0/0
-        description: "Permitir todas las conexiones"
+        ipAllowList:
+        - source: 0.0.0.0/0
+          description: "Permitir todas las conexiones"
