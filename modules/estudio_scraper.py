@@ -16,6 +16,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -929,7 +931,7 @@ async def obtener_datos_completos_partido_async(match_id: str, soup_completo: Be
             tmp_driver = None
             try:
                 # Se crea un driver temporal para esta operación bloqueante
-                tmp_driver = webdriver.Chrome(options=tmp_options)
+                tmp_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=tmp_options)
                 details_h2h_col3 = get_h2h_details_for_original_logic_of(
                     tmp_driver, key_id_a, rival_a_id, rival_b_id, rival_a_name, rival_b_name
                 )
@@ -1089,7 +1091,7 @@ def obtener_datos_completos_partido(match_id: str):
     options.add_argument('--blink-settings=imagesEnabled=false')
     driver = None
     try:
-        driver = webdriver.Chrome(options=options)
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
         # Usamos la URL original, Selenium se encargará de la selección
         main_page_url = f"{BASE_URL_OF}/match/h2h-{match_id}"
         driver.get(main_page_url)
@@ -1147,7 +1149,7 @@ def obtener_datos_preview_rapido(match_id: str):
         options.add_argument("--disable-gpu")
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/116.0.0.0 Safari/537.36")
         options.add_argument('--blink-settings=imagesEnabled=false')
-        driver = webdriver.Chrome(options=options)
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
         driver.get(url)
         WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.ID, "table_v1")))
         # Ajustar selects a 8, igual que en el flujo completo
@@ -1593,7 +1595,7 @@ async def obtener_datos_preview_ligero_async(match_id: str):
                 tmp_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/116.0.0.0 Safari/537.36")
                 tmp_options.add_argument("--blink-settings=imagesEnabled=false")
 
-                tmp_driver = webdriver.Chrome(options=tmp_options)
+                tmp_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=tmp_options)
                 try:
                     col3 = get_h2h_details_for_original_logic_of(
                         tmp_driver,
