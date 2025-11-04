@@ -8,13 +8,10 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11
-<<<<<<< HEAD
       - key: REDIS_URL
         fromService:
-=======
         key: REDIS_URL
       - fromService:
->>>>>>> 2bbb09a6255b68a92e02780182a213ac74e232e0
           type: redis
           name: cache
           property: connectionString
