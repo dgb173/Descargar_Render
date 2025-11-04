@@ -876,7 +876,7 @@ def extract_indirect_comparison_data(soup):
 
 # --- FUNCIÓN PRINCIPAL DE EXTRACCIÓN ---
 
-async def obtener_datos_completos_partido_async(match_id: str, soup_completo: BeautifulSoup):
+async def obtener_datos_completos_partido_async(match_id: str, soup_completo: BeautifulSoup, driver):
     """
     Función ASÍNCRONA que recibe el soup principal y orquesta las peticiones secundarias.
     """
@@ -920,30 +920,9 @@ async def obtener_datos_completos_partido_async(match_id: str, soup_completo: Be
         
         details_h2h_col3 = {}
         if key_id_a and rival_a_id and rival_b_id:
-            tmp_options = ChromeOptions()
-            tmp_options.add_argument("--headless")
-            tmp_options.add_argument("--no-sandbox")
-            tmp_options.add_argument("--disable-dev-shm-usage")
-            tmp_options.add_argument("--disable-gpu")
-            tmp_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/116.0.0.0 Safari/537.36")
-            tmp_options.add_argument('--blink-settings=imagesEnabled=false')
-            tmp_options.binary_location = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
-            
-            tmp_driver = None
-            try:
-                # Se crea un driver temporal para esta operación bloqueante
-                tmp_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=tmp_options)
-                details_h2h_col3 = get_h2h_details_for_original_logic_of(
-                    tmp_driver, key_id_a, rival_a_id, rival_b_id, rival_a_name, rival_b_name
-                )
-            except Exception as e:
-                print(f"Error al obtener H2H Col3 con Selenium: {e}")
-            finally:
-                if tmp_driver:
-                    try:
-                        tmp_driver.quit()
-                    except Exception:
-                        pass
+            details_h2h_col3 = get_h2h_details_for_original_logic_of(
+                driver, key_id_a, rival_a_id, rival_b_id, rival_a_name, rival_b_name
+            )
         
         # Tareas para estadísticas de progresión
         match_ids_to_fetch = {
@@ -1109,7 +1088,7 @@ def obtener_datos_completos_partido(match_id: str):
         soup_completo = BeautifulSoup(driver.page_source, "lxml")
     except Exception as e:
         print(f"ERROR CRÍTICO durante la carga con Selenium: {e}")
-        return {"error": f"Error durante la carga inicial con Selenium: {e}"}
+        return {"error": f"Error durante la carga inicial con Selenium: {type(e).__name__}: {e}"}
     finally:
         if driver:
             try:
@@ -1121,8 +1100,8 @@ def obtener_datos_completos_partido(match_id: str):
     try:
         if os.name == 'nt':
             asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-        # Pasamos el soup ya parseado a la función asíncrona
-        return asyncio.run(obtener_datos_completos_partido_async(match_id, soup_completo))
+        # Pasamos el soup ya parseado y el driver a la función asíncrona
+        return asyncio.run(obtener_datos_completos_partido_async(match_id, soup_completo, driver))
     except Exception as e:
         print(f"ERROR CRÍTICO en el runner async de datos completos para {match_id}: {e}")
         return {"error": f"No se pudieron obtener los datos completos (async runner): {type(e).__name__}"}
@@ -1132,7 +1111,7 @@ def obtener_datos_completos_partido(match_id: str):
 
 # ... (al final del archivo, después de obtener_datos_completos_partido)
 
-def obtener_datos_preview_rapido(match_id: str):
+def obtener_datos_preview_rapido(match_id: str, driver):
     """
     Scraper ultraligero y optimizado para obtener solo los datos de la vista previa.
     Usa 'requests' para ser extremadamente rápido y evitar Selenium.
@@ -1143,16 +1122,6 @@ def obtener_datos_preview_rapido(match_id: str):
     url = f"{BASE_URL_OF}/match/h2h-{match_id}"
     try:
         # 1. Cargar con Selenium para replicar el método de extracción principal
-        options = ChromeOptions()
-        options.add_argument("--headless")
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--disable-gpu")
-        options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/116.0.0.0 Safari/537.36")
-        options.add_argument('--blink-settings=imagesEnabled=false')
-        options.binary_location = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
-        options.binary_location = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
-        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
         driver.get(url)
         WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.ID, "table_v1")))
         # Ajustar selects a 8, igual que en el flujo completo
@@ -1586,66 +1555,7 @@ async def obtener_datos_preview_ligero_async(match_id: str):
                 la_stats_df = results_map.get('la_stats') if not isinstance(results_map.get('la_stats'), Exception) else None
                 recent_indirect["last_away"] = {"home": last_away.get('home_team'), "away": last_away.get('away_team'), "score": last_away.get('score'), "ah": format_ah_as_decimal_string_of(last_away.get('handicap_line_raw', '-') or '-'), "ou": "-", "stats_rows": _df_to_rows(la_stats_df), "date": last_away.get('date')}
 
-            # Procesar H2H Col3 usando Selenium para ejecutar JavaScript y obtener el valor real de AH
-            # Eliminar la tarea asincrónica anterior para reemplazarla con Selenium
-            if key_id_a and rival_a_id and rival_b_id:
-                # Creamos un driver temporal SOLO para sacar el AH real del H2H Col3
-                tmp_options = ChromeOptions()
-                tmp_options.add_argument("--headless")
-                tmp_options.add_argument("--no-sandbox")
-                tmp_options.add_argument("--disable-dev-shm-usage")
-                tmp_options.add_argument("--disable-gpu")
-                tmp_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/116.0.0.0 Safari/537.36")
-                tmp_options.add_argument("--blink-settings=imagesEnabled=false")
-                tmp_options.binary_location = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
 
-                tmp_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=tmp_options)
-                try:
-                    col3 = get_h2h_details_for_original_logic_of(
-                        tmp_driver,
-                        key_id_a,
-                        rival_a_id,
-                        rival_b_id,
-                        rival_a_name,
-                        rival_b_name
-                    )
-                finally:
-                    # Cerrar el driver sí o sí para no dejar procesos colgados
-                    try:
-                        tmp_driver.quit()
-                    except Exception:
-                        pass
-
-                if col3 and col3.get("status") == "found":
-                    # Montamos el texto estilo "EquipoA X:Y EquipoB"
-                    score_line = (
-                        f"{col3.get('h2h_home_team_name')} "
-                        f"{col3.get('goles_home')}:{col3.get('goles_away')} "
-                        f"{col3.get('h2h_away_team_name')}"
-                    )
-
-                    # Stats in-game del partido Col3
-                    col3_stats_df = await get_match_progression_stats_data_async(session, str(col3.get('match_id'))) if col3.get('match_id') else None
-
-                    # AH real tal como lo devolvió Selenium (handicap_line_raw)
-                    ah_raw = (
-                        col3.get('handicap_line_raw')
-                        or col3.get('handicap')
-                        or '-'
-                    )
-                    if ah_raw is None or (isinstance(ah_raw, str) and not ah_raw.strip()):
-                        ah_raw = '-'
-                    elif not isinstance(ah_raw, str):
-                        ah_raw = str(ah_raw)
-
-                    # Guardamos en recent_indirect exactamente igual que en la versión rápida
-                    recent_indirect["h2h_col3"] = {
-                        "score_line": score_line,
-                        "ah": format_ah_as_decimal_string_of(ah_raw),
-                        "ou": "-",
-                        "stats_rows": _df_to_rows(col3_stats_df),
-                        "date": col3.get('date')
-                    }
             
             # El resto de la lógica (H2H indirecto, ataques peligrosos) es síncrona y usa el `soup` principal
             # ... (se mantiene la lógica original que no hace nuevas peticiones)
