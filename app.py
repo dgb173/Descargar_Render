@@ -206,6 +206,12 @@ def api_refresh_matches():
 
     try:
         upcoming, finished = _run_full_scraping_refresh()
+        existing_data = load_data_from_file()
+
+        if not upcoming and not finished:
+            if existing_data.get("upcoming_matches") or existing_data.get("finished_matches"):
+                raise RuntimeError("No se pudo obtener información nueva. Los datos existentes se mantienen.")
+
         scraped_payload = {
             "upcoming_matches": upcoming,
             "finished_matches": finished,
