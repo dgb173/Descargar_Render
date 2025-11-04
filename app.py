@@ -3,9 +3,12 @@ from gevent import monkey; monkey.patch_all()
 
 # app.py - Servidor web principal (Flask) - VERSIÓN DE PRODUCCIÓN
 from flask import Flask, render_template, abort, request, jsonify, Response, stream_with_context
+import asyncio
+import datetime
 import json
 import os
 import sys
+import threading
 import redis  # Añadido para la caché de Redis
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
@@ -14,6 +17,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # Importar el nuevo módulo de filtrado
 from modules.pattern_filter_fast import PatternFilter
+from scraping_logic import (
+    get_main_page_finished_matches_async,
+    get_main_page_matches_async,
+)
 
 import numpy
 
@@ -61,6 +68,12 @@ app = Flask(__name__, template_folder='templates', static_folder='static')
 app.json_encoder = NumpyJSONEncoder
 
 DATA_FILE = 'data.json'
+_refresh_lock = threading.Lock()
+_last_refresh_metadata = {
+    "timestamp": None,
+    "upcoming": 0,
+    "finished": 0,
+}
 
 def load_data_from_file():
     """Carga los datos desde el archivo JSON."""
@@ -163,6 +176,59 @@ def api_finished_matches():
     except Exception as e:
         print(f"Error en la ruta /api/finished_matches: {e}")
         return jsonify({'error': str(e)}), 500
+
+def _run_full_scraping_refresh():
+    """Ejecuta el scraping completo reutilizando la lógica asíncrona existente."""
+    loop = asyncio.new_event_loop()
+    try:
+        asyncio.set_event_loop(loop)
+        upcoming, finished = loop.run_until_complete(asyncio.gather(
+            get_main_page_matches_async(limit=1200),
+            get_main_page_finished_matches_async(limit=1500),
+        ))
+        return upcoming, finished
+    finally:
+        try:
+            loop.run_until_complete(loop.shutdown_asyncgens())
+        except Exception:
+            pass
+        asyncio.set_event_loop(None)
+        loop.close()
+
+@app.route('/api/refresh-matches', methods=['POST'])
+def api_refresh_matches():
+    """Dispara un scraping completo y sustituye el contenido de data.json con los resultados."""
+    if not _refresh_lock.acquire(blocking=False):
+        return jsonify({
+            'status': 'in_progress',
+            'message': 'Ya hay una actualización en curso. Espera unos segundos e inténtalo de nuevo.'
+        }), 409
+
+    try:
+        upcoming, finished = _run_full_scraping_refresh()
+        scraped_payload = {
+            "upcoming_matches": upcoming,
+            "finished_matches": finished,
+        }
+        with open(DATA_FILE, 'w', encoding='utf-8') as outfile:
+            json.dump(scraped_payload, outfile, indent=2, ensure_ascii=False)
+
+        timestamp = datetime.datetime.utcnow().isoformat() + "Z"
+        _last_refresh_metadata["timestamp"] = timestamp
+        _last_refresh_metadata["upcoming"] = len(upcoming)
+        _last_refresh_metadata["finished"] = len(finished)
+
+        return jsonify({
+            'status': 'ok',
+            'updated_at': timestamp,
+            'upcoming_count': len(upcoming),
+            'finished_count': len(finished),
+        })
+    except Exception as e:
+        print(f"ERROR refrescando data.json: {e}")
+        return jsonify({'status': 'error', 'error': str(e)}), 500
+    finally:
+        _refresh_lock.release()
 
 # --- Las rutas de API y estudio que dependen de scraping en tiempo real se mantienen ---
 # --- Estas rutas seguirán haciendo scraping bajo demanda si es necesario ---

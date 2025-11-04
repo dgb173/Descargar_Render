@@ -110,6 +110,13 @@
                         <button id="apply-filter" type="button" class="btn btn-success">Aplicar filtro</button>
                         <button id="clear-filter" type="button" class="btn btn-outline-secondary ms-2">Limpiar</button>
                     </div>
+                    <div class="col-sm-12 col-md-auto text-sm-start text-md-end">
+                        <button id="refresh-data" type="button" class="btn btn-warning w-100">
+                            <i class="fa-solid fa-rotate-right me-1"></i>
+                            Actualizar partidos
+                        </button>
+                        <small id="refresh-status" class="text-muted d-block mt-2"></small>
+                    </div>
                 </div>
             </div>
         </div>
@@ -188,6 +195,58 @@
         const PAGE_MODE = '{{ page_mode }}';
         let offset = {{ matches|length }};
         let isLoading = false;
+
+        const refreshBtn = document.getElementById('refresh-data');
+        const refreshStatus = document.getElementById('refresh-status');
+        if (refreshBtn) {
+            const refreshDefaultHtml = refreshBtn.innerHTML;
+            refreshBtn.addEventListener('click', () => {
+                if (refreshBtn.dataset.loading === 'true') {
+                    return;
+                }
+
+                refreshBtn.dataset.loading = 'true';
+                refreshBtn.disabled = true;
+                refreshBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Actualizando...';
+                if (refreshStatus) {
+                    refreshStatus.textContent = 'Actualizando partidos, puede tardar unos segundos...';
+                }
+
+                let shouldReload = false;
+
+                fetch('/api/refresh-matches', { method: 'POST' })
+                    .then(response => response.json().then(payload => ({ ok: response.ok, payload })))
+                    .then(result => {
+                        if (!result.ok || result.payload.status !== 'ok') {
+                            const message = result.payload.error || result.payload.message || 'No se pudo actualizar los partidos.';
+                            throw new Error(message);
+                        }
+
+                        shouldReload = true;
+                        if (refreshStatus) {
+                            const upcoming = result.payload.upcoming_count ?? 0;
+                            const finished = result.payload.finished_count ?? 0;
+                            refreshStatus.textContent = `Actualizado correctamente (${upcoming} próximos, ${finished} finalizados). Recargando...`;
+                        }
+
+                        setTimeout(() => window.location.reload(), 1200);
+                    })
+                    .catch(error => {
+                        console.error('Error al refrescar los partidos:', error);
+                        if (refreshStatus) {
+                            refreshStatus.textContent = error.message || 'No se pudo actualizar los partidos.';
+                        }
+                    })
+                    .finally(() => {
+                        if (shouldReload) {
+                            return;
+                        }
+                        refreshBtn.dataset.loading = 'false';
+                        refreshBtn.disabled = false;
+                        refreshBtn.innerHTML = refreshDefaultHtml;
+                    });
+            });
+        }
 
         document.getElementById('apply-filter').addEventListener('click', function() {
             const value = document.getElementById('handicap-filter').value.trim();
