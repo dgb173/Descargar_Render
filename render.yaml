@@ -3,10 +3,8 @@ services:
     name: descarga-todo-app
     env: python
     plan: free
-    buildpacks:
-      - url: https://github.com/heroku/heroku-buildpack-google-chrome
     buildCommand: "./render-build.sh"
-    startCommand: "gunicorn --worker-class gevent --bind 0.0.0.0:$PORT app:app"
+    startCommand: "export PATH=\"${PATH}:/opt/render/project/.render/chrome/opt/google/chrome\"; gunicorn --worker-class gevent --bind 0.0.0.0:$PORT app:app"
     envVars:
       - key: PYTHON_VERSION
         value: 3.11

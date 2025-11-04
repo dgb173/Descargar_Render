@@ -927,6 +927,7 @@ async def obtener_datos_completos_partido_async(match_id: str, soup_completo: Be
             tmp_options.add_argument("--disable-gpu")
             tmp_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/116.0.0.0 Safari/537.36")
             tmp_options.add_argument('--blink-settings=imagesEnabled=false')
+            tmp_options.binary_location = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
             
             tmp_driver = None
             try:
@@ -1149,6 +1150,8 @@ def obtener_datos_preview_rapido(match_id: str):
         options.add_argument("--disable-gpu")
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/116.0.0.0 Safari/537.36")
         options.add_argument('--blink-settings=imagesEnabled=false')
+        options.binary_location = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
+        options.binary_location = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
         driver.get(url)
         WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.ID, "table_v1")))
@@ -1594,6 +1597,7 @@ async def obtener_datos_preview_ligero_async(match_id: str):
                 tmp_options.add_argument("--disable-gpu")
                 tmp_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/116.0.0.0 Safari/537.36")
                 tmp_options.add_argument("--blink-settings=imagesEnabled=false")
+                tmp_options.binary_location = "/opt/render/project/.render/chrome/opt/google/chrome/chrome"
 
                 tmp_driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=tmp_options)
                 try:
