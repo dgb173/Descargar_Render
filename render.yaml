@@ -8,7 +8,6 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11
-      - key: REDIS_URL
         fromService:
         key: REDIS_URL
       - fromService:
