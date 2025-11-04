@@ -2,10 +2,17 @@
 
 ## Actualizar `data.json` y subir cambios
 
-Para refrescar los partidos igual que antes (generar `data.json` y empujar al repositorio), tienes dos opciones:
+### Refrescar solo `data.json`
 
-- **Windows (.bat):** haz doble clic en `update_data_and_push.bat` o ejecútalo desde PowerShell/CMD.
-- **Python directo:** `python scripts/update_data_and_push.py` (o `py scripts/update_data_and_push.py`).
+- **Windows (.bat):** ejecuta `actualizar_data_json.bat` para lanzar `run_scraper.py` y regenerar el archivo sin tocar git.
+- **Python directo:** `python run_scraper.py`
+
+Asegúrate de que el scraper puede funcionar en tu entorno (dependencias instaladas y acceso a internet).
+
+### Refrescar `data.json` y subir cambios a git
+
+- **Windows (.bat):** `update_data_and_push.bat`
+- **Python directo:** `python scripts/update_data_and_push.py`
 
 El script:
 

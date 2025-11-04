@@ -1,6 +1,6 @@
 @echo off
 setlocal
-REM Ejecuta el scraper y sube data.json al repositorio.
+REM Ejecuta run_scraper.py para regenerar data.json sin hacer commit ni push.
 
 cd /d "%~dp0"
 
@@ -8,41 +8,41 @@ set "PYTHON_CMD="
 
 if exist "muestra_sin_fallos\.venv\Scripts\python.exe" (
     set "PYTHON_CMD=muestra_sin_fallos\.venv\Scripts\python.exe"
-    goto run_script
+    goto run_scraper
 )
 
 if exist ".venv\Scripts\python.exe" (
     set "PYTHON_CMD=.venv\Scripts\python.exe"
-    goto run_script
+    goto run_scraper
 )
 
 where python >nul 2>&1
 if %ERRORLEVEL% EQU 0 (
     set "PYTHON_CMD=python"
-    goto run_script
+    goto run_scraper
 )
 
 where py >nul 2>&1
 if %ERRORLEVEL% EQU 0 (
     set "PYTHON_CMD=py"
-    goto run_script
+    goto run_scraper
 )
 
 echo.
 echo No se encontro Python en el PATH ni en los entornos virtuales esperados.
-echo Abre un terminal y ejecuta manualmente: python scripts\update_data_and_push.py
+echo Ejecuta manualmente: python run_scraper.py
 pause
 exit /b 1
 
-:run_script
-"%PYTHON_CMD%" scripts\update_data_and_push.py
+:run_scraper
+"%PYTHON_CMD%" run_scraper.py
 
 if %ERRORLEVEL% NEQ 0 (
     echo.
-    echo Hubo un problema al actualizar o subir los datos.
+    echo Hubo un problema al ejecutar run_scraper.py. Revisa la salida anterior.
 ) else (
     echo.
-    echo Proceso terminado. Revisa la consola anterior para detalles.
+    echo data.json actualizado correctamente.
 )
 
 pause
