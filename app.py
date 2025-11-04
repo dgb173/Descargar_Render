@@ -9,6 +9,7 @@ import json
 import os
 import sys
 import threading
+import subprocess
 import redis  # Añadido para la caché de Redis
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
@@ -178,22 +179,54 @@ def api_finished_matches():
         return jsonify({'error': str(e)}), 500
 
 def _run_full_scraping_refresh():
-    """Ejecuta el scraping completo reutilizando la lógica asíncrona existente."""
-    loop = asyncio.new_event_loop()
-    try:
-        asyncio.set_event_loop(loop)
-        upcoming, finished = loop.run_until_complete(asyncio.gather(
-            get_main_page_matches_async(limit=1200),
-            get_main_page_finished_matches_async(limit=1500),
-        ))
-        return upcoming, finished
-    finally:
+    """Ejecuta el scraping completo reutilizando la lógica interna, con fallback al script."""
+    def _run_internal_async_scraper():
+        loop = asyncio.new_event_loop()
         try:
-            loop.run_until_complete(loop.shutdown_asyncgens())
-        except Exception:
-            pass
-        asyncio.set_event_loop(None)
-        loop.close()
+            asyncio.set_event_loop(loop)
+            return loop.run_until_complete(asyncio.gather(
+                get_main_page_matches_async(limit=1200),
+                get_main_page_finished_matches_async(limit=1500),
+            ))
+        finally:
+            try:
+                loop.run_until_complete(loop.shutdown_asyncgens())
+            except Exception:
+                pass
+            asyncio.set_event_loop(None)
+            loop.close()
+
+    try:
+        upcoming, finished = _run_internal_async_scraper()
+        if upcoming or finished:
+            return upcoming, finished, "internal"
+    except Exception as internal_error:
+        print(f"Fallo scraper interno: {internal_error}")
+    else:
+        print("Scraper interno ejecutado pero devolvió 0 partidos; se intentará el fallback.")
+
+    try:
+        completed = subprocess.run(
+            [sys.executable, 'run_scraper.py'],
+            check=True,
+            capture_output=True,
+            text=True,
+            timeout=180,
+        )
+        if completed.stdout:
+            print(completed.stdout.strip())
+        if completed.stderr:
+            print(f"[run_scraper stderr] {completed.stderr.strip()}")
+    except Exception as fallback_error:
+        raise RuntimeError(f"Fallback run_scraper.py falló: {fallback_error}") from fallback_error
+
+    refreshed_data = load_data_from_file()
+    upcoming_fb = refreshed_data.get("upcoming_matches", [])
+    finished_fb = refreshed_data.get("finished_matches", [])
+    if not upcoming_fb and not finished_fb:
+        raise RuntimeError("El fallback run_scraper.py no generó partidos.")
+
+    return upcoming_fb, finished_fb, "script"
 
 @app.route('/api/refresh-matches', methods=['POST'])
 def api_refresh_matches():
@@ -204,14 +237,10 @@ def api_refresh_matches():
             'message': 'Ya hay una actualización en curso. Espera unos segundos e inténtalo de nuevo.'
         }), 409
 
+    previous_data = load_data_from_file()
+
     try:
-        upcoming, finished = _run_full_scraping_refresh()
-        existing_data = load_data_from_file()
-
-        if not upcoming and not finished:
-            if existing_data.get("upcoming_matches") or existing_data.get("finished_matches"):
-                raise RuntimeError("No se pudo obtener información nueva. Los datos existentes se mantienen.")
-
+        upcoming, finished, source = _run_full_scraping_refresh()
         scraped_payload = {
             "upcoming_matches": upcoming,
             "finished_matches": finished,
@@ -229,10 +258,19 @@ def api_refresh_matches():
             'updated_at': timestamp,
             'upcoming_count': len(upcoming),
             'finished_count': len(finished),
+            'source': source,
         })
     except Exception as e:
         print(f"ERROR refrescando data.json: {e}")
-        return jsonify({'status': 'error', 'error': str(e)}), 500
+
+        kept_upcoming = len(previous_data.get("upcoming_matches", []))
+        kept_finished = len(previous_data.get("finished_matches", []))
+        return jsonify({
+            'status': 'error',
+            'error': str(e),
+            'upcoming_kept': kept_upcoming,
+            'finished_kept': kept_finished,
+        }), 500
     finally:
         _refresh_lock.release()
 

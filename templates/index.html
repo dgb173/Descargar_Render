@@ -218,15 +218,18 @@
                     .then(response => response.json().then(payload => ({ ok: response.ok, payload })))
                     .then(result => {
                         if (!result.ok || result.payload.status !== 'ok') {
-                            const message = result.payload.error || result.payload.message || 'No se pudo actualizar los partidos.';
-                            throw new Error(message);
+                            const message = (result.payload && (result.payload.error || result.payload.message)) || 'No se pudo actualizar los partidos.';
+                            const error = new Error(message);
+                            error.payload = result.payload;
+                            throw error;
                         }
 
                         shouldReload = true;
                         if (refreshStatus) {
                             const upcoming = result.payload.upcoming_count ?? 0;
                             const finished = result.payload.finished_count ?? 0;
-                            refreshStatus.textContent = `Actualizado correctamente (${upcoming} próximos, ${finished} finalizados). Recargando...`;
+                            const source = result.payload.source === 'script' ? ' (modo seguro)' : '';
+                            refreshStatus.textContent = `Actualizado correctamente${source} (${upcoming} próximos, ${finished} finalizados). Recargando...`;
                         }
 
                         setTimeout(() => window.location.reload(), 1200);
@@ -234,7 +237,13 @@
                     .catch(error => {
                         console.error('Error al refrescar los partidos:', error);
                         if (refreshStatus) {
-                            refreshStatus.textContent = error.message || 'No se pudo actualizar los partidos.';
+                            let message = error.message || 'No se pudo actualizar los partidos.';
+                            if (error.payload) {
+                                const keptUpcoming = error.payload.upcoming_kept ?? 0;
+                                const keptFinished = error.payload.finished_kept ?? 0;
+                                message += ` (Se mantienen ${keptUpcoming} próximos y ${keptFinished} finalizados.)`;
+                            }
+                            refreshStatus.textContent = message;
                         }
                     })
                     .finally(() => {
