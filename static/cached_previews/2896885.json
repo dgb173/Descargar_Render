@@ -1,0 +1,39 @@
+{
+    "match_id": "2896885",
+    "home_team": "Erokspor U19",
+    "away_team": "Bursa Yildirimspor U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "29-10-2025",
+            "home": "Umraniyespor U19",
+            "away": "Erokspor U19",
+            "score": "0 : 2",
+            "ah": "-0.5/1",
+            "ou": "0.95",
+            "match_id": "2894325",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">85</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">98</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">61</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">72</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

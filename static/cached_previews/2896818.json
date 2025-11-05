@@ -1,0 +1,71 @@
+{
+    "match_id": "2896818",
+    "home_team": "Karnataka",
+    "away_team": "SC Bengaluru",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "31-10-2025",
+            "home": "Bharat Bengaluru FC",
+            "away": "Karnataka",
+            "score": "0 : 7",
+            "ah": "-3/3.5",
+            "ou": "0.85",
+            "match_id": "2894954",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">12</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">10</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">65</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">75</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">31</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">78</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "31-10-2025",
+            "home": "SC Bengaluru",
+            "away": "Royal Banga Lu Lu",
+            "score": "1 : 1",
+            "ah": "0.5",
+            "ou": "0.98",
+            "match_id": "2894951",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">72</span>",
+                    "away": "<span style=\"color: red;\">70</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">33</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">53</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

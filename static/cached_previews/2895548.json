@@ -1,0 +1,151 @@
+{
+    "match_id": "2895548",
+    "home_team": "Baku Sporting",
+    "away_team": "Cəbrayıl FK",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "28-10-2025",
+            "home": "Goygol",
+            "away": "Baku Sporting",
+            "score": "0 : 2",
+            "ah": "-2",
+            "ou": "0.85",
+            "match_id": "2888647",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "28-10-2025",
+            "home": "Cəbrayıl FK",
+            "away": "FK Safa",
+            "score": "0 : 3",
+            "ah": "-0.5/1",
+            "ou": "0.80",
+            "match_id": "2887626",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">88</span>",
+                    "away": "<span style=\"color: red;\">87</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">38</span>",
+                    "away": "<span style=\"color: red;\">28</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "01-05-2025",
+            "home": "Cəbrayıl FK",
+            "away": "Baku Sporting",
+            "score": "2 : 1",
+            "ah": "0/0.5",
+            "ou": "0.95",
+            "match_id": "2769963",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">82</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">116</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">38</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">68</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "27-02-2025",
+            "home": "Baku Sporting",
+            "away": "Cəbrayıl FK",
+            "score": "1 : 0",
+            "ah": "0",
+            "ou": "0.98",
+            "match_id": "2737786",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">53</span>",
+                    "away": "<span style=\"color: red;\">27</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">35</span>",
+                    "away": "<span style=\"color: red;\">13</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "29-11-2024",
+            "home": "Cəbrayıl FK",
+            "away": "Baku Sporting",
+            "score": "1 : 2",
+            "ah": "0/0.5",
+            "ou": "1.00",
+            "match_id": "2693024",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">15</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">123</span>",
+                    "away": "<span style=\"color: red;\">109</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">77</span>",
+                    "away": "<span style=\"color: red;\">74</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

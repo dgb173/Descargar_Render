@@ -1,0 +1,263 @@
+{
+    "match_id": "2815036",
+    "home_team": "FC Pas de la Casa",
+    "away_team": "FC Santa Coloma",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "02-11-2025",
+            "home": "FC Pas de la Casa",
+            "away": "UE Santa Coloma",
+            "score": "0 : 3",
+            "ah": "-1.5",
+            "ou": "1.00",
+            "match_id": "2815062",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">6</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">36</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">15</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">70</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">147</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">33</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">111</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "02-11-2025",
+            "home": "FC Santa Coloma",
+            "away": "CF Esperanca dAndorra",
+            "score": "0 : 0",
+            "ah": "3/3.5",
+            "ou": "0.83",
+            "match_id": "2815059",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">25</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">141</span>",
+                    "away": "<span style=\"color: red;\">68</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">123</span>",
+                    "away": "<span style=\"color: red;\">32</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "09-03-2025",
+            "home": "FC Pas de la Casa",
+            "away": "FC Santa Coloma",
+            "score": "1 : 2",
+            "ah": "-1",
+            "ou": "0.80",
+            "match_id": "2649136",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">10</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">14</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">99</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">111</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">47</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">67</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "08-02-2025",
+            "home": "FC Santa Coloma",
+            "away": "FC Pas de la Casa",
+            "score": "1 : 0",
+            "ah": "1.5",
+            "ou": "0.80",
+            "match_id": "2649114",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">117</span>",
+                    "away": "<span style=\"color: red;\">93</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">81</span>",
+                    "away": "<span style=\"color: red;\">56</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "10-11-2024",
+            "home": "FC Pas de la Casa",
+            "away": "FC Santa Coloma",
+            "score": "2 : 0",
+            "ah": "0/-0.5",
+            "ou": "1.03",
+            "match_id": "2649076",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">10</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">99</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">115</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">56</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">67</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "04-05-2024",
+            "home": "FC Pas de la Casa",
+            "away": "FC Santa Coloma",
+            "score": "0 : 2",
+            "ah": "",
+            "ou": "",
+            "match_id": "2442265",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "17-12-2023",
+            "home": "FC Santa Coloma",
+            "away": "FC Pas de la Casa",
+            "score": "3 : 2",
+            "ah": "2.5",
+            "ou": "1.00",
+            "match_id": "2442199",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">12</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">93</span>",
+                    "away": "<span style=\"color: red;\">61</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">94</span>",
+                    "away": "<span style=\"color: red;\">36</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "05-11-2023",
+            "home": "FC Pas de la Casa",
+            "away": "FC Santa Coloma",
+            "score": "0 : 5",
+            "ah": "-1.5",
+            "ou": "1.00",
+            "match_id": "2442174",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">8</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">15</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">1</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">10</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">89</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">92</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">38</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">65</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "05-04-2023",
+            "home": "FC Pas de la Casa",
+            "away": "FC Santa Coloma",
+            "score": "0 : 4",
+            "ah": "",
+            "ou": "",
+            "match_id": "2374721",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        }
+    }
+}

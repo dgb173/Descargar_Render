@@ -1,0 +1,113 @@
+{
+    "match_id": "2896817",
+    "home_team": "Mumbai Young Boys",
+    "away_team": "Kopana FC",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "15-10-2025",
+            "home": "Don Bosco FA",
+            "away": "Mumbai Young Boys",
+            "score": "0 : 0",
+            "ah": "0",
+            "ou": "0.95",
+            "match_id": "2889878",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">62</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">77</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">51</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">69</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "28-10-2025",
+            "home": "Tarun Sporting",
+            "away": "Kopana FC",
+            "score": "0 : 3",
+            "ah": "0.5/1",
+            "ou": "0.93",
+            "match_id": "2894133",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">18</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">13</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">108</span>",
+                    "away": "<span style=\"color: red;\">86</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">65</span>",
+                    "away": "<span style=\"color: red;\">53</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "25-01-2024",
+            "home": "Mumbai Young Boys",
+            "away": "Kopana FC",
+            "score": "2 : 2",
+            "ah": "0",
+            "ou": "1.00",
+            "match_id": "2523722",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">106</span>",
+                    "away": "<span style=\"color: red;\">95</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">54</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">69</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

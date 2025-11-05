@@ -1,0 +1,146 @@
+{
+    "match_id": "2896783",
+    "home_team": "Istanbulspor U19",
+    "away_team": "Bandirmaspor U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "08-10-2025",
+            "home": "Istanbulspor U19",
+            "away": "Erokspor U19",
+            "score": "0 : 0",
+            "ah": "0.5/1",
+            "ou": "0.92",
+            "match_id": "2887361",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">83</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">105</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">38</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">66</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "04-05-2024",
+            "home": "Bursaspor U19",
+            "away": "Bandirmaspor U19",
+            "score": "1 : 2",
+            "ah": "1.5",
+            "ou": "0.85",
+            "match_id": "2574818",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">26</span>",
+                    "away": "<span style=\"color: red;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">81</span>",
+                    "away": "<span style=\"color: red;\">71</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">44</span>",
+                    "away": "<span style=\"color: red;\">30</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "14-05-2022",
+            "home": "Istanbulspor U19",
+            "away": "Bandirmaspor U19",
+            "score": "2 : 0",
+            "ah": "0/0.5",
+            "ou": "0.90",
+            "match_id": "2201151",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "25-12-2021",
+            "home": "Bandirmaspor U19",
+            "away": "Istanbulspor U19",
+            "score": "2 : 0",
+            "ah": "0",
+            "ou": "0.98",
+            "match_id": "2134423",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">75</span>",
+                    "away": "<span style=\"color: red;\">71</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">54</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">72</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "29-05-2021",
+            "home": "Istanbulspor U19",
+            "away": "Bandirmaspor U19",
+            "score": "1 : 1",
+            "ah": "0.5/1",
+            "ou": "1.00",
+            "match_id": "2021185",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">17</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "4",
+                    "away": "4"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">69</span>",
+                    "away": "<span style=\"color: red;\">68</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">55</span>",
+                    "away": "<span style=\"color: red;\">49</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "match_id": "2872549",
+    "home_team": "FK Olympic Tashkent B",
+    "away_team": "Lokomotiv Tashkent",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "28-10-2025",
+            "home": "FK Olympic Tashkent B",
+            "away": "Olympic FK Tashkent",
+            "score": "2 : 0",
+            "ah": "0.5/1",
+            "ou": "0.85",
+            "match_id": "2872548",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">102</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">112</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">71</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">90</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "27-10-2025",
+            "home": "Jayxun",
+            "away": "Lokomotiv Tashkent",
+            "score": "2 : 5",
+            "ah": "-1.5",
+            "ou": "0.80",
+            "match_id": "2872547",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">8</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">13</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">89</span>",
+                    "away": "<span style=\"color: red;\">64</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">64</span>",
+                    "away": "<span style=\"color: red;\">40</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "16-09-2025",
+            "home": "Lokomotiv Tashkent",
+            "away": "FK Olympic Tashkent B",
+            "score": "1 : 1",
+            "ah": "0.5/1",
+            "ou": "0.95",
+            "match_id": "2872536",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">8</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">101</span>",
+                    "away": "<span style=\"color: red;\">96</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">67</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">79</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "1",
+                    "away": "1"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "16-06-2025",
+            "home": "FK Olympic Tashkent B",
+            "away": "Lokomotiv Tashkent",
+            "score": "1 : 2",
+            "ah": "-0.5/1",
+            "ou": "0.77",
+            "match_id": "2783949",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">18</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "6",
+                    "away": "6"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">64</span>",
+                    "away": "<span style=\"color: red;\">54</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">77</span>",
+                    "away": "<span style=\"color: red;\">44</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "27-04-2025",
+            "home": "Lokomotiv Tashkent",
+            "away": "FK Olympic Tashkent B",
+            "score": "0 : 1",
+            "ah": "1",
+            "ou": "0.85",
+            "match_id": "2759016",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">74</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">84</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">49</span>",
+                    "away": "<span style=\"color: red;\">48</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "20-04-2024",
+            "home": "FK Olympic Tashkent B",
+            "away": "Lokomotiv Tashkent",
+            "score": "2 : 2",
+            "ah": "",
+            "ou": "",
+            "match_id": "2566937",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        }
+    }
+}

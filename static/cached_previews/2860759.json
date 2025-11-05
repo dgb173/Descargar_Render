@@ -1,0 +1,103 @@
+{
+    "match_id": "2860759",
+    "home_team": "Eastern A.A Football Team",
+    "away_team": "Ratchaburi FC",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "01-11-2025",
+            "home": "Eastern District SA",
+            "away": "Eastern A.A Football Team",
+            "score": "1 : 0",
+            "ah": "-0.5/1",
+            "ou": "0.80",
+            "match_id": "2854135",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">14</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">78</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">96</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">39</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">63</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "29-10-2025",
+            "home": "Lopburi FC",
+            "away": "Ratchaburi FC",
+            "score": "2 : 3",
+            "ah": "-2.5",
+            "ou": "0.85",
+            "match_id": "2894177",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">60</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">83</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">36</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">53</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "22-10-2025",
+            "home": "Ratchaburi FC",
+            "away": "Eastern A.A Football Team",
+            "score": "5 : 1",
+            "ah": "1.5/2",
+            "ou": "0.95",
+            "match_id": "2860758",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">181</span>",
+                    "away": "<span style=\"color: red;\">127</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">101</span>",
+                    "away": "<span style=\"color: red;\">57</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

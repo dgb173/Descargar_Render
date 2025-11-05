@@ -1,0 +1,338 @@
+{
+    "match_id": "2839022",
+    "home_team": "Farense U23",
+    "away_team": "Estoril U23",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "21-10-2025",
+            "home": "Estrela FC U23",
+            "away": "Farense U23",
+            "score": "0 : 2",
+            "ah": "0/0.5",
+            "ou": "0.78",
+            "match_id": "2839011",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "3",
+                    "away": "3"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">107</span>",
+                    "away": "<span style=\"color: red;\">100</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">24</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">30</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "29-10-2025",
+            "home": "Estoril U23",
+            "away": "Santa Clara U23",
+            "score": "1 : 2",
+            "ah": "0",
+            "ou": "0.85",
+            "match_id": "2838982",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">74</span>",
+                    "away": "<span style=\"color: red;\">69</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">68</span>",
+                    "away": "<span style=\"color: red;\">45</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "21-08-2025",
+            "home": "Estoril U23",
+            "away": "Farense U23",
+            "score": "0 : 2",
+            "ah": "0.5/1",
+            "ou": "0.98",
+            "match_id": "2838991",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">137</span>",
+                    "away": "<span style=\"color: red;\">92</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">101</span>",
+                    "away": "<span style=\"color: red;\">45</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "17-12-2024",
+            "home": "Estoril U23",
+            "away": "Farense U23",
+            "score": "1 : 0",
+            "ah": "0.5/1",
+            "ou": "0.88",
+            "match_id": "2639768",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">100</span>",
+                    "away": "<span style=\"color: red;\">91</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">38</span>",
+                    "away": "<span style=\"color: red;\">29</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "30-09-2024",
+            "home": "Farense U23",
+            "away": "Estoril U23",
+            "score": "2 : 3",
+            "ah": "-1",
+            "ou": "0.98",
+            "match_id": "2639741",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">12</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">17</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">10</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">92</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">137</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">42</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">84</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "31-10-2023",
+            "home": "Farense U23",
+            "away": "Estoril U23",
+            "score": "1 : 1",
+            "ah": "0/-0.5",
+            "ou": "1.03",
+            "match_id": "2430726",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">118</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">132</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">71</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">89</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "1",
+                    "away": "1"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "15-08-2023",
+            "home": "Estoril U23",
+            "away": "Farense U23",
+            "score": "2 : 1",
+            "ah": "0/0.5",
+            "ou": "1.03",
+            "match_id": "2430751",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">19</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">159</span>",
+                    "away": "<span style=\"color: red;\">111</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">100</span>",
+                    "away": "<span style=\"color: red;\">52</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "06-12-2022",
+            "home": "Farense U23",
+            "away": "Estoril U23",
+            "score": "4 : 1",
+            "ah": "-0.5",
+            "ou": "0.83",
+            "match_id": "2282448",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">11</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">13</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">105</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">160</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">31</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">62</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "12-09-2022",
+            "home": "Estoril U23",
+            "away": "Farense U23",
+            "score": "0 : 0",
+            "ah": "1/1.5",
+            "ou": "0.95",
+            "match_id": "2282427",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col8": {
+            "date": "08-08-2022",
+            "home": "Estoril U23",
+            "away": "Farense U23",
+            "score": "3 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "2264176",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">68</span>",
+                    "away": "<span style=\"color: red;\">62</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">31</span>",
+                    "away": "<span style=\"color: red;\">19</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col9": {
+            "date": "01-11-2021",
+            "home": "Estoril U23",
+            "away": "Farense U23",
+            "score": "3 : 2",
+            "ah": "1/1.5",
+            "ou": "0.83",
+            "match_id": "2081206",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col10": {
+            "date": "19-08-2021",
+            "home": "Farense U23",
+            "away": "Estoril U23",
+            "score": "0 : 1",
+            "ah": "-0.5/1",
+            "ou": "0.90",
+            "match_id": "2081188",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        }
+    }
+}

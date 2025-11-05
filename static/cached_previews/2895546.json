@@ -1,0 +1,291 @@
+{
+    "match_id": "2895546",
+    "home_team": "Olimpia Cluj (W)",
+    "away_team": "Gloria 2018 Bistrita Nasaud (W)",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "19-10-2025",
+            "home": "Atletic Olimpia Gherla (W)",
+            "away": "Olimpia Cluj (W)",
+            "score": "0 : 3",
+            "ah": "-0.5/1",
+            "ou": "0.80",
+            "match_id": "2889664",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "18-10-2025",
+            "home": "Gloria 2018 Bistrita Nasaud (W)",
+            "away": "Farul Constanta (W)",
+            "score": "0 : 1",
+            "ah": "",
+            "ou": "",
+            "match_id": "2889295",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "07-09-2025",
+            "home": "Gloria 2018 Bistrita Nasaud (W)",
+            "away": "Olimpia Cluj (W)",
+            "score": "1 : 4",
+            "ah": "",
+            "ou": "",
+            "match_id": "2865593",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">24</span>",
+                    "away": "<span style=\"color: red;\">22</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">11</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">44</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "17-05-2025",
+            "home": "Olimpia Cluj (W)",
+            "away": "Gloria 2018 Bistrita Nasaud (W)",
+            "score": "0 : 4",
+            "ah": "",
+            "ou": "",
+            "match_id": "2775440",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">87</span>",
+                    "away": "<span style=\"color: red;\">83</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">88</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">115</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "26-04-2025",
+            "home": "Gloria 2018 Bistrita Nasaud (W)",
+            "away": "Olimpia Cluj (W)",
+            "score": "5 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "2767811",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "29-03-2025",
+            "home": "Olimpia Cluj (W)",
+            "away": "Gloria 2018 Bistrita Nasaud (W)",
+            "score": "1 : 1",
+            "ah": "1",
+            "ou": "0.95",
+            "match_id": "2755550",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">5</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">69</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">96</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">29</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">57</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "08-03-2025",
+            "home": "Gloria 2018 Bistrita Nasaud (W)",
+            "away": "Olimpia Cluj (W)",
+            "score": "4 : 2",
+            "ah": "",
+            "ou": "",
+            "match_id": "2745752",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "22-11-2024",
+            "home": "Gloria 2018 Bistrita Nasaud (W)",
+            "away": "Olimpia Cluj (W)",
+            "score": "0 : 1",
+            "ah": "-1",
+            "ou": "0.95",
+            "match_id": "2691060",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">16</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">132</span>",
+                    "away": "<span style=\"color: red;\">98</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">87</span>",
+                    "away": "<span style=\"color: red;\">46</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "28-09-2024",
+            "home": "Olimpia Cluj (W)",
+            "away": "Gloria 2018 Bistrita Nasaud (W)",
+            "score": "3 : 0",
+            "ah": "1",
+            "ou": "0.98",
+            "match_id": "2671514",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">20</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">10</span>",
+                    "away": "<span style=\"color: red;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">91</span>",
+                    "away": "<span style=\"color: red;\">56</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">50</span>",
+                    "away": "<span style=\"color: red;\">26</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col8": {
+            "date": "10-12-2023",
+            "home": "Olimpia Cluj (W)",
+            "away": "Gloria 2018 Bistrita Nasaud (W)",
+            "score": "3 : 0",
+            "ah": "1",
+            "ou": "0.90",
+            "match_id": "2506423",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">145</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">150</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">85</span>",
+                    "away": "<span style=\"color: red;\">80</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col9": {
+            "date": "22-11-2023",
+            "home": "Gloria 2018 Bistrita Nasaud (W)",
+            "away": "Olimpia Cluj (W)",
+            "score": "1 : 1",
+            "ah": "-1",
+            "ou": "0.83",
+            "match_id": "2501090",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">112</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">139</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">66</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">84</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

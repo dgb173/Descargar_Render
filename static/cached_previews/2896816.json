@@ -1,0 +1,317 @@
+{
+    "match_id": "2896816",
+    "home_team": "FK Napredak U19",
+    "away_team": "Vojvodina U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "01-11-2025",
+            "home": "FK Napredak U19",
+            "away": "Borac Cacak U19",
+            "score": "3 : 1",
+            "ah": "0.5",
+            "ou": "0.98",
+            "match_id": "2895364",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "31-10-2025",
+            "home": "Vojvodina U19",
+            "away": "Red Star Belgrade U19",
+            "score": "2 : 2",
+            "ah": "-0.5",
+            "ou": "0.83",
+            "match_id": "2895004",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">8</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">19</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">80</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">115</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">29</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">71</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "07-12-2022",
+            "home": "Vojvodina U19",
+            "away": "FK Napredak U19",
+            "score": "4 : 1",
+            "ah": "1.5/2",
+            "ou": "0.85",
+            "match_id": "2317856",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">187</span>",
+                    "away": "<span style=\"color: red;\">126</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">114</span>",
+                    "away": "<span style=\"color: red;\">72</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "20-08-2022",
+            "home": "FK Napredak U19",
+            "away": "Vojvodina U19",
+            "score": "1 : 3",
+            "ah": "-0.5/1",
+            "ou": "0.80",
+            "match_id": "2274015",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">12</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">16</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">93</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">99</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">49</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">65</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "05-05-2021",
+            "home": "Vojvodina U19",
+            "away": "FK Napredak U19",
+            "score": "1 : 1",
+            "ah": "2",
+            "ou": "1.00",
+            "match_id": "2013978",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">15</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">191</span>",
+                    "away": "<span style=\"color: red;\">143</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">102</span>",
+                    "away": "<span style=\"color: red;\">62</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "24-10-2020",
+            "home": "FK Napredak U19",
+            "away": "Vojvodina U19",
+            "score": "0 : 2",
+            "ah": "-0.5",
+            "ou": "0.82",
+            "match_id": "1944978",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "2",
+                    "away": "2"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">81</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">94</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">50</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">52</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "14-04-2018",
+            "home": "Vojvodina U19",
+            "away": "FK Napredak U19",
+            "score": "1 : 1",
+            "ah": "1/1.5",
+            "ou": "0.80",
+            "match_id": "1533258",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">6</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">122</span>",
+                    "away": "<span style=\"color: red;\">99</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">94</span>",
+                    "away": "<span style=\"color: red;\">39</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "16-09-2017",
+            "home": "FK Napredak U19",
+            "away": "Vojvodina U19",
+            "score": "0 : 0",
+            "ah": "-0.5/1",
+            "ou": "0.95",
+            "match_id": "1464150",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">1</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">49</span>",
+                    "away": "<span style=\"color: red;\">46</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">38</span>",
+                    "away": "<span style=\"color: red;\">30</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "19-11-2016",
+            "home": "FK Napredak U19",
+            "away": "Vojvodina U19",
+            "score": "1 : 0",
+            "ah": "-0.5/1",
+            "ou": "0.90",
+            "match_id": "1330669",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">6</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">91</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">114</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">41</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">71</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col8": {
+            "date": "17-08-2016",
+            "home": "Vojvodina U19",
+            "away": "FK Napredak U19",
+            "score": "3 : 0",
+            "ah": "1",
+            "ou": "0.80",
+            "match_id": "1297083",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">148</span>",
+                    "away": "<span style=\"color: red;\">100</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">107</span>",
+                    "away": "<span style=\"color: red;\">33</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

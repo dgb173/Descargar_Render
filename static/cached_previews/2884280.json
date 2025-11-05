@@ -1,0 +1,170 @@
+{
+    "match_id": "2884280",
+    "home_team": "Ninh Binh FC",
+    "away_team": "Song Lam Nghe An",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "01-11-2025",
+            "home": "Ninh Binh FC",
+            "away": "Becamex TP Ho Chi Minh",
+            "score": "1 : 1",
+            "ah": "1/1.5",
+            "ou": "0.95",
+            "match_id": "2884273",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "5",
+                    "away": "5"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">93</span>",
+                    "away": "<span style=\"color: red;\">73</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">61</span>",
+                    "away": "<span style=\"color: red;\">33</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "01-11-2025",
+            "home": "Da Nang",
+            "away": "Song Lam Nghe An",
+            "score": "1 : 1",
+            "ah": "0.5",
+            "ou": "0.78",
+            "match_id": "2884272",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "14",
+                    "away": "14"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">70</span>",
+                    "away": "<span style=\"color: red;\">53</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">47</span>",
+                    "away": "<span style=\"color: red;\">33</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "15-12-2013",
+            "home": "Ninh Binh FC",
+            "away": "Song Lam Nghe An",
+            "score": "2 : 0",
+            "ah": "-1",
+            "ou": "0.90",
+            "match_id": "941082",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "07-07-2013",
+            "home": "Ninh Binh FC",
+            "away": "Song Lam Nghe An",
+            "score": "1 : 1",
+            "ah": "0/-0.5",
+            "ou": "1.00",
+            "match_id": "862731",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "28-04-2013",
+            "home": "Song Lam Nghe An",
+            "away": "Ninh Binh FC",
+            "score": "2 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "828210",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "12-08-2012",
+            "home": "Song Lam Nghe An",
+            "away": "Ninh Binh FC",
+            "score": "5 : 3",
+            "ah": "0.5",
+            "ou": "1.00",
+            "match_id": "724040",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "26-03-2012",
+            "home": "Ninh Binh FC",
+            "away": "Song Lam Nghe An",
+            "score": "0 : 2",
+            "ah": "",
+            "ou": "",
+            "match_id": "681483",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "06-08-2011",
+            "home": "Ninh Binh FC",
+            "away": "Song Lam Nghe An",
+            "score": "3 : 1",
+            "ah": "",
+            "ou": "",
+            "match_id": "508422",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "09-04-2011",
+            "home": "Song Lam Nghe An",
+            "away": "Ninh Binh FC",
+            "score": "1 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "508324",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col8": {
+            "date": "22-08-2010",
+            "home": "Ninh Binh FC",
+            "away": "Song Lam Nghe An",
+            "score": "0 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "367564",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col9": {
+            "date": "23-05-2010",
+            "home": "Song Lam Nghe An",
+            "away": "Ninh Binh FC",
+            "score": "0 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "367466",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        }
+    }
+}

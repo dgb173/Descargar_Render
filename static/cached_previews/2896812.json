@@ -1,0 +1,71 @@
+{
+    "match_id": "2896812",
+    "home_team": "Mladost Lucani U19",
+    "away_team": "FK Usce Novi Beograd U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "02-11-2025",
+            "home": "Cukaricki U19",
+            "away": "Mladost Lucani U19",
+            "score": "2 : 2",
+            "ah": "0/-0.5",
+            "ou": "0.83",
+            "match_id": "2896134",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "4",
+                    "away": "4"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">168</span>",
+                    "away": "<span style=\"color: red;\">125</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">80</span>",
+                    "away": "<span style=\"color: red;\">55</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "01-11-2025",
+            "home": "FK Usce Novi Beograd U19",
+            "away": "Partizan Belgrade U19",
+            "score": "2 : 2",
+            "ah": "-1",
+            "ou": "0.95",
+            "match_id": "2895367",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">120</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">130</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">63</span>",
+                    "away": "<span style=\"color: red;\">54</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

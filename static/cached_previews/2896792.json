@@ -1,0 +1,268 @@
+{
+    "match_id": "2896792",
+    "home_team": "Zfk Ljuboten (W)",
+    "away_team": "ZFK Kamenica Sasa (W)",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "17-09-2025",
+            "home": "Zfk Ljuboten (W)",
+            "away": "ZFK Skopje 2014 (W)",
+            "score": "4 : 1",
+            "ah": "3/3.5",
+            "ou": "0.95",
+            "match_id": "2874871",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">16</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">12</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">109</span>",
+                    "away": "<span style=\"color: red;\">82</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">80</span>",
+                    "away": "<span style=\"color: red;\">39</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "30-10-2025",
+            "home": "ZFK Kamenica Sasa (W)",
+            "away": "ZFK Recica (W)",
+            "score": "9 : 1",
+            "ah": "2.5/3",
+            "ou": "0.90",
+            "match_id": "2894706",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">38</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">19</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">162</span>",
+                    "away": "<span style=\"color: red;\">51</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">156</span>",
+                    "away": "<span style=\"color: red;\">12</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "15-09-2024",
+            "home": "Zfk Ljuboten (W)",
+            "away": "ZFK Kamenica Sasa (W)",
+            "score": "2 : 0",
+            "ah": "0",
+            "ou": "0.90",
+            "match_id": "2667615",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">16</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">114</span>",
+                    "away": "<span style=\"color: red;\">96</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">73</span>",
+                    "away": "<span style=\"color: red;\">67</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "15-05-2024",
+            "home": "ZFK Kamenica Sasa (W)",
+            "away": "Zfk Ljuboten (W)",
+            "score": "0 : 1",
+            "ah": "0",
+            "ou": "0.85",
+            "match_id": "2578921",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">10</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">15</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">5</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">103</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">123</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">58</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">75</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "14-04-2024",
+            "home": "Zfk Ljuboten (W)",
+            "away": "ZFK Kamenica Sasa (W)",
+            "score": "2 : 2",
+            "ah": "0.5",
+            "ou": "0.95",
+            "match_id": "2568452",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">82</span>",
+                    "away": "<span style=\"color: red;\">76</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">65</span>",
+                    "away": "<span style=\"color: red;\">52</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "02-09-2023",
+            "home": "Zfk Ljuboten (W)",
+            "away": "ZFK Kamenica Sasa (W)",
+            "score": "2 : 3",
+            "ah": "0.5",
+            "ou": "0.93",
+            "match_id": "2468362",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">15</span>",
+                    "away": "<span style=\"color: red;\">12</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">5</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">87</span>",
+                    "away": "<span style=\"color: red;\">75</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">80</span>",
+                    "away": "<span style=\"color: red;\">46</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "31-05-2023",
+            "home": "Zfk Ljuboten (W)",
+            "away": "ZFK Kamenica Sasa (W)",
+            "score": "1 : 1",
+            "ah": "0/0.5",
+            "ou": "1.00",
+            "match_id": "2395243",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">79</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">86</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">70</span>",
+                    "away": "<span style=\"color: red;\">48</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "1",
+                    "away": "1"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "16-05-2023",
+            "home": "Zfk Ljuboten (W)",
+            "away": "ZFK Kamenica Sasa (W)",
+            "score": "4 : 0",
+            "ah": "0/0.5",
+            "ou": "0.80",
+            "match_id": "2390887",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">11</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">13</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">108</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">119</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">43</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">69</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

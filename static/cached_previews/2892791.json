@@ -1,0 +1,312 @@
+{
+    "match_id": "2892791",
+    "home_team": "Gokulam Kerala FC",
+    "away_team": "Mohammedan SC",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "02-11-2025",
+            "home": "Gokulam Kerala FC",
+            "away": "Bengaluru",
+            "score": "0 : 4",
+            "ah": "-1.5",
+            "ou": "0.98",
+            "match_id": "2892790",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">15</span>",
+                    "away": "<span style=\"color: red;\">14</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">91</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">109</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">87</span>",
+                    "away": "<span style=\"color: red;\">72</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "02-11-2025",
+            "home": "Mohammedan SC",
+            "away": "Punjab",
+            "score": "0 : 3",
+            "ah": "-1/1.5",
+            "ou": "1.00",
+            "match_id": "2892789",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">5</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">21</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">113</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">168</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">30</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">88</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "03-03-2024",
+            "home": "Gokulam Kerala FC",
+            "away": "Mohammedan SC",
+            "score": "2 : 3",
+            "ah": "0/0.5",
+            "ou": "0.98",
+            "match_id": "2533630",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">16</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">125</span>",
+                    "away": "<span style=\"color: red;\">91</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">71</span>",
+                    "away": "<span style=\"color: red;\">35</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "08-12-2023",
+            "home": "Mohammedan SC",
+            "away": "Gokulam Kerala FC",
+            "score": "1 : 1",
+            "ah": "0/0.5",
+            "ou": "0.85",
+            "match_id": "2492935",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">96</span>",
+                    "away": "<span style=\"color: red;\">90</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">55</span>",
+                    "away": "<span style=\"color: red;\">38</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "05-04-2023",
+            "home": "Gokulam Kerala FC",
+            "away": "Mohammedan SC",
+            "score": "5 : 2",
+            "ah": "0.5",
+            "ou": "0.93",
+            "match_id": "2374688",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">18</span>",
+                    "away": "<span style=\"color: red;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">94</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">122</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">83</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">93</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "12-02-2023",
+            "home": "Mohammedan SC",
+            "away": "Gokulam Kerala FC",
+            "score": "2 : 1",
+            "ah": "0/0.5",
+            "ou": "0.98",
+            "match_id": "2310566",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">25</span>",
+                    "away": "<span style=\"color: red;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">103</span>",
+                    "away": "<span style=\"color: red;\">86</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "63",
+                    "away": "63"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "12-11-2022",
+            "home": "Gokulam Kerala FC",
+            "away": "Mohammedan SC",
+            "score": "1 : 0",
+            "ah": "0",
+            "ou": "0.88",
+            "match_id": "2310354",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "9",
+                    "away": "9"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">106</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">115</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">55</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">67</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "14-05-2022",
+            "home": "Gokulam Kerala FC",
+            "away": "Mohammedan SC",
+            "score": "2 : 1",
+            "ah": "0",
+            "ou": "0.78",
+            "match_id": "2193859",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "25-03-2022",
+            "home": "Mohammedan SC",
+            "away": "Gokulam Kerala FC",
+            "score": "1 : 1",
+            "ah": "0",
+            "ou": "1.00",
+            "match_id": "2134710",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col8": {
+            "date": "21-03-2021",
+            "home": "Mohammedan SC",
+            "away": "Gokulam Kerala FC",
+            "score": "1 : 2",
+            "ah": "-0.5",
+            "ou": "0.88",
+            "match_id": "1985254",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">108</span>",
+                    "away": "<span style=\"color: red;\">91</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">34</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">39</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col9": {
+            "date": "08-02-2021",
+            "home": "Mohammedan SC",
+            "away": "Gokulam Kerala FC",
+            "score": "2 : 1",
+            "ah": "0/-0.5",
+            "ou": "0.83",
+            "match_id": "1962683",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">65</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">80</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

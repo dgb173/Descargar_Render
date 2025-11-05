@@ -1,0 +1,354 @@
+{
+    "match_id": "2881805",
+    "home_team": "Kenya Police FC",
+    "away_team": "Sofapaka FC",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "02-11-2025",
+            "home": "Kenya Police FC",
+            "away": "Posta Rangers",
+            "score": "0 : 0",
+            "ah": "0.5",
+            "ou": "1.00",
+            "match_id": "2881824",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">10</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">115</span>",
+                    "away": "<span style=\"color: red;\">68</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">89</span>",
+                    "away": "<span style=\"color: red;\">53</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "01-11-2025",
+            "home": "Nairobi United",
+            "away": "Sofapaka FC",
+            "score": "0 : 3",
+            "ah": "0.5",
+            "ou": "0.88",
+            "match_id": "2881821",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "10",
+                    "away": "10"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">101</span>",
+                    "away": "<span style=\"color: red;\">75</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">109</span>",
+                    "away": "<span style=\"color: red;\">81</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "02-02-2025",
+            "home": "Kenya Police FC",
+            "away": "Sofapaka FC",
+            "score": "1 : 1",
+            "ah": "0.5",
+            "ou": "0.83",
+            "match_id": "2716788",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">91</span>",
+                    "away": "<span style=\"color: red;\">85</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">88</span>",
+                    "away": "<span style=\"color: red;\">69</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "06-11-2024",
+            "home": "Sofapaka FC",
+            "away": "Kenya Police FC",
+            "score": "1 : 1",
+            "ah": "-0.5",
+            "ou": "1.00",
+            "match_id": "2687759",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">79</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">106</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">66</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">85</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "27-04-2024",
+            "home": "Kenya Police FC",
+            "away": "Sofapaka FC",
+            "score": "4 : 0",
+            "ah": "1",
+            "ou": "0.80",
+            "match_id": "2572206",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">90</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">106</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">47</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">56</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "20-04-2024",
+            "home": "Kenya Police FC",
+            "away": "Sofapaka FC",
+            "score": "2 : 1",
+            "ah": "1",
+            "ou": "0.85",
+            "match_id": "2568565",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">98</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">100</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">57</span>",
+                    "away": "<span style=\"color: red;\">52</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "21-10-2023",
+            "home": "Sofapaka FC",
+            "away": "Kenya Police FC",
+            "score": "1 : 0",
+            "ah": "-0.5/1",
+            "ou": "1.05",
+            "match_id": "2489656",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">82</span>",
+                    "away": "<span style=\"color: red;\">78</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">43</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">49</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "10-05-2023",
+            "home": "Kenya Police FC",
+            "away": "Sofapaka FC",
+            "score": "3 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "2388549",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "21-12-2022",
+            "home": "Sofapaka FC",
+            "away": "Kenya Police FC",
+            "score": "1 : 1",
+            "ah": "0",
+            "ou": "0.98",
+            "match_id": "2320443",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">88</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">94</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">58</span>",
+                    "away": "<span style=\"color: red;\">55</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col8": {
+            "date": "06-02-2022",
+            "home": "Sofapaka FC",
+            "away": "Kenya Police FC",
+            "score": "0 : 0",
+            "ah": "0",
+            "ou": "1.05",
+            "match_id": "2152846",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">8</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">108</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">114</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "58",
+                    "away": "58"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col9": {
+            "date": "04-12-2021",
+            "home": "Kenya Police FC",
+            "away": "Sofapaka FC",
+            "score": "0 : 2",
+            "ah": "0",
+            "ou": "0.95",
+            "match_id": "2102837",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col10": {
+            "date": "09-12-2018",
+            "home": "Kenya Police FC",
+            "away": "Sofapaka FC",
+            "score": "1 : 2",
+            "ah": "0",
+            "ou": "0.75",
+            "match_id": "1647496",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">4</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">1</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">123</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">136</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">74</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">78</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

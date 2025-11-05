@@ -1,0 +1,66 @@
+{
+    "match_id": "2895557",
+    "home_team": "E Nel G Tick",
+    "away_team": "Sefa",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "29-10-2025",
+            "home": "Qabala",
+            "away": "E Nel G Tick",
+            "score": "5 : 1",
+            "ah": "1.5",
+            "ou": "0.88",
+            "match_id": "2887622",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">59</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">60</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">39</span>",
+                    "away": "<span style=\"color: red;\">28</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "23-10-2025",
+            "home": "Sefa",
+            "away": "Sabail",
+            "score": "2 : 2",
+            "ah": "0/0.5",
+            "ou": "0.80",
+            "match_id": "2891024",
+            "stats_rows": [
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">70</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">74</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">51</span>",
+                    "away": "<span style=\"color: red;\">30</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

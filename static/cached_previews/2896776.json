@@ -1,0 +1,76 @@
+{
+    "match_id": "2896776",
+    "home_team": "Kasetsart FC U21",
+    "away_team": "Uthai Thani FC U21",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "29-10-2025",
+            "home": "Port FC U21",
+            "away": "Kasetsart FC U21",
+            "score": "1 : 2",
+            "ah": "1",
+            "ou": "0.90",
+            "match_id": "2894360",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">15</span>",
+                    "away": "<span style=\"color: red;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">88</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">94</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">49</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">53</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "28-10-2025",
+            "home": "Uthai Thani FC U21",
+            "away": "Kanchanaburi Power U21",
+            "score": "0 : 1",
+            "ah": "0/0.5",
+            "ou": "0.78",
+            "match_id": "2894137",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">12</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">80</span>",
+                    "away": "<span style=\"color: red;\">63</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">33</span>",
+                    "away": "<span style=\"color: red;\">28</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

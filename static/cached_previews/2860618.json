@@ -1,0 +1,103 @@
+{
+    "match_id": "2860618",
+    "home_team": "Johor Darul Takzim",
+    "away_team": "Shanghai Shenhua",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "31-10-2025",
+            "home": "Terengganu",
+            "away": "Johor Darul Takzim",
+            "score": "0 : 5",
+            "ah": "-2.5",
+            "ou": "0.85",
+            "match_id": "2822337",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">13</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">77</span>",
+                    "away": "<span style=\"color: red;\">70</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">33</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">42</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "31-10-2025",
+            "home": "Shanghai Shenhua",
+            "away": "Shenzhen Xinpengcheng",
+            "score": "1 : 0",
+            "ah": "2/2.5",
+            "ou": "0.85",
+            "match_id": "2726386",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">18</span>",
+                    "away": "<span style=\"color: red;\">6</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">138</span>",
+                    "away": "<span style=\"color: red;\">76</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">92</span>",
+                    "away": "<span style=\"color: red;\">32</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "01-10-2024",
+            "home": "Johor Darul Takzim",
+            "away": "Shanghai Shenhua",
+            "score": "3 : 0",
+            "ah": "0.5",
+            "ou": "0.85",
+            "match_id": "2653026",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">95</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">105</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">63</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">71</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

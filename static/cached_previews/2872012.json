@@ -1,0 +1,103 @@
+{
+    "match_id": "2872012",
+    "home_team": "KF 2 Korriku U19",
+    "away_team": "Hibernian U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "22-10-2025",
+            "home": "Hibernian U19",
+            "away": "KF 2 Korriku U19",
+            "score": "4 : 0",
+            "ah": "1/1.5",
+            "ou": "0.95",
+            "match_id": "2872007",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">12</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">133</span>",
+                    "away": "<span style=\"color: red;\">94</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">78</span>",
+                    "away": "<span style=\"color: red;\">27</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "22-10-2025",
+            "home": "Hibernian U19",
+            "away": "KF 2 Korriku U19",
+            "score": "4 : 0",
+            "ah": "1/1.5",
+            "ou": "0.95",
+            "match_id": "2872007",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">12</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">133</span>",
+                    "away": "<span style=\"color: red;\">94</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">78</span>",
+                    "away": "<span style=\"color: red;\">27</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "22-10-2025",
+            "home": "Hibernian U19",
+            "away": "KF 2 Korriku U19",
+            "score": "4 : 0",
+            "ah": "1/1.5",
+            "ou": "0.95",
+            "match_id": "2872007",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">12</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">133</span>",
+                    "away": "<span style=\"color: red;\">94</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">78</span>",
+                    "away": "<span style=\"color: red;\">27</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

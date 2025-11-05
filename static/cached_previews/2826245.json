@@ -1,0 +1,262 @@
+{
+    "match_id": "2826245",
+    "home_team": "Borneo FC",
+    "away_team": "Dewa United FC",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "26-10-2025",
+            "home": "Arema FC",
+            "away": "Borneo FC",
+            "score": "1 : 3",
+            "ah": "0/-0.5",
+            "ou": "0.93",
+            "match_id": "2826233",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "12",
+                    "away": "12"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "4",
+                    "away": "4"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">84</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">99</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">64</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">66</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "01-11-2025",
+            "home": "Dewa United FC",
+            "away": "Shan United",
+            "score": "4 : 1",
+            "ah": "",
+            "ou": "",
+            "match_id": "2861272",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">32</span>",
+                    "away": "<span style=\"color: red;\">12</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">132</span>",
+                    "away": "<span style=\"color: red;\">68</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">105</span>",
+                    "away": "<span style=\"color: red;\">44</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "10-03-2025",
+            "home": "Dewa United FC",
+            "away": "Borneo FC",
+            "score": "0 : 1",
+            "ah": "0.5/1",
+            "ou": "0.85",
+            "match_id": "2641613",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">82</span>",
+                    "away": "<span style=\"color: red;\">66</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">51</span>",
+                    "away": "<span style=\"color: red;\">42</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "02-11-2024",
+            "home": "Borneo FC",
+            "away": "Dewa United FC",
+            "score": "1 : 0",
+            "ah": "1",
+            "ou": "0.83",
+            "match_id": "2641463",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "72",
+                    "away": "72"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">63</span>",
+                    "away": "<span style=\"color: red;\">37</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "30-04-2024",
+            "home": "Dewa United FC",
+            "away": "Borneo FC",
+            "score": "2 : 1",
+            "ah": "0/0.5",
+            "ou": "0.85",
+            "match_id": "2408428",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">83</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">96</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">44</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">81</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "1",
+                    "away": "1"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "28-10-2023",
+            "home": "Borneo FC",
+            "away": "Dewa United FC",
+            "score": "3 : 1",
+            "ah": "1",
+            "ou": "0.90",
+            "match_id": "2408279",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">80</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">87</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">46</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">59</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "08-02-2023",
+            "home": "Dewa United FC",
+            "away": "Borneo FC",
+            "score": "1 : 0",
+            "ah": "0/-0.5",
+            "ou": "0.78",
+            "match_id": "2249474",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">12</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">80</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">82</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">44</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">70</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "23-08-2022",
+            "home": "Borneo FC",
+            "away": "Dewa United FC",
+            "score": "3 : 0",
+            "ah": "0.5/1",
+            "ou": "0.98",
+            "match_id": "2249323",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        }
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "match_id": "2860617",
+    "home_team": "Vissel Kobe",
+    "away_team": "Ulsan HD FC",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "26-10-2025",
+            "home": "Albirex Niigata",
+            "away": "Vissel Kobe",
+            "score": "2 : 2",
+            "ah": "-0.5/1",
+            "ou": "0.80",
+            "match_id": "2701917",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">6</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">18</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">107</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">128</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">44</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">58</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "01-11-2025",
+            "home": "FC Anyang",
+            "away": "Ulsan HD FC",
+            "score": "3 : 1",
+            "ah": "0/-0.5",
+            "ou": "0.83",
+            "match_id": "2892311",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">19</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">15</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">98</span>",
+                    "away": "<span style=\"color: red;\">68</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">69</span>",
+                    "away": "<span style=\"color: red;\">41</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "23-10-2024",
+            "home": "Ulsan HD FC",
+            "away": "Vissel Kobe",
+            "score": "0 : 2",
+            "ah": "0",
+            "ou": "1.00",
+            "match_id": "2653033",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">9</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">16</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">101</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">118</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">65</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">75</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "13-12-2020",
+            "home": "Ulsan HD FC",
+            "away": "Vissel Kobe",
+            "score": "1 : 1",
+            "ah": "0.5/1",
+            "ou": "0.92",
+            "match_id": "1958244",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">18</span>",
+                    "away": "<span style=\"color: red;\">12</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">7</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">83</span>",
+                    "away": "<span style=\"color: red;\">75</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">92</span>",
+                    "away": "<span style=\"color: red;\">91</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

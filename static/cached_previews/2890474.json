@@ -1,0 +1,103 @@
+{
+    "match_id": "2890474",
+    "home_team": "Red Star Belgrade U19",
+    "away_team": "Banik Ostrava U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "31-10-2025",
+            "home": "Vojvodina U19",
+            "away": "Red Star Belgrade U19",
+            "score": "2 : 2",
+            "ah": "-0.5",
+            "ou": "0.83",
+            "match_id": "2895004",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">8</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">19</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">80</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">115</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">29</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">71</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "01-11-2025",
+            "home": "Banik Ostrava U19",
+            "away": "Slovacko U19",
+            "score": "3 : 1",
+            "ah": "0.5/1",
+            "ou": "0.95",
+            "match_id": "2802461",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">18</span>",
+                    "away": "<span style=\"color: red;\">13</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">118</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">124</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">95</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">104</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "22-10-2025",
+            "home": "Banik Ostrava U19",
+            "away": "Red Star Belgrade U19",
+            "score": "0 : 0",
+            "ah": "0/-0.5",
+            "ou": "0.90",
+            "match_id": "2872011",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">17</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">104</span>",
+                    "away": "<span style=\"color: red;\">96</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">83</span>",
+                    "away": "<span style=\"color: red;\">73</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

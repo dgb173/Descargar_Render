@@ -1,0 +1,151 @@
+{
+    "match_id": "2895549",
+    "home_team": "Sabail",
+    "away_team": "FK MOIK Baku",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "29-10-2025",
+            "home": "Sabail",
+            "away": "Samaxı FC",
+            "score": "0 : 1",
+            "ah": "0",
+            "ou": "0.83",
+            "match_id": "2887625",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">15</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">63</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">118</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">40</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">83</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "29-10-2025",
+            "home": "FC Neftci Baku",
+            "away": "FK MOIK Baku",
+            "score": "6 : 2",
+            "ah": "3/3.5",
+            "ou": "0.80",
+            "match_id": "2887624",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">6</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">10</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">73</span>",
+                    "away": "<span style=\"color: red;\">52</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">50</span>",
+                    "away": "<span style=\"color: red;\">27</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "22-11-2022",
+            "home": "FK MOIK Baku",
+            "away": "Sabail",
+            "score": "0 : 4",
+            "ah": "-1",
+            "ou": "0.80",
+            "match_id": "2314018",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "11-02-2017",
+            "home": "FK MOIK Baku",
+            "away": "Sabail",
+            "score": "0 : 2",
+            "ah": "0/-0.5",
+            "ou": "0.92",
+            "match_id": "1355621",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">1</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">47</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">53</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">20</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">37</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "15-09-2016",
+            "home": "Sabail",
+            "away": "FK MOIK Baku",
+            "score": "4 : 1",
+            "ah": "0",
+            "ou": "1.00",
+            "match_id": "1314552",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">10</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">98</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">130</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">58</span>",
+                    "away": "<span style=\"color: red;\">55</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

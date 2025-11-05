@@ -1,0 +1,212 @@
+{
+    "match_id": "2895547",
+    "home_team": "Vasas Odorhei (W)",
+    "away_team": "Atletic Olimpia Gherla (W)",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "18-10-2025",
+            "home": "ASU Politehnica Timisoara (W)",
+            "away": "Vasas Odorhei (W)",
+            "score": "1 : 1",
+            "ah": "",
+            "ou": "",
+            "match_id": "2889296",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "19-10-2025",
+            "home": "Atletic Olimpia Gherla (W)",
+            "away": "Olimpia Cluj (W)",
+            "score": "0 : 3",
+            "ah": "-0.5/1",
+            "ou": "0.80",
+            "match_id": "2889664",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">3</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "06-09-2025",
+            "home": "Atletic Olimpia Gherla (W)",
+            "away": "Vasas Odorhei (W)",
+            "score": "4 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "2863009",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">122</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">128</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">79</span>",
+                    "away": "<span style=\"color: red;\">72</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "18-05-2025",
+            "home": "Vasas Odorhei (W)",
+            "away": "Atletic Olimpia Gherla (W)",
+            "score": "1 : 4",
+            "ah": "",
+            "ou": "",
+            "match_id": "2775838",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "27-04-2025",
+            "home": "Atletic Olimpia Gherla (W)",
+            "away": "Vasas Odorhei (W)",
+            "score": "0 : 2",
+            "ah": "",
+            "ou": "",
+            "match_id": "2768706",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "16-04-2025",
+            "home": "Vasas Odorhei (W)",
+            "away": "Atletic Olimpia Gherla (W)",
+            "score": "2 : 3",
+            "ah": "0/0.5",
+            "ou": "0.80",
+            "match_id": "2766201",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">6</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">10</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">4</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">95</span>",
+                    "away": "<span style=\"color: red;\">87</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "54",
+                    "away": "54"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "29-03-2025",
+            "home": "Vasas Odorhei (W)",
+            "away": "Atletic Olimpia Gherla (W)",
+            "score": "2 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "2755552",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "09-03-2025",
+            "home": "Atletic Olimpia Gherla (W)",
+            "away": "Vasas Odorhei (W)",
+            "score": "1 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "2745753",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "12-10-2024",
+            "home": "Vasas Odorhei (W)",
+            "away": "Atletic Olimpia Gherla (W)",
+            "score": "1 : 1",
+            "ah": "0/-0.5",
+            "ou": "0.83",
+            "match_id": "2676017",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">14</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">6</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">87</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">142</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">42</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">65</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col8": {
+            "date": "25-08-2024",
+            "home": "Atletic Olimpia Gherla (W)",
+            "away": "Vasas Odorhei (W)",
+            "score": "3 : 0",
+            "ah": "-0.5/1",
+            "ou": "0.90",
+            "match_id": "2655580",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "4",
+                    "away": "4"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">88</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">91</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "56",
+                    "away": "56"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

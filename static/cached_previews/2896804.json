@@ -1,0 +1,71 @@
+{
+    "match_id": "2896804",
+    "home_team": "Aragvi Dusheti",
+    "away_team": "FC Tbilisi 2025",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "30-10-2025",
+            "home": "Gerda Barney",
+            "away": "Aragvi Dusheti",
+            "score": "2 : 5",
+            "ah": "-1",
+            "ou": "0.83",
+            "match_id": "2894457",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">8</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">12</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">5</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">96</span>",
+                    "away": "<span style=\"color: red;\">91</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">52</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">56</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "30-10-2025",
+            "home": "FC Tbilisi 2025",
+            "away": "Margveti 2006",
+            "score": "3 : 1",
+            "ah": "1.5",
+            "ou": "0.95",
+            "match_id": "2894381",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">166</span>",
+                    "away": "<span style=\"color: red;\">141</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">171</span>",
+                    "away": "<span style=\"color: red;\">105</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

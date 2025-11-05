@@ -1,0 +1,71 @@
+{
+    "match_id": "2896775",
+    "home_team": "Chonburi U21",
+    "away_team": "Nong Bua Pitchaya U21",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "28-10-2025",
+            "home": "Nakhon Ratchasima U21",
+            "away": "Chonburi U21",
+            "score": "2 : 1",
+            "ah": "0/0.5",
+            "ou": "1.00",
+            "match_id": "2894136",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">16</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">9</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">69</span>",
+                    "away": "<span style=\"color: red;\">67</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">35</span>",
+                    "away": "<span style=\"color: red;\">29</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "21-10-2025",
+            "home": "Ratchaburi FC U21",
+            "away": "Nong Bua Pitchaya U21",
+            "score": "0 : 7",
+            "ah": "0/-0.5",
+            "ou": "0.78",
+            "match_id": "2892238",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">13</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">18</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">9</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">11</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">75</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">99</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">49</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">62</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

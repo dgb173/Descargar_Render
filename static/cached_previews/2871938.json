@@ -1,0 +1,78 @@
+{
+    "match_id": "2871938",
+    "home_team": "Benfica U19",
+    "away_team": "Bayer Leverkusen U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "01-11-2025",
+            "home": "Benfica U19",
+            "away": "Academico Viseu U19",
+            "score": "2 : 1",
+            "ah": "1",
+            "ou": "0.93",
+            "match_id": "2825194",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">14</span>",
+                    "away": "<span style=\"color: red;\">5</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">136</span>",
+                    "away": "<span style=\"color: red;\">84</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">62</span>",
+                    "away": "<span style=\"color: red;\">21</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "26-10-2025",
+            "home": "Borussia Dortmund U19",
+            "away": "Bayer Leverkusen U19",
+            "score": "1 : 1",
+            "ah": "",
+            "ou": "",
+            "match_id": "2823616",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "09-12-2014",
+            "home": "Benfica U19",
+            "away": "Bayer Leverkusen U19",
+            "score": "4 : 1",
+            "ah": "0/0.5",
+            "ou": "0.83",
+            "match_id": "1057788",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "01-10-2014",
+            "home": "Bayer Leverkusen U19",
+            "away": "Benfica U19",
+            "score": "2 : 3",
+            "ah": "0/0.5",
+            "ou": "0.58",
+            "match_id": "1057779",
+            "stats_rows": [
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

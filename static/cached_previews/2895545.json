@@ -1,0 +1,83 @@
+{
+    "match_id": "2895545",
+    "home_team": "Farul Constanta (W)",
+    "away_team": "Unirea Alba Iulia (W)",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "18-10-2025",
+            "home": "Gloria 2018 Bistrita Nasaud (W)",
+            "away": "Farul Constanta (W)",
+            "score": "0 : 1",
+            "ah": "",
+            "ou": "",
+            "match_id": "2889295",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "18-10-2025",
+            "home": "Unirea Alba Iulia (W)",
+            "away": "FK Csikszereda Miercurea Ciuc (W)",
+            "score": "0 : 0",
+            "ah": "-3.5/4",
+            "ou": "0.95",
+            "match_id": "2889297",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">5</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">73</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">103</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">34</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">98</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "07-09-2025",
+            "home": "Unirea Alba Iulia (W)",
+            "away": "Farul Constanta (W)",
+            "score": "2 : 4",
+            "ah": "",
+            "ou": "",
+            "match_id": "2865591",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "17-11-2024",
+            "home": "Farul Constanta (W)",
+            "away": "Unirea Alba Iulia (W)",
+            "score": "7 : 1",
+            "ah": "",
+            "ou": "",
+            "match_id": "2689595",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "21-09-2024",
+            "home": "Unirea Alba Iulia (W)",
+            "away": "Farul Constanta (W)",
+            "score": "0 : 6",
+            "ah": "",
+            "ou": "",
+            "match_id": "2668444",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        }
+    }
+}

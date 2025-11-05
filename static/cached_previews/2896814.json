@@ -1,0 +1,61 @@
+{
+    "match_id": "2896814",
+    "home_team": "Borac Cacak U19",
+    "away_team": "OFK Vrsac U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "01-11-2025",
+            "home": "FK Napredak U19",
+            "away": "Borac Cacak U19",
+            "score": "3 : 1",
+            "ah": "0.5",
+            "ou": "0.98",
+            "match_id": "2895364",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">3</span>",
+                    "away": "<span style=\"color: red;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "01-11-2025",
+            "home": "FK Graficar Beograd U19",
+            "away": "OFK Vrsac U19",
+            "score": "0 : 1",
+            "ah": "0/0.5",
+            "ou": "0.85",
+            "match_id": "2895368",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">16</span>",
+                    "away": "<span style=\"color: red;\">15</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "7",
+                    "away": "7"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">104</span>",
+                    "away": "<span style=\"color: red;\">72</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">54</span>",
+                    "away": "<span style=\"color: red;\">40</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "match_id": "2860760",
+    "home_team": "Nam Dinh FC",
+    "away_team": "Gamba Osaka",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "31-10-2025",
+            "home": "Hoang Anh Gia Lai",
+            "away": "Nam Dinh FC",
+            "score": "2 : 2",
+            "ah": "-0.5",
+            "ou": "0.83",
+            "match_id": "2884269",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">7</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">66</span>",
+                    "away": "<span style=\"color: red;\">58</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">49</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">70</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "25-10-2025",
+            "home": "Nagoya Grampus",
+            "away": "Gamba Osaka",
+            "score": "0 : 2",
+            "ah": "0",
+            "ou": "0.88",
+            "match_id": "2701923",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">9</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">19</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">6</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">85</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">120</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">43</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">73</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "22-10-2025",
+            "home": "Gamba Osaka",
+            "away": "Nam Dinh FC",
+            "score": "3 : 1",
+            "ah": "1.5/2",
+            "ou": "0.85",
+            "match_id": "2860757",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">27</span>",
+                    "away": "<span style=\"color: red;\">12</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">8</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">125</span>",
+                    "away": "<span style=\"color: red;\">84</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">87</span>",
+                    "away": "<span style=\"color: red;\">35</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

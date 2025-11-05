@@ -1,0 +1,286 @@
+{
+    "match_id": "2895544",
+    "home_team": "FK Csikszereda Miercurea Ciuc (W)",
+    "away_team": "ASU Politehnica Timisoara (W)",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "18-10-2025",
+            "home": "Unirea Alba Iulia (W)",
+            "away": "FK Csikszereda Miercurea Ciuc (W)",
+            "score": "0 : 0",
+            "ah": "-3.5/4",
+            "ou": "0.95",
+            "match_id": "2889297",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">5</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">73</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">103</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">34</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">98</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "18-10-2025",
+            "home": "ASU Politehnica Timisoara (W)",
+            "away": "Vasas Odorhei (W)",
+            "score": "1 : 1",
+            "ah": "",
+            "ou": "",
+            "match_id": "2889296",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col1": {
+            "date": "07-09-2025",
+            "home": "ASU Politehnica Timisoara (W)",
+            "away": "FK Csikszereda Miercurea Ciuc (W)",
+            "score": "0 : 0",
+            "ah": "-1/1.5",
+            "ou": "1.00",
+            "match_id": "2865592",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "9",
+                    "away": "9"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">2</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">103</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">141</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">48</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">78</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col2": {
+            "date": "12-05-2024",
+            "home": "FK Csikszereda Miercurea Ciuc (W)",
+            "away": "ASU Politehnica Timisoara (W)",
+            "score": "4 : 3",
+            "ah": "",
+            "ou": "",
+            "match_id": "2576247",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">12</span>",
+                    "away": "<span style=\"color: red;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">5</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">106</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">108</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">49</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">61</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col3": {
+            "date": "24-04-2024",
+            "home": "ASU Politehnica Timisoara (W)",
+            "away": "FK Csikszereda Miercurea Ciuc (W)",
+            "score": "0 : 1",
+            "ah": "0/0.5",
+            "ou": "0.80",
+            "match_id": "2569614",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">10</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">17</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">3</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">8</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">165</span>",
+                    "away": "<span style=\"color: red;\">141</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">82</span>",
+                    "away": "<span style=\"color: red;\">70</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col4": {
+            "date": "30-03-2024",
+            "home": "FK Csikszereda Miercurea Ciuc (W)",
+            "away": "ASU Politehnica Timisoara (W)",
+            "score": "2 : 0",
+            "ah": "0/-0.5",
+            "ou": "0.93",
+            "match_id": "2558611",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">13</span>",
+                    "away": "<span style=\"color: red;\">8</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">4</span>",
+                    "away": "<span style=\"color: red;\">3</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">80</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">97</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">79</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">83</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col5": {
+            "date": "20-03-2024",
+            "home": "ASU Politehnica Timisoara (W)",
+            "away": "FK Csikszereda Miercurea Ciuc (W)",
+            "score": "0 : 2",
+            "ah": "2/2.5",
+            "ou": "0.95",
+            "match_id": "2556251",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">26</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">2</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">13</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">164</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">166</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">48</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">88</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col6": {
+            "date": "09-03-2024",
+            "home": "ASU Politehnica Timisoara (W)",
+            "away": "FK Csikszereda Miercurea Ciuc (W)",
+            "score": "3 : 0",
+            "ah": "0.5",
+            "ou": "0.75",
+            "match_id": "2551279",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col7": {
+            "date": "04-11-2023",
+            "home": "FK Csikszereda Miercurea Ciuc (W)",
+            "away": "ASU Politehnica Timisoara (W)",
+            "score": "3 : 3",
+            "ah": "",
+            "ou": "",
+            "match_id": "2495624",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col8": {
+            "date": "06-05-2023",
+            "home": "FK Csikszereda Miercurea Ciuc (W)",
+            "away": "ASU Politehnica Timisoara (W)",
+            "score": "0 : 7",
+            "ah": "",
+            "ou": "",
+            "match_id": "2385359",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col9": {
+            "date": "18-03-2023",
+            "home": "ASU Politehnica Timisoara (W)",
+            "away": "FK Csikszereda Miercurea Ciuc (W)",
+            "score": "2 : 0",
+            "ah": "",
+            "ou": "",
+            "match_id": "2364579",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "h2h_col10": {
+            "date": "20-11-2022",
+            "home": "FK Csikszereda Miercurea Ciuc (W)",
+            "away": "ASU Politehnica Timisoara (W)",
+            "score": "0 : 7",
+            "ah": "-3.5/4",
+            "ou": "0.80",
+            "match_id": "2312423",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">4</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">18</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">1</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">11</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">73</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">113</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">31</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">98</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

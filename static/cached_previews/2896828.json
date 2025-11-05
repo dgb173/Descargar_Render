@@ -1,0 +1,71 @@
+{
+    "match_id": "2896828",
+    "home_team": "Kodagu FC",
+    "away_team": "Bangalore City",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "30-10-2025",
+            "home": "ASC Center FC",
+            "away": "Kodagu FC",
+            "score": "1 : 4",
+            "ah": "-1.5",
+            "ou": "0.88",
+            "match_id": "2894695",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">1</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">9</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">1</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">5</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">69</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">89</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">45</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">59</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "31-10-2025",
+            "home": "Bangalore City",
+            "away": "Student Union FC",
+            "score": "1 : 0",
+            "ah": "1",
+            "ou": "0.80",
+            "match_id": "2894952",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">2</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">1</span>",
+                    "away": "<span style=\"color: red;\">0</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">62</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">89</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">42</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">54</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

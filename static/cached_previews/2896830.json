@@ -1,0 +1,71 @@
+{
+    "match_id": "2896830",
+    "home_team": "Soccer Assassins (W)",
+    "away_team": "Bungoma Queens (W)",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "12-10-2025",
+            "home": "Kisumu All Starlets (W)",
+            "away": "Soccer Assassins (W)",
+            "score": "2 : 2",
+            "ah": "0.5",
+            "ou": "0.85",
+            "match_id": "2888826",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">6</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">18</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">5</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">12</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">78</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">100</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: red;\">39</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">40</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "22-03-2025",
+            "home": "Ulinzi Starlets (W)",
+            "away": "Bungoma Queens (W)",
+            "score": "5 : 0",
+            "ah": "0/0.5",
+            "ou": "0.90",
+            "match_id": "2754464",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: green; font-weight: bold;\">19</span>",
+                    "away": "<span style=\"color: red;\">11</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: green; font-weight: bold;\">11</span>",
+                    "away": "<span style=\"color: red;\">7</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: green; font-weight: bold;\">87</span>",
+                    "away": "<span style=\"color: red;\">72</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">52</span>",
+                    "away": "<span style=\"color: red;\">41</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}

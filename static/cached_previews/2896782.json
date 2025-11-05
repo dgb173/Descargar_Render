@@ -1,0 +1,55 @@
+{
+    "match_id": "2896782",
+    "home_team": "Yael U19",
+    "away_team": "Inegolspor U19",
+    "recent_indirect_full": {
+        "last_home": {
+            "date": "08-10-2025",
+            "home": "Yael U19",
+            "away": "Inegol Kafkasspor U19",
+            "score": "1 : 2",
+            "ah": "0.5",
+            "ou": "0.98",
+            "match_id": "2887363",
+            "stats_rows": [],
+            "cover_status": "indeterminado"
+        },
+        "last_away": {
+            "date": "26-03-2017",
+            "home": "Pendikspor U19",
+            "away": "Inegolspor U19",
+            "score": "0 : 1",
+            "ah": "0/0.5",
+            "ou": "0.80",
+            "match_id": "1373642",
+            "stats_rows": [
+                {
+                    "label": "Tiros",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                },
+                {
+                    "label": "Tiros a Puerta",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                },
+                {
+                    "label": "Ataques",
+                    "home": "<span style=\"color: red;\">97</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">98</span>"
+                },
+                {
+                    "label": "Ataques Peligrosos",
+                    "home": "<span style=\"color: green; font-weight: bold;\">69</span>",
+                    "away": "<span style=\"color: red;\">45</span>"
+                },
+                {
+                    "label": "Tarjetas Rojas",
+                    "home": "<span style=\"color: red;\">0</span>",
+                    "away": "<span style=\"color: green; font-weight: bold;\">1</span>"
+                }
+            ],
+            "cover_status": "indeterminado"
+        }
+    }
+}
