@@ -1,841 +1,13 @@
 {
   "upcoming_matches": [
     {
-      "id": "2849396",
-      "time_obj": "2025-11-04T19:30:00",
-      "home_team": "Grimsby Town",
-      "away_team": "Everton U21",
-      "handicap": "1.5",
-      "goal_line": "3.75",
-      "time": "21:30"
-    },
-    {
-      "id": "2798163",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Birmingham City",
-      "away_team": "Millwall",
-      "handicap": "0.75",
-      "goal_line": "2.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2798164",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Bristol City",
-      "away_team": "Blackburn Rovers",
-      "handicap": "0.25",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2798165",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Charlton Athletic",
-      "away_team": "West Bromwich(WBA)",
-      "handicap": "0",
-      "goal_line": "2",
-      "time": "21:45"
-    },
-    {
-      "id": "2798167",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Derby County",
-      "away_team": "Hull City",
-      "handicap": "0.25",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2798168",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Ipswich Town",
-      "away_team": "Watford",
-      "handicap": "0.75",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2798169",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Leicester City",
-      "away_team": "Middlesbrough",
-      "handicap": "0.25",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2798170",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Oxford United",
-      "away_team": "Stoke City",
-      "handicap": "-0.25",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2797499",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Rotherham United",
-      "away_team": "Burton Albion",
-      "handicap": "0.25",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2818020",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Boreham Wood",
-      "away_team": "Aldershot Town",
-      "handicap": "1.25",
-      "goal_line": "3.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2818021",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Carlisle United",
-      "away_team": "Halifax Town",
-      "handicap": "1",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2818022",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Forest Green Rovers",
-      "away_team": "Tamworth",
-      "handicap": "0.75",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2818023",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Hartlepool United",
-      "away_team": "Morecambe",
-      "handicap": "0.75",
-      "goal_line": "3.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2818024",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Rochdale",
-      "away_team": "Scunthorpe United",
-      "handicap": "1",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2818025",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Yeovil Town",
-      "away_team": "Wealdstone FC",
-      "handicap": "0",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2820775",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "AFC Totton",
-      "away_team": "Maidenhead United",
-      "handicap": "-0.5",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2820776",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Chippenham Town",
-      "away_team": "Salisbury FC",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2820777",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Dorking",
-      "away_team": "Enfield Town",
-      "handicap": "1.25",
-      "goal_line": "3.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2820778",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Eastbourne Borough",
-      "away_team": "Dagenham Redbridge",
-      "handicap": "0.25",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2820779",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Ebbsfleet United",
-      "away_team": "Maidstone United",
-      "handicap": "0",
-      "goal_line": "2.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2820780",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Hemel Hempstead Town",
-      "away_team": "Weston Super Mare",
-      "handicap": "0",
-      "goal_line": "2.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2820781",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Hornchurch",
-      "away_team": "Chesham United",
-      "handicap": "0.75",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2820782",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Horsham",
-      "away_team": "Dover Athletic",
-      "handicap": "0.75",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2820783",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Slough Town",
-      "away_team": "Bath City",
-      "handicap": "-0.25",
-      "goal_line": "2.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2820784",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Tonbridge Angels",
-      "away_team": "Chelmsford City",
-      "handicap": "-0.25",
-      "goal_line": "2.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2820224",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "AFC Telford United",
-      "away_team": "Merthyr Town",
-      "handicap": "0.75",
-      "goal_line": "3.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2820225",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Buxton FC",
-      "away_team": "Southport FC",
-      "handicap": "1",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2820226",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Chester FC",
-      "away_team": "Marine",
-      "handicap": "0.5",
-      "goal_line": "2.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2820227",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Chorley FC",
-      "away_team": "Alfreton Town",
-      "handicap": "0.75",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2820228",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Curzon Ashton FC",
-      "away_team": "Spennymoor Town",
-      "handicap": "0",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2820229",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Darlington",
-      "away_team": "Worksop Town",
-      "handicap": "0.25",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2820230",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Kidderminster Harriers",
-      "away_team": "Bedford Town",
-      "handicap": "0.5",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2820231",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Kings Lynn",
-      "away_team": "Leamington",
-      "handicap": "1",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2820232",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Macclesfield Town",
-      "away_team": "Peterborough Sports",
-      "handicap": "0.5",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2820233",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Oxford City",
-      "away_team": "Hereford FC",
-      "handicap": "-0.25",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2828201",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Bamber Bridge",
-      "away_team": "Warrington Town AFC",
-      "handicap": "0.75",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2828953",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Billericay Town",
-      "away_team": "Chatham Town",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2828957",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Cray Valley Paper Mills",
-      "away_team": "Aveley",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2828976",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Canvey Island",
-      "away_team": "Wingate Finchley",
-      "handicap": "0",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2828994",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Welling United",
-      "away_team": "Folkestone",
-      "handicap": "-0.25",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2829028",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Whitehawk",
-      "away_team": "Brentwood Town",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2849397",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Huddersfield Town",
-      "away_team": "Mansfield Town",
-      "handicap": "0.5",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2895505",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Ballymena United",
-      "away_team": "Newington",
-      "handicap": "1.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2895508",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Glentoran FC",
-      "away_team": "Crusaders",
-      "handicap": "1.25",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2888622",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Cambrian Clydach",
-      "away_team": "Briton Ferry Athletic",
-      "handicap": "0",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2888623",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Haverfordwest County",
-      "away_team": "Barry Town United",
-      "handicap": "0",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2888624",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "The New Saints",
-      "away_team": "Caernarfon",
-      "handicap": "1.5",
-      "goal_line": "3.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2888625",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Newtown AFC",
-      "away_team": "Llandudno",
-      "handicap": "-0.25",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2896697",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Felixstowe Walton United",
-      "away_team": "Brightlingsea Regent",
-      "handicap": "0.75",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2896674",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Hadley",
-      "away_team": "Ware",
-      "handicap": "0.25",
-      "goal_line": "3.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2896676",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Bognor Regis Town",
-      "away_team": "Hayes Yeading United",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2896702",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Faversham Town",
-      "away_team": "Hassocks",
-      "handicap": "0.75",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2896666",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Carlton Town",
-      "away_team": "Rushden Diamonds",
-      "handicap": "0.75",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2896667",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Coventry Sphinx",
-      "away_team": "Anstey Nomads",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2896668",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Mickleover Sports",
-      "away_team": "Sutton Coldfield Town",
-      "handicap": "0.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2896669",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Congleton Town",
-      "away_team": "Runcorn Linnets",
-      "handicap": "-0.25",
-      "goal_line": "2.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2896670",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Stalybridge Celtic",
-      "away_team": "Nantwich Town",
-      "handicap": "0.5",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2896678",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Consett AFC",
-      "away_team": "Newton Aycliffe",
-      "handicap": "0.25",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2895487",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Bonnyrigg Rose",
-      "away_team": "Boness Utd",
-      "handicap": "0.75",
-      "goal_line": "3.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2895489",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Cumbernauld Colts",
-      "away_team": "East Stirlingshire",
-      "handicap": "1",
-      "goal_line": "3.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2895490",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Linlithgow Rose",
-      "away_team": "Albion Rovers",
-      "handicap": "1.75",
-      "goal_line": "3.5",
-      "time": "21:45"
-    },
-    {
-      "id": "2895491",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Tranent Juniors",
-      "away_team": "Civil Service Strollers FC",
-      "handicap": "1.5",
-      "goal_line": "3.25",
-      "time": "21:45"
-    },
-    {
-      "id": "2895492",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Gretna",
-      "away_team": "Stirling University",
-      "handicap": "-0.25",
-      "goal_line": "3.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2843084",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Sudbury",
-      "away_team": "Royston Town",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2843092",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Spalding United",
-      "away_team": "Quorn",
-      "handicap": "0.5",
-      "goal_line": "3",
-      "time": "21:45"
-    },
-    {
-      "id": "2843096",
-      "time_obj": "2025-11-04T19:45:00",
-      "home_team": "Stratford Town",
-      "away_team": "Needham Market",
-      "handicap": "0",
-      "goal_line": "2.75",
-      "time": "21:45"
-    },
-    {
-      "id": "2861068",
-      "time_obj": "2025-11-04T20:00:00",
-      "home_team": "Paris Saint Germain (PSG)",
-      "away_team": "Bayern Munchen",
-      "handicap": "0.25",
-      "goal_line": "3.25",
-      "time": "22:00"
-    },
-    {
-      "id": "2861071",
-      "time_obj": "2025-11-04T20:00:00",
-      "home_team": "Liverpool",
-      "away_team": "Real Madrid",
-      "handicap": "0",
-      "goal_line": "3.25",
-      "time": "22:00"
-    },
-    {
-      "id": "2861149",
-      "time_obj": "2025-11-04T20:00:00",
-      "home_team": "Atletico Madrid",
-      "away_team": "Saint Gilloise",
-      "handicap": "1.75",
-      "goal_line": "3",
-      "time": "22:00"
-    },
-    {
-      "id": "2861163",
-      "time_obj": "2025-11-04T20:00:00",
-      "home_team": "Juventus",
-      "away_team": "Sporting CP",
-      "handicap": "0.25",
-      "goal_line": "2.5",
-      "time": "22:00"
-    },
-    {
-      "id": "2861181",
-      "time_obj": "2025-11-04T20:00:00",
-      "home_team": "Olympiakos Piraeus",
-      "away_team": "PSV Eindhoven",
-      "handicap": "0",
-      "goal_line": "3",
-      "time": "22:00"
-    },
-    {
-      "id": "2861184",
-      "time_obj": "2025-11-04T20:00:00",
-      "home_team": "Tottenham Hotspur",
-      "away_team": "FC Copenhagen",
-      "handicap": "1.25",
-      "goal_line": "2.75",
-      "time": "22:00"
-    },
-    {
-      "id": "2861198",
-      "time_obj": "2025-11-04T20:00:00",
-      "home_team": "Bodo Glimt",
-      "away_team": "Monaco",
-      "handicap": "0.25",
-      "goal_line": "3.75",
-      "time": "22:00"
-    },
-    {
-      "id": "2798166",
-      "time_obj": "2025-11-04T20:00:00",
-      "home_team": "Coventry City",
-      "away_team": "Sheffield United",
-      "handicap": "0.75",
-      "goal_line": "3",
-      "time": "22:00"
-    },
-    {
-      "id": "2896681",
-      "time_obj": "2025-11-04T21:00:00",
-      "home_team": "Gallos NL",
-      "away_team": "San Pedro 7/10 FC",
-      "handicap": "0.75",
-      "goal_line": "3.25",
-      "time": "23:00"
-    },
-    {
-      "id": "2896684",
-      "time_obj": "2025-11-04T21:00:00",
-      "home_team": "Azucareros de Tezonapa",
-      "away_team": "CD Novillos Neza",
-      "handicap": "1.25",
-      "goal_line": "3.5",
-      "time": "23:00"
-    },
-    {
-      "id": "2896687",
-      "time_obj": "2025-11-04T21:00:00",
-      "home_team": "SK Sport Street Soccer FC",
-      "away_team": "CF Pachuca III",
-      "handicap": "0",
-      "goal_line": "2.75",
-      "time": "23:00"
-    },
-    {
-      "id": "2896701",
-      "time_obj": "2025-11-04T21:00:00",
-      "home_team": "Cordoba Veracruz",
-      "away_team": "Manta Rayas",
-      "handicap": "2.25",
-      "goal_line": "3.75",
-      "time": "23:00"
-    },
-    {
-      "id": "2896703",
-      "time_obj": "2025-11-04T21:00:00",
-      "home_team": "Universidad Del Sureste FC",
-      "away_team": "Chapulineros de Oaxaca II",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "23:00"
-    },
-    {
-      "id": "2896683",
-      "time_obj": "2025-11-04T22:00:00",
-      "home_team": "Pabellon FC",
-      "away_team": "Atletico ECCA",
-      "handicap": "1",
-      "goal_line": "2",
-      "time": "00:00"
-    },
-    {
-      "id": "2895497",
-      "time_obj": "2025-11-04T22:00:00",
-      "home_team": "Ferroviaria SP (W)",
-      "away_team": "EC Bahia (W)",
-      "handicap": "1",
-      "goal_line": "2.75",
-      "time": "00:00"
-    },
-    {
-      "id": "2896682",
-      "time_obj": "2025-11-04T22:30:00",
-      "home_team": "Mineros Zacatecas CDMX",
-      "away_team": "Selva Canera",
-      "handicap": "-0.5",
-      "goal_line": "2.5",
-      "time": "00:30"
-    },
-    {
-      "id": "2896698",
-      "time_obj": "2025-11-04T22:30:00",
-      "home_team": "Santa Catarina U20",
-      "away_team": "Caravaggio Brazil U20",
-      "handicap": "0.25",
-      "goal_line": "2.5",
-      "time": "00:30"
-    },
-    {
-      "id": "2893681",
-      "time_obj": "2025-11-04T23:00:00",
-      "home_team": "Nacional Potosi",
-      "away_team": "Blooming",
-      "handicap": "1.25",
-      "goal_line": "3.25",
-      "time": "01:00"
-    },
-    {
-      "id": "2888339",
-      "time_obj": "2025-11-04T23:30:00",
-      "home_team": "Academia Puerto Cabello",
-      "away_team": "Monagas SC",
-      "handicap": "0.75",
-      "goal_line": "2.75",
-      "time": "01:30"
-    },
-    {
-      "id": "2888340",
-      "time_obj": "2025-11-04T23:30:00",
-      "home_team": "Zamora Barinas",
-      "away_team": "Deportivo La Guaira",
-      "handicap": "-0.5",
-      "goal_line": "1.75",
-      "time": "01:30"
-    },
-    {
-      "id": "2884504",
-      "time_obj": "2025-11-05T00:00:00",
-      "home_team": "Liga Dep. Universitaria Quito",
-      "away_team": "Orense SC",
-      "handicap": "1.25",
-      "goal_line": "2.5",
-      "time": "02:00"
-    },
-    {
-      "id": "2895552",
-      "time_obj": "2025-11-05T00:30:00",
-      "home_team": "Sao Paulo/SP (W)",
-      "away_team": "Palmeiras SP (W)",
-      "handicap": "-0.25",
-      "goal_line": "2.75",
-      "time": "02:30"
-    },
-    {
-      "id": "2850161",
-      "time_obj": "2025-11-05T02:00:00",
-      "home_team": "Deportivo Saprissa",
-      "away_team": "Herediano",
-      "handicap": "0.75",
-      "goal_line": "2.25",
-      "time": "04:00"
-    },
-    {
-      "id": "2896685",
-      "time_obj": "2025-11-05T03:00:00",
-      "home_team": "Vancouver Rise FC (W)",
-      "away_team": "Ottawa Rapid FC (W)",
-      "handicap": "0.25",
-      "goal_line": "2.5",
-      "time": "05:00"
-    },
-    {
       "id": "2896828",
       "time_obj": "2025-11-05T05:30:00",
       "home_team": "Kodagu FC",
       "away_team": "Bangalore City",
       "handicap": "2",
-      "goal_line": "3.5",
+      "goal_line": "3.75",
       "time": "07:30"
-    },
-    {
-      "id": "2882311",
-      "time_obj": "2025-11-05T07:00:00",
-      "home_team": "Al Rayyan",
-      "away_team": "Al-Shabab",
-      "handicap": "2.25",
-      "goal_line": "3.5",
-      "time": "09:00"
-    },
-    {
-      "id": "2896778",
-      "time_obj": "2025-11-05T07:00:00",
-      "home_team": "Marsaxlokk FC",
-      "away_team": "Hibernians FC",
-      "handicap": "0.25",
-      "goal_line": "2.25",
-      "time": "09:00"
     },
     {
       "id": "2896827",
@@ -856,15 +28,6 @@
       "time": "11:00"
     },
     {
-      "id": "2896814",
-      "time_obj": "2025-11-05T09:00:00",
-      "home_team": "Borac Cacak U19",
-      "away_team": "OFK Vrsac U19",
-      "handicap": "-0.5",
-      "goal_line": "3",
-      "time": "11:00"
-    },
-    {
       "id": "2896816",
       "time_obj": "2025-11-05T09:00:00",
       "home_team": "FK Napredak U19",
@@ -879,7 +42,7 @@
       "home_team": "Farul Constanta (W)",
       "away_team": "Unirea Alba Iulia (W)",
       "handicap": "3.75",
-      "goal_line": "5",
+      "goal_line": "4.5",
       "time": "11:00"
     },
     {
@@ -896,8 +59,8 @@
       "time_obj": "2025-11-05T09:30:00",
       "home_team": "Mumbai Young Boys",
       "away_team": "Kopana FC",
-      "handicap": "-1",
-      "goal_line": "3",
+      "handicap": "-2",
+      "goal_line": "3.25",
       "time": "11:30"
     },
     {
@@ -906,7 +69,7 @@
       "home_team": "Vissel Kobe",
       "away_team": "Ulsan HD FC",
       "handicap": "1.5",
-      "goal_line": "3",
+      "goal_line": "2.75",
       "time": "12:00"
     },
     {
@@ -942,7 +105,7 @@
       "home_team": "Baku Sporting",
       "away_team": "Cəbrayıl FK",
       "handicap": "0.25",
-      "goal_line": "2.5",
+      "goal_line": "2.75",
       "time": "12:00"
     },
     {
@@ -950,8 +113,8 @@
       "time_obj": "2025-11-05T10:00:00",
       "home_team": "E Nel G Tick",
       "away_team": "Sefa",
-      "handicap": "0",
-      "goal_line": "2.75",
+      "handicap": "-0.25",
+      "goal_line": "2.5",
       "time": "12:00"
     },
     {
@@ -969,7 +132,25 @@
       "home_team": "Aragvi Dusheti",
       "away_team": "FC Tbilisi 2025",
       "handicap": "0.5",
-      "goal_line": "3",
+      "goal_line": "3.25",
+      "time": "12:00"
+    },
+    {
+      "id": "2896830",
+      "time_obj": "2025-11-05T10:00:00",
+      "home_team": "Soccer Assassins (W)",
+      "away_team": "Bungoma Queens (W)",
+      "handicap": "0.25",
+      "goal_line": "2.75",
+      "time": "12:00"
+    },
+    {
+      "id": "2896838",
+      "time_obj": "2025-11-05T10:00:00",
+      "home_team": "KF Llapi U21",
+      "away_team": "KF Drenica Skenderaj U21",
+      "handicap": "3",
+      "goal_line": "4",
       "time": "12:00"
     },
     {
@@ -1031,8 +212,8 @@
       "time_obj": "2025-11-05T11:00:00",
       "home_team": "Benfica U19",
       "away_team": "Bayer Leverkusen U19",
-      "handicap": "1.25",
-      "goal_line": "3.5",
+      "handicap": "1.75",
+      "goal_line": "3.75",
       "time": "13:00"
     },
     {
@@ -1040,8 +221,8 @@
       "time_obj": "2025-11-05T11:00:00",
       "home_team": "Qarabag U19",
       "away_team": "Chelsea FC U19",
-      "handicap": "-4.75",
-      "goal_line": "5.25",
+      "handicap": "-5",
+      "goal_line": "5.75",
       "time": "13:00"
     },
     {
@@ -1059,7 +240,7 @@
       "home_team": "Sabail",
       "away_team": "FK MOIK Baku",
       "handicap": "2",
-      "goal_line": "3",
+      "goal_line": "2.75",
       "time": "13:00"
     },
     {
@@ -1072,11 +253,20 @@
       "time": "13:00"
     },
     {
+      "id": "2892791",
+      "time_obj": "2025-11-05T11:00:00",
+      "home_team": "Gokulam Kerala FC",
+      "away_team": "Mohammedan SC",
+      "handicap": "1.25",
+      "goal_line": "3",
+      "time": "13:00"
+    },
+    {
       "id": "2896775",
       "time_obj": "2025-11-05T11:00:00",
       "home_team": "Chonburi U21",
       "away_team": "Nong Bua Pitchaya U21",
-      "handicap": "0",
+      "handicap": "-0.25",
       "goal_line": "3.25",
       "time": "13:00"
     },
@@ -1085,7 +275,7 @@
       "time_obj": "2025-11-05T11:30:00",
       "home_team": "Farense U23",
       "away_team": "Estoril U23",
-      "handicap": "0.5",
+      "handicap": "0.75",
       "goal_line": "3",
       "time": "13:30"
     },
@@ -1095,7 +285,7 @@
       "home_team": "Borneo FC",
       "away_team": "Dewa United FC",
       "handicap": "0.5",
-      "goal_line": "2.5",
+      "goal_line": "2.75",
       "time": "14:00"
     },
     {
@@ -1117,6 +307,24 @@
       "time": "14:00"
     },
     {
+      "id": "2896885",
+      "time_obj": "2025-11-05T12:00:00",
+      "home_team": "Erokspor U19",
+      "away_team": "Bursa Yildirimspor U19",
+      "handicap": "0.5",
+      "goal_line": "2.5",
+      "time": "14:00"
+    },
+    {
+      "id": "2896891",
+      "time_obj": "2025-11-05T12:00:00",
+      "home_team": "Kucukcekmece Sinopspor U19",
+      "away_team": "Arnavutkoy Belediyesi U19",
+      "handicap": "-0.5",
+      "goal_line": "3.25",
+      "time": "14:00"
+    },
+    {
       "id": "2872549",
       "time_obj": "2025-11-05T12:00:00",
       "home_team": "FK Olympic Tashkent B",
@@ -1131,7 +339,7 @@
       "home_team": "Paphos U19",
       "away_team": "Villarreal U19",
       "handicap": "-2.75",
-      "goal_line": "3.25",
+      "goal_line": "3.5",
       "time": "14:00"
     },
     {
@@ -1148,8 +356,8 @@
       "time_obj": "2025-11-05T12:00:00",
       "home_team": "Red Star Belgrade U19",
       "away_team": "Banik Ostrava U19",
-      "handicap": "0.5",
-      "goal_line": "2.5",
+      "handicap": "0.25",
+      "goal_line": "2.75",
       "time": "14:00"
     },
     {
@@ -1158,7 +366,25 @@
       "home_team": "Steaua Bucuresti U19",
       "away_team": "Zagreb locomotive U19",
       "handicap": "-0.75",
-      "goal_line": "3.75",
+      "goal_line": "3.5",
+      "time": "14:00"
+    },
+    {
+      "id": "2881805",
+      "time_obj": "2025-11-05T12:00:00",
+      "home_team": "Kenya Police FC",
+      "away_team": "Sofapaka FC",
+      "handicap": "0.75",
+      "goal_line": "2",
+      "time": "14:00"
+    },
+    {
+      "id": "2896814",
+      "time_obj": "2025-11-05T12:00:00",
+      "home_team": "Borac Cacak U19",
+      "away_team": "OFK Vrsac U19",
+      "handicap": "-0.5",
+      "goal_line": "3",
       "time": "14:00"
     },
     {
@@ -1175,8 +401,8 @@
       "time_obj": "2025-11-05T12:15:00",
       "home_team": "Johor Darul Takzim",
       "away_team": "Shanghai Shenhua",
-      "handicap": "0.75",
-      "goal_line": "2.75",
+      "handicap": "1",
+      "goal_line": "3",
       "time": "14:15"
     },
     {
@@ -1184,7 +410,7 @@
       "time_obj": "2025-11-05T12:15:00",
       "home_team": "Eastern A.A Football Team",
       "away_team": "Ratchaburi FC",
-      "handicap": "-0.75",
+      "handicap": "-1.25",
       "goal_line": "3.25",
       "time": "14:15"
     },
@@ -1194,7 +420,7 @@
       "home_team": "Nam Dinh FC",
       "away_team": "Gamba Osaka",
       "handicap": "-0.75",
-      "goal_line": "2.75",
+      "goal_line": "3",
       "time": "14:15"
     },
     {
@@ -1214,6 +440,51 @@
       "handicap": "-0.5",
       "goal_line": "2.5",
       "time": "14:30"
+    },
+    {
+      "id": "2896824",
+      "time_obj": "2025-11-05T12:30:00",
+      "home_team": "Civo United",
+      "away_team": "Chitipa United",
+      "handicap": "0.75",
+      "goal_line": "2",
+      "time": "14:30"
+    },
+    {
+      "id": "2897075",
+      "time_obj": "2025-11-05T12:30:00",
+      "home_team": "Be Forward Wanderers",
+      "away_team": "Ekhaya FC",
+      "handicap": "1",
+      "goal_line": "2.25",
+      "time": "14:30"
+    },
+    {
+      "id": "2896794",
+      "time_obj": "2025-11-05T12:30:00",
+      "home_team": "ZFK Skopje 2014 (W)",
+      "away_team": "ZFK Top Gol (W)",
+      "handicap": "4.5",
+      "goal_line": "5",
+      "time": "14:30"
+    },
+    {
+      "id": "2897076",
+      "time_obj": "2025-11-05T12:45:00",
+      "home_team": "Kuala Lumpur FA (W)",
+      "away_team": "Young Tigress (W)",
+      "handicap": "1.5",
+      "goal_line": "3.25",
+      "time": "14:45"
+    },
+    {
+      "id": "2882528",
+      "time_obj": "2025-11-05T13:00:00",
+      "home_team": "NK Udarnik Kurilovec",
+      "away_team": "Istra 1961 Pula",
+      "handicap": "-1.75",
+      "goal_line": "3",
+      "time": "15:00"
     },
     {
       "id": "2888605",
@@ -1238,8 +509,8 @@
       "time_obj": "2025-11-05T13:00:00",
       "home_team": "Ferencvarosi TC (W)",
       "away_team": "Budaorsi SC (W)",
-      "handicap": "5",
-      "goal_line": "5.5",
+      "handicap": "5.25",
+      "goal_line": "6",
       "time": "15:00"
     },
     {
@@ -1247,8 +518,8 @@
       "time_obj": "2025-11-05T13:00:00",
       "home_team": "Ajax U19",
       "away_team": "Galatasaray U19",
-      "handicap": "1.5",
-      "goal_line": "4",
+      "handicap": "1.75",
+      "goal_line": "4.25",
       "time": "15:00"
     },
     {
@@ -1256,8 +527,8 @@
       "time_obj": "2025-11-05T13:00:00",
       "home_team": "Sabah Baku U19",
       "away_team": "Nantes U19",
-      "handicap": "-3.75",
-      "goal_line": "4.75",
+      "handicap": "-3.5",
+      "goal_line": "4.5",
       "time": "15:00"
     },
     {
@@ -1265,17 +536,8 @@
       "time_obj": "2025-11-05T13:00:00",
       "home_team": "Aston Villa U19",
       "away_team": "KF Skenderbeu U19",
-      "handicap": "2",
-      "goal_line": "3.25",
-      "time": "15:00"
-    },
-    {
-      "id": "2896777",
-      "time_obj": "2025-11-05T13:00:00",
-      "home_team": "Zanaco",
-      "away_team": "Mufulira Wanderers",
-      "handicap": "0.5",
-      "goal_line": "2",
+      "handicap": "2.25",
+      "goal_line": "3.5",
       "time": "15:00"
     },
     {
@@ -1301,8 +563,8 @@
       "time_obj": "2025-11-05T13:00:00",
       "home_team": "JKT Tanzania",
       "away_team": "Simba Sports Club",
-      "handicap": "-1.5",
-      "goal_line": "2.5",
+      "handicap": "-1",
+      "goal_line": "2",
       "time": "15:00"
     },
     {
@@ -1369,6 +631,15 @@
       "time": "15:00"
     },
     {
+      "id": "2881501",
+      "time_obj": "2025-11-05T13:00:00",
+      "home_team": "Dordoi-Dynamo Naryn",
+      "away_team": "FC Abdish-Ata Kant",
+      "handicap": "0.25",
+      "goal_line": "2.5",
+      "time": "15:00"
+    },
+    {
       "id": "2842209",
       "time_obj": "2025-11-05T13:00:00",
       "home_team": "Coventry U21",
@@ -1387,11 +658,20 @@
       "time": "15:00"
     },
     {
+      "id": "2897074",
+      "time_obj": "2025-11-05T13:00:00",
+      "home_team": "Pags FC",
+      "away_team": "Shaita FC",
+      "handicap": "0.25",
+      "goal_line": "3",
+      "time": "15:00"
+    },
+    {
       "id": "2843546",
       "time_obj": "2025-11-05T13:30:00",
       "home_team": "A.S.Marsa",
       "away_team": "C.A.Bizertin",
-      "handicap": "0",
+      "handicap": "0.25",
       "goal_line": "1.75",
       "time": "15:30"
     },
@@ -1400,7 +680,7 @@
       "time_obj": "2025-11-05T13:30:00",
       "home_team": "ES du Sahel",
       "away_team": "Esperance Sportive Zarzis",
-      "handicap": "0.25",
+      "handicap": "0.5",
       "goal_line": "2",
       "time": "15:30"
     },
@@ -1409,7 +689,7 @@
       "time_obj": "2025-11-05T13:30:00",
       "home_team": "Etoile Metlaoui",
       "away_team": "U.S.Monastir",
-      "handicap": "0",
+      "handicap": "-0.25",
       "goal_line": "1.75",
       "time": "15:30"
     },
@@ -1419,7 +699,7 @@
       "home_team": "Olympique de Beja",
       "away_team": "Sifakesi",
       "handicap": "-0.75",
-      "goal_line": "2.25",
+      "goal_line": "1.75",
       "time": "15:30"
     },
     {
@@ -1450,21 +730,21 @@
       "time": "15:30"
     },
     {
-      "id": "2896794",
-      "time_obj": "2025-11-05T13:30:00",
-      "home_team": "ZFK Skopje 2014 (W)",
-      "away_team": "ZFK Top Gol (W)",
-      "handicap": "3.75",
-      "goal_line": "4.25",
-      "time": "15:30"
-    },
-    {
       "id": "2896788",
       "time_obj": "2025-11-05T13:30:00",
       "home_team": "Varesina Calcio",
       "away_team": "Virtus Ciserano Bergamo",
-      "handicap": "0",
+      "handicap": "0.25",
       "goal_line": "2.25",
+      "time": "15:30"
+    },
+    {
+      "id": "2896889",
+      "time_obj": "2025-11-05T13:30:00",
+      "home_team": "ASD Zingonia Verdellino",
+      "away_team": "ASD Fanfulla",
+      "handicap": "1",
+      "goal_line": "2.75",
       "time": "15:30"
     },
     {
@@ -1497,10 +777,19 @@
     {
       "id": "2890478",
       "time_obj": "2025-11-05T14:00:00",
-      "home_team": "US Fiorenzuola U19",
+      "home_team": "Fiorentina U19",
       "away_team": "Legia Warszawa U19",
       "handicap": "0.75",
-      "goal_line": "3.75",
+      "goal_line": "3.5",
+      "time": "16:00"
+    },
+    {
+      "id": "2890488",
+      "time_obj": "2025-11-05T14:00:00",
+      "home_team": "Trabzonspor U19",
+      "away_team": "HJK Helsinki U19",
+      "handicap": "1.25",
+      "goal_line": "3.25",
       "time": "16:00"
     },
     {
@@ -1513,16 +802,2527 @@
       "time": "16:00"
     },
     {
+      "id": "2892792",
+      "time_obj": "2025-11-05T14:00:00",
+      "home_team": "Bengaluru",
+      "away_team": "Punjab",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "16:00"
+    },
+    {
+      "id": "2896846",
+      "time_obj": "2025-11-05T14:05:00",
+      "home_team": "Al-Arabi Doha U19",
+      "away_team": "Qatar SC Doha U19",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "16:05"
+    },
+    {
+      "id": "2896849",
+      "time_obj": "2025-11-05T14:05:00",
+      "home_team": "Al-Wakrah SC U19",
+      "away_team": "Al Mesaimeer SC U19",
+      "handicap": "0.5",
+      "goal_line": "2.75",
+      "time": "16:05"
+    },
+    {
+      "id": "2896886",
+      "time_obj": "2025-11-05T14:05:00",
+      "home_team": "Al Khor SC U19",
+      "away_team": "Muaither SC U19",
+      "handicap": "1",
+      "goal_line": "3",
+      "time": "16:05"
+    },
+    {
+      "id": "2895519",
+      "time_obj": "2025-11-05T14:30:00",
+      "home_team": "CD Alaves (W)",
+      "away_team": "Levante UD (W)",
+      "handicap": "0",
+      "goal_line": "3",
+      "time": "16:30"
+    },
+    {
+      "id": "2866806",
+      "time_obj": "2025-11-05T14:30:00",
+      "home_team": "Hapoel Bnei Musmus",
+      "away_team": "Moadon Sport Tira",
+      "handicap": "-0.5",
+      "goal_line": "2.5",
+      "time": "16:30"
+    },
+    {
       "id": "2871939",
       "time_obj": "2025-11-05T14:30:00",
       "home_team": "Club Brugge U19",
       "away_team": "Barcelona U19",
+      "handicap": "-0.25",
+      "goal_line": "3.25",
+      "time": "16:30"
+    },
+    {
+      "id": "2881044",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "Asil Lysi",
+      "away_team": "Olympiakos Nicosia FC",
+      "handicap": "-1.25",
+      "goal_line": "2.25",
+      "time": "17:00"
+    },
+    {
+      "id": "2881050",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "Omonia Aradippou",
+      "away_team": "Agia Napa",
+      "handicap": "1.5",
+      "goal_line": "3",
+      "time": "17:00"
+    },
+    {
+      "id": "2890129",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "Hassania Agadir(N)",
+      "away_team": "Wydad Casablanca",
+      "handicap": "-0.5",
+      "goal_line": "2",
+      "time": "17:00"
+    },
+    {
+      "id": "2895536",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "Al Faisaly Amman",
+      "away_team": "Sama Al Sarhan",
+      "handicap": "2.5",
+      "goal_line": "3.75",
+      "time": "17:00"
+    },
+    {
+      "id": "2871940",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "Inter Milan U19",
+      "away_team": "Kairat Almaty U19",
+      "handicap": "3.25",
+      "goal_line": "4.5",
+      "time": "17:00"
+    },
+    {
+      "id": "2871941",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "Manchester City U19",
+      "away_team": "Borussia Dortmund U19",
+      "handicap": "1.75",
+      "goal_line": "3.25",
+      "time": "17:00"
+    },
+    {
+      "id": "2871943",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "Newcastle U19",
+      "away_team": "Bilbao U19",
+      "handicap": "-0.75",
+      "goal_line": "3.25",
+      "time": "17:00"
+    },
+    {
+      "id": "2872013",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "Real Betis U19",
+      "away_team": "Basel U19",
+      "handicap": "2.25",
+      "goal_line": "4",
+      "time": "17:00"
+    },
+    {
+      "id": "2890482",
+      "time_obj": "2025-11-05T15:00:00",
+      "home_team": "FC Porto U19",
+      "away_team": "NK Bravo U19",
+      "handicap": "4.5",
+      "goal_line": "5.25",
+      "time": "17:00"
+    },
+    {
+      "id": "2893437",
+      "time_obj": "2025-11-05T15:30:00",
+      "home_team": "Pardubice",
+      "away_team": "Banik Ostrava",
+      "handicap": "0",
+      "goal_line": "2.5",
+      "time": "17:30"
+    },
+    {
+      "id": "2890483",
+      "time_obj": "2025-11-05T15:30:00",
+      "home_team": "Puskas Akademia Fehervar U19",
+      "away_team": "Brann U19",
+      "handicap": "0.75",
+      "goal_line": "3.25",
+      "time": "17:30"
+    },
+    {
+      "id": "2890484",
+      "time_obj": "2025-11-05T15:30:00",
+      "home_team": "PAOK Saloniki U19",
+      "away_team": "Akureyri U19",
+      "handicap": "3.5",
+      "goal_line": "4",
+      "time": "17:30"
+    },
+    {
+      "id": "2895531",
+      "time_obj": "2025-11-05T15:30:00",
+      "home_team": "AF Amadou Diallo Djekanou",
+      "away_team": "Stella Club d'Adjame",
+      "handicap": "0",
+      "goal_line": "1.75",
+      "time": "17:30"
+    },
+    {
+      "id": "2896892",
+      "time_obj": "2025-11-05T15:30:00",
+      "home_team": "RC Kadiogo",
+      "away_team": "US Forces Armees",
+      "handicap": "-0.25",
+      "goal_line": "1.75",
+      "time": "17:30"
+    },
+    {
+      "id": "2860712",
+      "time_obj": "2025-11-05T16:00:00",
+      "home_team": "Al Khaldiya",
+      "away_team": "FK Andijon",
+      "handicap": "1",
+      "goal_line": "2.25",
+      "time": "18:00"
+    },
+    {
+      "id": "2860735",
+      "time_obj": "2025-11-05T16:00:00",
+      "home_team": "Al Zawraa",
+      "away_team": "FC Istiklol Dushanbe",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "18:00"
+    },
+    {
+      "id": "2792660",
+      "time_obj": "2025-11-05T16:00:00",
+      "home_team": "Puszcza Niepolomice",
+      "away_team": "Stal Mielec",
+      "handicap": "0.5",
+      "goal_line": "2.75",
+      "time": "18:00"
+    },
+    {
+      "id": "2795617",
+      "time_obj": "2025-11-05T16:00:00",
+      "home_team": "Habitpharm Javor",
+      "away_team": "Partizan Belgrade",
+      "handicap": "-1.25",
+      "goal_line": "2.5",
+      "time": "18:00"
+    },
+    {
+      "id": "2842011",
+      "time_obj": "2025-11-05T16:00:00",
+      "home_team": "Pelister Bitola",
+      "away_team": "FC Vardar Skopje",
+      "handicap": "-1.5",
+      "goal_line": "2.5",
+      "time": "18:00"
+    },
+    {
+      "id": "2873855",
+      "time_obj": "2025-11-05T16:00:00",
+      "home_team": "Al Aqaba SC",
+      "away_team": "Al-Arabi(JOR)",
+      "handicap": "-0.5",
+      "goal_line": "2.5",
+      "time": "18:00"
+    },
+    {
+      "id": "2890485",
+      "time_obj": "2025-11-05T16:00:00",
+      "home_team": "Buducnost U19",
+      "away_team": "Midtjylland U19",
+      "handicap": "-2",
+      "goal_line": "3.5",
+      "time": "18:00"
+    },
+    {
+      "id": "2883796",
+      "time_obj": "2025-11-05T16:00:00",
+      "home_team": "Namungo FC",
+      "away_team": "Azam",
+      "handicap": "-0.5",
+      "goal_line": "2",
+      "time": "18:00"
+    },
+    {
+      "id": "2896847",
+      "time_obj": "2025-11-05T16:10:00",
+      "home_team": "Al-Ahli Doha U19",
+      "away_team": "Al-Rayyan SC U19",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "18:10"
+    },
+    {
+      "id": "2896850",
+      "time_obj": "2025-11-05T16:10:00",
+      "home_team": "Al Duhail U19",
+      "away_team": "Al Gharafa U19",
+      "handicap": "0.25",
+      "goal_line": "3",
+      "time": "18:10"
+    },
+    {
+      "id": "2896851",
+      "time_obj": "2025-11-05T16:10:00",
+      "home_team": "Al-Sadd SC U19",
+      "away_team": "Umm Salal U19",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "18:10"
+    },
+    {
+      "id": "2897071",
+      "time_obj": "2025-11-05T16:15:00",
+      "home_team": "Nouakchott Academie",
+      "away_team": "Kaedi FC",
+      "handicap": "0.25",
+      "goal_line": "2.25",
+      "time": "18:15"
+    },
+    {
+      "id": "2896840",
+      "time_obj": "2025-11-05T16:30:00",
+      "home_team": "FC Sparta Brno",
+      "away_team": "SC Znojmo",
+      "handicap": "0",
+      "goal_line": "2.75",
+      "time": "18:30"
+    },
+    {
+      "id": "2882311",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "Al Rayyan",
+      "away_team": "Al-Shabab",
+      "handicap": "2",
+      "goal_line": "3.5",
+      "time": "19:00"
+    },
+    {
+      "id": "2890119",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "Renaissance Sportive de Berkane",
+      "away_team": "CODM Meknes",
+      "handicap": "1.5",
+      "goal_line": "2.5",
+      "time": "19:00"
+    },
+    {
+      "id": "2890131",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "Olympique de Safi",
+      "away_team": "DHJ Difaa Hassani Jadidi",
+      "handicap": "0.75",
+      "goal_line": "2",
+      "time": "19:00"
+    },
+    {
+      "id": "2896795",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "Mjondalen U19",
+      "away_team": "Fredrikstad U19",
+      "handicap": "-0.5",
+      "goal_line": "4.5",
+      "time": "19:00"
+    },
+    {
+      "id": "2886350",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "JK Tabasalu (W)",
+      "away_team": "Saku Sporting (W)",
+      "handicap": "-0.75",
+      "goal_line": "4",
+      "time": "19:00"
+    },
+    {
+      "id": "2872014",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "Brommapojkarna U19",
+      "away_team": "Dinamo KyivU19",
+      "handicap": "-0.5",
+      "goal_line": "3",
+      "time": "19:00"
+    },
+    {
+      "id": "2896834",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "CSD Flandria Reserves",
+      "away_team": "Excursionistas Reserves",
+      "handicap": "0",
+      "goal_line": "2.75",
+      "time": "19:00"
+    },
+    {
+      "id": "2895550",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "Express FC",
+      "away_team": "Mbarara City",
+      "handicap": "0.5",
+      "goal_line": "2",
+      "time": "19:00"
+    },
+    {
+      "id": "2896890",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "Solbiatese Arno",
+      "away_team": "ASDC Magenta",
+      "handicap": "1",
+      "goal_line": "2.75",
+      "time": "19:00"
+    },
+    {
+      "id": "2896778",
+      "time_obj": "2025-11-05T17:00:00",
+      "home_team": "Marsaxlokk FC",
+      "away_team": "Hibernians FC",
+      "handicap": "0.25",
+      "goal_line": "2.25",
+      "time": "19:00"
+    },
+    {
+      "id": "2862713",
+      "time_obj": "2025-11-05T17:30:00",
+      "home_team": "Elfsborg (W)",
+      "away_team": "Vaxjo (W)",
+      "handicap": "-2",
+      "goal_line": "3.5",
+      "time": "19:30"
+    },
+    {
+      "id": "2844432",
+      "time_obj": "2025-11-05T17:30:00",
+      "home_team": "Stellenbosch FC",
+      "away_team": "Siwelele",
+      "handicap": "0.75",
+      "goal_line": "1.75",
+      "time": "19:30"
+    },
+    {
+      "id": "2844433",
+      "time_obj": "2025-11-05T17:30:00",
+      "home_team": "Mamelodi Sundowns",
+      "away_team": "TS Galaxy",
+      "handicap": "1.5",
+      "goal_line": "2.25",
+      "time": "19:30"
+    },
+    {
+      "id": "2844434",
+      "time_obj": "2025-11-05T17:30:00",
+      "home_team": "Lamontville Golden Arrows",
+      "away_team": "Orlando Pirates",
+      "handicap": "-0.75",
+      "goal_line": "1.75",
+      "time": "19:30"
+    },
+    {
+      "id": "2844435",
+      "time_obj": "2025-11-05T17:30:00",
+      "home_team": "Durban City",
+      "away_team": "Marumo Gallants FC",
+      "handicap": "0.25",
+      "goal_line": "1.75",
+      "time": "19:30"
+    },
+    {
+      "id": "2891858",
+      "time_obj": "2025-11-05T17:30:00",
+      "home_team": "FC Copenhagen (W)",
+      "away_team": "HB Koge (W)",
+      "handicap": "-1.5",
+      "goal_line": "3",
+      "time": "19:30"
+    },
+    {
+      "id": "2896790",
+      "time_obj": "2025-11-05T17:30:00",
+      "home_team": "Chrobry Glogow II",
+      "away_team": "Gornik Walbrzych",
+      "handicap": "1",
+      "goal_line": "3.25",
+      "time": "19:30"
+    },
+    {
+      "id": "2861117",
+      "time_obj": "2025-11-05T17:45:00",
+      "home_team": "Qarabag",
+      "away_team": "Chelsea",
+      "handicap": "-1.5",
+      "goal_line": "3",
+      "time": "19:45"
+    },
+    {
+      "id": "2861162",
+      "time_obj": "2025-11-05T17:45:00",
+      "home_team": "AEP Paphos",
+      "away_team": "Villarreal",
+      "handicap": "-1.25",
+      "goal_line": "3",
+      "time": "19:45"
+    },
+    {
+      "id": "2893438",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Bohemians 1905",
+      "away_team": "Mlada Boleslav",
+      "handicap": "0.5",
+      "goal_line": "2.5",
+      "time": "20:00"
+    },
+    {
+      "id": "2891859",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Nordsjaelland (W)",
+      "away_team": "Odense BK (W)",
+      "handicap": "2",
+      "goal_line": "3",
+      "time": "20:00"
+    },
+    {
+      "id": "2895520",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "CE Europa (W)",
+      "away_team": "CDEF Logrono (W)",
+      "handicap": "-1.25",
+      "goal_line": "3.25",
+      "time": "20:00"
+    },
+    {
+      "id": "2896791",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Chojniczanka Chojnice II",
+      "away_team": "Pomezania Malbork FC",
+      "handicap": "1.75",
+      "goal_line": "3.5",
+      "time": "20:00"
+    },
+    {
+      "id": "2896852",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Atletico Cuernavaca",
+      "away_team": "Deportivo Yautepec FC",
+      "handicap": "0.25",
+      "goal_line": "3.75",
+      "time": "20:00"
+    },
+    {
+      "id": "2896853",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Formacion Metropolitana FC",
+      "away_team": "Club Union Central",
+      "handicap": "0.25",
+      "goal_line": "2.75",
+      "time": "20:00"
+    },
+    {
+      "id": "2896879",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Milenarios de Oaxaca",
+      "away_team": "Club Hidalguense",
+      "handicap": "-0.75",
+      "goal_line": "3",
+      "time": "20:00"
+    },
+    {
+      "id": "2896829",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "APAFUT",
+      "away_team": "Novo Horizonte",
+      "handicap": "2.25",
+      "goal_line": "3",
+      "time": "20:00"
+    },
+    {
+      "id": "2896884",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Maracana CE",
+      "away_team": "Ceara",
+      "handicap": "0",
+      "goal_line": "2.25",
+      "time": "20:00"
+    },
+    {
+      "id": "2896877",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Ferroviaria U20 (W)",
+      "away_team": "Corinthians U20 (W)",
+      "handicap": "0.5",
+      "goal_line": "3",
+      "time": "20:00"
+    },
+    {
+      "id": "2896878",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Santos FC U20 (W)",
+      "away_team": "Sao Paulo U20 (W)",
+      "handicap": "0.25",
+      "goal_line": "2.5",
+      "time": "20:00"
+    },
+    {
+      "id": "2894216",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Vasco da Gama (Youth)",
+      "away_team": "America MG (Youth)",
+      "handicap": "0.75",
+      "goal_line": "2.5",
+      "time": "20:00"
+    },
+    {
+      "id": "2894217",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Paysandu(PA) (Youth)",
+      "away_team": "Tocantinopolis Youth",
+      "handicap": "1",
+      "goal_line": "2.75",
+      "time": "20:00"
+    },
+    {
+      "id": "2894218",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Operario Ferroviario PR Youth",
+      "away_team": "Gremio Novorizontin (Youth)",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "20:00"
+    },
+    {
+      "id": "2823745",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Bayer Leverkusen (W)",
+      "away_team": "Hamburger SV (W)",
+      "handicap": "2",
+      "goal_line": "3.5",
+      "time": "20:00"
+    },
+    {
+      "id": "2823746",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Eintracht Frankfurt (W)",
+      "away_team": "Koln (W)",
+      "handicap": "1.75",
+      "goal_line": "3.5",
+      "time": "20:00"
+    },
+    {
+      "id": "2823749",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "SG Essen-Schonebeck (W)",
+      "away_team": "Werder Bremen (W)",
+      "handicap": "-1",
+      "goal_line": "2.75",
+      "time": "20:00"
+    },
+    {
+      "id": "2893453",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "AA Carapebus",
+      "away_team": "Bonsucesso",
+      "handicap": "-0.5",
+      "goal_line": "2",
+      "time": "20:00"
+    },
+    {
+      "id": "2893454",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Goncalense Petropolis",
+      "away_team": "Artsul RJ",
+      "handicap": "0.25",
+      "goal_line": "2",
+      "time": "20:00"
+    },
+    {
+      "id": "2893455",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Niteroiense",
+      "away_team": "Duque de Caxias RJ",
+      "handicap": "0.25",
+      "goal_line": "2",
+      "time": "20:00"
+    },
+    {
+      "id": "2893456",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Nova Cidade",
+      "away_team": "Campo Grande AC",
+      "handicap": "0",
+      "goal_line": "2",
+      "time": "20:00"
+    },
+    {
+      "id": "2893457",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Paduano RJ",
+      "away_team": "Friburguense RJ",
+      "handicap": "0.5",
+      "goal_line": "2",
+      "time": "20:00"
+    },
+    {
+      "id": "2893458",
+      "time_obj": "2025-11-05T18:00:00",
+      "home_team": "Serrano BA",
+      "away_team": "St.Cristobal RJ",
+      "handicap": "0",
+      "goal_line": "2",
+      "time": "20:00"
+    },
+    {
+      "id": "2860700",
+      "time_obj": "2025-11-05T18:15:00",
+      "home_team": "Al Wehdat SC",
+      "away_team": "Esteghlal Tehran",
+      "handicap": "-0.25",
+      "goal_line": "2.25",
+      "time": "20:15"
+    },
+    {
+      "id": "2860736",
+      "time_obj": "2025-11-05T18:15:00",
+      "home_team": "Al-Nassr",
+      "away_team": "FC Goa",
+      "handicap": "3.25",
+      "goal_line": "4.25",
+      "time": "20:15"
+    },
+    {
+      "id": "2814087",
+      "time_obj": "2025-11-05T18:30:00",
+      "home_team": "FC Differdange 03",
+      "away_team": "Rodange 91",
+      "handicap": "2.25",
+      "goal_line": "3.25",
+      "time": "20:30"
+    },
+    {
+      "id": "2896837",
+      "time_obj": "2025-11-05T18:30:00",
+      "home_team": "SV Essling",
+      "away_team": "SV Gerasdorf Stammer",
+      "handicap": "-1.75",
+      "goal_line": "3.5",
+      "time": "20:30"
+    },
+    {
+      "id": "2894219",
+      "time_obj": "2025-11-05T18:30:00",
+      "home_team": "IAPE (Youth)",
+      "away_team": "Monte Roraima/RR Youth",
+      "handicap": "1.75",
+      "goal_line": "3",
+      "time": "20:30"
+    },
+    {
+      "id": "2807728",
+      "time_obj": "2025-11-05T19:00:00",
+      "home_team": "Real Sociedad B",
+      "away_team": "SD Huesca",
+      "handicap": "-0.25",
+      "goal_line": "2",
+      "time": "21:00"
+    },
+    {
+      "id": "2849359",
+      "time_obj": "2025-11-05T19:00:00",
+      "home_team": "Cambridge United",
+      "away_team": "Brighton U21",
+      "handicap": "1",
+      "goal_line": "3.25",
+      "time": "21:00"
+    },
+    {
+      "id": "2857358",
+      "time_obj": "2025-11-05T19:00:00",
+      "home_team": "Leyton Orient U21",
+      "away_team": "Blackburn Rovers U21",
+      "handicap": "-0.25",
+      "goal_line": "3.75",
+      "time": "21:00"
+    },
+    {
+      "id": "2896848",
+      "time_obj": "2025-11-05T19:00:00",
+      "home_team": "UE Rubi",
+      "away_team": "FC Martinenc",
+      "handicap": "0.25",
+      "goal_line": "2.5",
+      "time": "21:00"
+    },
+    {
+      "id": "2896857",
+      "time_obj": "2025-11-05T19:00:00",
+      "home_team": "CA Villa Alvear",
+      "away_team": "Defensores Puerto Vilelas",
+      "handicap": "0.25",
+      "goal_line": "2.25",
+      "time": "21:00"
+    },
+    {
+      "id": "2896754",
+      "time_obj": "2025-11-05T19:15:00",
+      "home_team": "Allschwil",
+      "away_team": "Ajoie-Monterri",
+      "handicap": "0.25",
+      "goal_line": "3",
+      "time": "21:15"
+    },
+    {
+      "id": "2811897",
+      "time_obj": "2025-11-05T19:30:00",
+      "home_team": "FC Coffrane",
+      "away_team": "Meyrin",
+      "handicap": "0",
+      "goal_line": "3",
+      "time": "21:30"
+    },
+    {
+      "id": "2896799",
+      "time_obj": "2025-11-05T19:30:00",
+      "home_team": "ACD Lentatese",
+      "away_team": "Ardor Lazzate",
+      "handicap": "0.25",
+      "goal_line": "2.5",
+      "time": "21:30"
+    },
+    {
+      "id": "2896887",
+      "time_obj": "2025-11-05T19:30:00",
+      "home_team": "Carpenedolo",
+      "away_team": "Citta Di Albino",
+      "handicap": "0.25",
+      "goal_line": "2.25",
+      "time": "21:30"
+    },
+    {
+      "id": "2896888",
+      "time_obj": "2025-11-05T19:30:00",
+      "home_team": "USD Caravaggio",
+      "away_team": "USD Tribiano",
+      "handicap": "0.25",
+      "goal_line": "2.75",
+      "time": "21:30"
+    },
+    {
+      "id": "2896779",
+      "time_obj": "2025-11-05T19:30:00",
+      "home_team": "Birkirkara FC",
+      "away_team": "Sliema Wanderers FC",
+      "handicap": "-0.5",
+      "goal_line": "2.25",
+      "time": "21:30"
+    },
+    {
+      "id": "2798171",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Queens Park Rangers (QPR)",
+      "away_team": "Southampton",
+      "handicap": "0",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2798172",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Sheffield Wednesday",
+      "away_team": "Norwich City",
+      "handicap": "-0.25",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2798174",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Preston North End",
+      "away_team": "Swansea City",
+      "handicap": "0.25",
+      "goal_line": "2.25",
+      "time": "21:45"
+    },
+    {
+      "id": "2818026",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Altrincham",
+      "away_team": "Boston United",
+      "handicap": "0.5",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2818027",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Braintree Town",
+      "away_team": "Brackley Town",
+      "handicap": "0",
+      "goal_line": "2.25",
+      "time": "21:45"
+    },
+    {
+      "id": "2818028",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Solihull Moors",
+      "away_team": "Truro City",
+      "handicap": "0",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2818029",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Sutton United",
+      "away_team": "Eastleigh",
+      "handicap": "0.25",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2818030",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Woking",
+      "away_team": "Southend United",
+      "handicap": "-0.5",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2818031",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "York City",
+      "away_team": "Gateshead",
+      "handicap": "1.75",
+      "goal_line": "3.75",
+      "time": "21:45"
+    },
+    {
+      "id": "2820786",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Farnborough Town",
+      "away_team": "Torquay United",
+      "handicap": "-0.25",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2820223",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "AFC Fylde",
+      "away_team": "South Shields",
+      "handicap": "0.5",
+      "goal_line": "3",
+      "time": "21:45"
+    },
+    {
+      "id": "2828187",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Stocksbridge Park Steels",
+      "away_team": "Rushall Olympic",
+      "handicap": "0.5",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2895511",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Cliftonville",
+      "away_team": "Strabane Athletic",
+      "handicap": "2.5",
+      "goal_line": "3",
+      "time": "21:45"
+    },
+    {
+      "id": "2895512",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "HW Welders",
+      "away_team": "Linfield FC",
+      "handicap": "-1.5",
+      "goal_line": "3",
+      "time": "21:45"
+    },
+    {
+      "id": "2896845",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Downham Town FC",
+      "away_team": "Tilbury",
+      "handicap": "-0.25",
+      "goal_line": "2.5",
+      "time": "21:45"
+    },
+    {
+      "id": "2890489",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Shelbourne U19",
+      "away_team": "MSK Zilina U19",
+      "handicap": "-1",
+      "goal_line": "3.25",
+      "time": "21:45"
+    },
+    {
+      "id": "2894567",
+      "time_obj": "2025-11-05T19:45:00",
+      "home_team": "Unificacion Llefia",
+      "away_team": "CF Badalona B",
+      "handicap": "-2",
+      "goal_line": "3.25",
+      "time": "21:45"
+    },
+    {
+      "id": "2861074",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "Manchester City",
+      "away_team": "Borussia Dortmund",
+      "handicap": "1.25",
+      "goal_line": "3.25",
+      "time": "22:00"
+    },
+    {
+      "id": "2861110",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "Inter Milan",
+      "away_team": "FC Kairat Almaty",
+      "handicap": "3.25",
+      "goal_line": "4",
+      "time": "22:00"
+    },
+    {
+      "id": "2861125",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "Club Brugge",
+      "away_team": "FC Barcelona",
+      "handicap": "-1.25",
+      "goal_line": "3.75",
+      "time": "22:00"
+    },
+    {
+      "id": "2861131",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "Benfica",
+      "away_team": "Bayer Leverkusen",
+      "handicap": "0.5",
+      "goal_line": "2.75",
+      "time": "22:00"
+    },
+    {
+      "id": "2861156",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "Marseille",
+      "away_team": "Atalanta",
+      "handicap": "0.25",
+      "goal_line": "2.75",
+      "time": "22:00"
+    },
+    {
+      "id": "2861188",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "AFC Ajax",
+      "away_team": "Galatasaray",
+      "handicap": "-0.25",
+      "goal_line": "3.25",
+      "time": "22:00"
+    },
+    {
+      "id": "2861203",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "Newcastle United",
+      "away_team": "Athletic Bilbao",
+      "handicap": "1.25",
+      "goal_line": "2.75",
+      "time": "22:00"
+    },
+    {
+      "id": "2798173",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "Portsmouth",
+      "away_team": "Wrexham",
+      "handicap": "0",
+      "goal_line": "2.25",
+      "time": "22:00"
+    },
+    {
+      "id": "2803060",
+      "time_obj": "2025-11-05T20:00:00",
+      "home_team": "CD Achuapa",
+      "away_team": "Malacateco",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "22:00"
+    },
+    {
+      "id": "2873125",
+      "time_obj": "2025-11-05T20:15:00",
+      "home_team": "Los Chankas",
+      "away_team": "Alianza Lima",
+      "handicap": "-0.5",
+      "goal_line": "2.25",
+      "time": "22:15"
+    },
+    {
+      "id": "2722857",
+      "time_obj": "2025-11-05T20:30:00",
+      "home_team": "Universidad de Chile",
+      "away_team": "Everton CD",
+      "handicap": "1",
+      "goal_line": "2.5",
+      "time": "22:30"
+    },
+    {
+      "id": "2895558",
+      "time_obj": "2025-11-05T20:30:00",
+      "home_team": "General Caballero LJM",
+      "away_team": "FC Nacional Asuncion",
+      "handicap": "-0.25",
+      "goal_line": "2",
+      "time": "22:30"
+    },
+    {
+      "id": "2824510",
+      "time_obj": "2025-11-05T21:00:00",
+      "home_team": "Municipal Limeno",
+      "away_team": "Alianza San Salvador",
+      "handicap": "-0.25",
+      "goal_line": "2.25",
+      "time": "23:00"
+    },
+    {
+      "id": "2824511",
+      "time_obj": "2025-11-05T21:00:00",
+      "home_team": "Zacatecoluca",
+      "away_team": "Fuerte San Francisco",
+      "handicap": "0.5",
+      "goal_line": "2.5",
+      "time": "23:00"
+    },
+    {
+      "id": "2896880",
+      "time_obj": "2025-11-05T21:00:00",
+      "home_team": "Montaneses FC II",
+      "away_team": "FC Performance",
+      "handicap": "0.25",
+      "goal_line": "3.5",
+      "time": "23:00"
+    },
+    {
+      "id": "2896881",
+      "time_obj": "2025-11-05T21:00:00",
+      "home_team": "Pavones ADMC",
+      "away_team": "Alebrijes de Oaxaca II",
+      "handicap": "0.25",
+      "goal_line": "2.5",
+      "time": "23:00"
+    },
+    {
+      "id": "2894220",
+      "time_obj": "2025-11-05T21:00:00",
+      "home_team": "Sao Paulo Youth",
+      "away_team": "Gremio (Youth)",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "23:00"
+    },
+    {
+      "id": "2824509",
+      "time_obj": "2025-11-05T21:15:00",
+      "home_team": "Aguila",
+      "away_team": "Inter F.A",
+      "handicap": "0.75",
+      "goal_line": "2.5",
+      "time": "23:15"
+    },
+    {
+      "id": "2896882",
+      "time_obj": "2025-11-05T21:30:00",
+      "home_team": "Caudillos De Morelos FC",
+      "away_team": "Cantera Coka",
+      "handicap": "0.75",
+      "goal_line": "3",
+      "time": "23:30"
+    },
+    {
+      "id": "2735017",
+      "time_obj": "2025-11-05T22:00:00",
+      "home_team": "Bragantino",
+      "away_team": "Corinthians Paulista (SP)",
+      "handicap": "0",
+      "goal_line": "2.25",
+      "time": "00:00"
+    },
+    {
+      "id": "2735023",
+      "time_obj": "2025-11-05T22:00:00",
+      "home_team": "Sport Club do Recife",
+      "away_team": "Juventude",
+      "handicap": "0.75",
+      "goal_line": "2.5",
+      "time": "00:00"
+    },
+    {
+      "id": "2735024",
+      "time_obj": "2025-11-05T22:00:00",
+      "home_team": "Vitoria BA",
+      "away_team": "Internacional RS",
+      "handicap": "0.25",
+      "goal_line": "2.25",
+      "time": "00:00"
+    },
+    {
+      "id": "2803059",
+      "time_obj": "2025-11-05T22:00:00",
+      "home_team": "Club Aurora",
+      "away_team": "C.S.D. Comunicaciones",
+      "handicap": "0.5",
+      "goal_line": "2.25",
+      "time": "00:00"
+    },
+    {
+      "id": "2896854",
+      "time_obj": "2025-11-05T22:00:00",
+      "home_team": "Atletico Leones",
+      "away_team": "Fut Car",
+      "handicap": "0",
+      "goal_line": "2.5",
+      "time": "00:00"
+    },
+    {
+      "id": "2896883",
+      "time_obj": "2025-11-05T22:00:00",
+      "home_team": "Real Apodaca FC II",
+      "away_team": "Saltillo Soccer",
       "handicap": "-0.5",
       "goal_line": "3.5",
-      "time": "16:30"
+      "time": "00:00"
+    },
+    {
+      "id": "2896831",
+      "time_obj": "2025-11-05T22:00:00",
+      "home_team": "Aimore RS",
+      "away_team": "Internacional (RS) B",
+      "handicap": "0.5",
+      "goal_line": "2.25",
+      "time": "00:00"
+    },
+    {
+      "id": "2896819",
+      "time_obj": "2025-11-05T22:00:00",
+      "home_team": "Ferroviario CE",
+      "away_team": "Itapipoca CE",
+      "handicap": "1",
+      "goal_line": "2.25",
+      "time": "00:00"
+    },
+    {
+      "id": "2735016",
+      "time_obj": "2025-11-05T22:30:00",
+      "home_team": "Botafogo RJ",
+      "away_team": "Vasco da Gama",
+      "handicap": "0.5",
+      "goal_line": "2.5",
+      "time": "00:30"
+    },
+    {
+      "id": "2735015",
+      "time_obj": "2025-11-05T23:00:00",
+      "home_team": "Atletico Mineiro",
+      "away_team": "Bahia",
+      "handicap": "0.25",
+      "goal_line": "2.25",
+      "time": "01:00"
+    },
+    {
+      "id": "2735020",
+      "time_obj": "2025-11-05T23:00:00",
+      "home_team": "Gremio (RS)",
+      "away_team": "Cruzeiro",
+      "handicap": "-0.25",
+      "goal_line": "2.25",
+      "time": "01:00"
+    },
+    {
+      "id": "2893514",
+      "time_obj": "2025-11-05T23:00:00",
+      "home_team": "Mount Pleasant FA",
+      "away_team": "National Defense Forces",
+      "handicap": "2",
+      "goal_line": "3.25",
+      "time": "01:00"
+    },
+    {
+      "id": "2895559",
+      "time_obj": "2025-11-05T23:00:00",
+      "home_team": "2 de Mayo PJC",
+      "away_team": "Guarani CA",
+      "handicap": "-0.25",
+      "goal_line": "2",
+      "time": "01:00"
+    },
+    {
+      "id": "2888351",
+      "time_obj": "2025-11-05T23:30:00",
+      "home_team": "Caracas FC",
+      "away_team": "Deportivo Tachira",
+      "handicap": "-0.25",
+      "goal_line": "2.25",
+      "time": "01:30"
+    },
+    {
+      "id": "2888352",
+      "time_obj": "2025-11-05T23:30:00",
+      "home_team": "Metropolitanos FC",
+      "away_team": "Carabobo FC",
+      "handicap": "-0.25",
+      "goal_line": "2.25",
+      "time": "01:30"
+    },
+    {
+      "id": "2803058",
+      "time_obj": "2025-11-06T00:00:00",
+      "home_team": "Antigua GFC",
+      "away_team": "Coban Imperial",
+      "handicap": "0.75",
+      "goal_line": "2.5",
+      "time": "02:00"
+    },
+    {
+      "id": "2895260",
+      "time_obj": "2025-11-06T00:10:00",
+      "home_team": "Independiente Rivadavia(N)",
+      "away_team": "Argentinos Juniors",
+      "handicap": "-0.25",
+      "goal_line": "1.75",
+      "time": "02:10"
+    },
+    {
+      "id": "2735022",
+      "time_obj": "2025-11-06T00:30:00",
+      "home_team": "Sao Paulo",
+      "away_team": "Flamengo",
+      "handicap": "-0.5",
+      "goal_line": "2",
+      "time": "02:30"
+    },
+    {
+      "id": "2896904",
+      "time_obj": "2025-11-06T00:30:00",
+      "home_team": "Academia Quintana",
+      "away_team": "Taurinos",
+      "handicap": "4",
+      "goal_line": "5",
+      "time": "02:30"
+    },
+    {
+      "id": "2824506",
+      "time_obj": "2025-11-06T01:00:00",
+      "home_team": "A.D. Isidro Metapan",
+      "away_team": "CD Platense Municipal Zacatecoluca",
+      "handicap": "0.75",
+      "goal_line": "2.25",
+      "time": "03:00"
+    },
+    {
+      "id": "2824507",
+      "time_obj": "2025-11-06T01:30:00",
+      "home_team": "CD Hercules",
+      "away_team": "Luis Angel Firpo",
+      "handicap": "-1.25",
+      "goal_line": "3",
+      "time": "03:30"
+    },
+    {
+      "id": "2824508",
+      "time_obj": "2025-11-06T01:30:00",
+      "home_team": "CD FAS",
+      "away_team": "CD Cacahuatique",
+      "handicap": "0.75",
+      "goal_line": "2.25",
+      "time": "03:30"
     }
   ],
   "finished_matches": [
+    {
+      "id": "2895552",
+      "time_obj": "2025-11-05T00:30:00",
+      "home_team": "Sao Paulo/SP (W)",
+      "away_team": "Palmeiras SP (W)",
+      "score": "0 - 4",
+      "handicap": "-0.75",
+      "goal_line": "2.75",
+      "time": "05/11 02:30"
+    },
+    {
+      "id": "2884504",
+      "time_obj": "2025-11-05T00:00:00",
+      "home_team": "Liga Dep. Universitaria Quito",
+      "away_team": "Orense SC",
+      "score": "4 - 0",
+      "handicap": "1.25",
+      "goal_line": "2.50",
+      "time": "05/11 02:00"
+    },
+    {
+      "id": "2888339",
+      "time_obj": "2025-11-04T23:30:00",
+      "home_team": "Academia Puerto Cabello",
+      "away_team": "Monagas SC",
+      "score": "3 - 2",
+      "handicap": "1",
+      "goal_line": "2.50",
+      "time": "05/11 01:30"
+    },
+    {
+      "id": "2888340",
+      "time_obj": "2025-11-04T23:30:00",
+      "home_team": "Zamora Barinas",
+      "away_team": "Deportivo La Guaira",
+      "score": "2 - 0",
+      "handicap": "-0.5",
+      "goal_line": "1.75",
+      "time": "05/11 01:30"
+    },
+    {
+      "id": "2893681",
+      "time_obj": "2025-11-04T23:00:00",
+      "home_team": "Nacional Potosi",
+      "away_team": "Blooming",
+      "score": "3 - 0",
+      "handicap": "2",
+      "goal_line": "3.50",
+      "time": "05/11 01:00"
+    },
+    {
+      "id": "2896682",
+      "time_obj": "2025-11-04T22:30:00",
+      "home_team": "Mineros Zacatecas CDMX",
+      "away_team": "Selva Canera",
+      "score": "2 - 2",
+      "handicap": "-0.5",
+      "goal_line": "2.75",
+      "time": "05/11 00:30"
+    },
+    {
+      "id": "2896698",
+      "time_obj": "2025-11-04T22:30:00",
+      "home_team": "Santa Catarina U20",
+      "away_team": "Caravaggio Brazil U20",
+      "score": "1 - 0",
+      "handicap": "0",
+      "goal_line": "2.50",
+      "time": "05/11 00:30"
+    },
+    {
+      "id": "2895497",
+      "time_obj": "2025-11-04T22:00:00",
+      "home_team": "Ferroviaria SP (W)",
+      "away_team": "EC Bahia (W)",
+      "score": "2 - 0",
+      "handicap": "0.75",
+      "goal_line": "2.50",
+      "time": "05/11 00:00"
+    },
+    {
+      "id": "2896681",
+      "time_obj": "2025-11-04T21:10:00",
+      "home_team": "Gallos NL",
+      "away_team": "San Pedro 7/10 FC",
+      "score": "6 - 1",
+      "handicap": "1",
+      "goal_line": "3.50",
+      "time": "04/11 23:10"
+    },
+    {
+      "id": "2896684",
+      "time_obj": "2025-11-04T21:00:00",
+      "home_team": "Azucareros de Tezonapa",
+      "away_team": "CD Novillos Neza",
+      "score": "4 - 0",
+      "handicap": "1.5",
+      "goal_line": "3.50",
+      "time": "04/11 23:00"
+    },
+    {
+      "id": "2896687",
+      "time_obj": "2025-11-04T21:00:00",
+      "home_team": "SK Sport Street Soccer FC",
+      "away_team": "CF Pachuca III",
+      "score": "1 - 1",
+      "handicap": "0",
+      "goal_line": "2.75",
+      "time": "04/11 23:00"
+    },
+    {
+      "id": "2896701",
+      "time_obj": "2025-11-04T21:00:00",
+      "home_team": "Cordoba Veracruz",
+      "away_team": "Manta Rayas",
+      "score": "1 - 1",
+      "handicap": "2.5",
+      "goal_line": "3.75",
+      "time": "04/11 23:00"
+    },
+    {
+      "id": "2896703",
+      "time_obj": "2025-11-04T21:00:00",
+      "home_team": "Universidad Del Sureste FC",
+      "away_team": "Chapulineros de Oaxaca II",
+      "score": "0 - 3",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "04/11 23:00"
+    },
+    {
+      "id": "2829028",
+      "time_obj": "2025-11-04T20:20:00",
+      "home_team": "Whitehawk",
+      "away_team": "Brentwood Town",
+      "score": "2 - 1",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "04/11 22:20"
+    },
+    {
+      "id": "2861068",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Paris Saint Germain (PSG)",
+      "away_team": "Bayern Munchen",
+      "score": "1 - 2",
+      "handicap": "0.25",
+      "goal_line": "3.25",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2861071",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Liverpool",
+      "away_team": "Real Madrid",
+      "score": "1 - 0",
+      "handicap": "0",
+      "goal_line": "3.25",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2861149",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Atletico Madrid",
+      "away_team": "Saint Gilloise",
+      "score": "3 - 1",
+      "handicap": "1.75",
+      "goal_line": "3.00",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2861163",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Juventus",
+      "away_team": "Sporting CP",
+      "score": "1 - 1",
+      "handicap": "0.5",
+      "goal_line": "2.50",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2861181",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Olympiakos Piraeus",
+      "away_team": "PSV Eindhoven",
+      "score": "1 - 1",
+      "handicap": "0",
+      "goal_line": "3.25",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2861184",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Tottenham Hotspur",
+      "away_team": "FC Copenhagen",
+      "score": "4 - 0",
+      "handicap": "1",
+      "goal_line": "2.75",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2861198",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Bodo Glimt",
+      "away_team": "Monaco",
+      "score": "0 - 1",
+      "handicap": "0.25",
+      "goal_line": "3.75",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2798166",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Coventry City",
+      "away_team": "Sheffield United",
+      "score": "3 - 1",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2888623",
+      "time_obj": "2025-11-04T20:00:00",
+      "home_team": "Haverfordwest County",
+      "away_team": "Barry Town United",
+      "score": "0 - 2",
+      "handicap": "-0.25",
+      "goal_line": "2.50",
+      "time": "04/11 22:00"
+    },
+    {
+      "id": "2896667",
+      "time_obj": "2025-11-04T19:55:00",
+      "home_team": "Coventry Sphinx",
+      "away_team": "Anstey Nomads",
+      "score": "1 - 3",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:55"
+    },
+    {
+      "id": "2798163",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Birmingham City",
+      "away_team": "Millwall",
+      "score": "4 - 0",
+      "handicap": "0.75",
+      "goal_line": "2.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2798164",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Bristol City",
+      "away_team": "Blackburn Rovers",
+      "score": "0 - 1",
+      "handicap": "0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2798165",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Charlton Athletic",
+      "away_team": "West Bromwich(WBA)",
+      "score": "1 - 0",
+      "handicap": "0",
+      "goal_line": "2.00",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2798167",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Derby County",
+      "away_team": "Hull City",
+      "score": "2 - 1",
+      "handicap": "0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2798168",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Ipswich Town",
+      "away_team": "Watford",
+      "score": "1 - 1",
+      "handicap": "0.75",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2798169",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Leicester City",
+      "away_team": "Middlesbrough",
+      "score": "1 - 1",
+      "handicap": "0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2798170",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Oxford United",
+      "away_team": "Stoke City",
+      "score": "0 - 3",
+      "handicap": "-0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2797499",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Rotherham United",
+      "away_team": "Burton Albion",
+      "score": "2 - 2",
+      "handicap": "0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2818020",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Boreham Wood",
+      "away_team": "Aldershot Town",
+      "score": "1 - 0",
+      "handicap": "1.25",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2818021",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Carlisle United",
+      "away_team": "Halifax Town",
+      "score": "2 - 0",
+      "handicap": "1",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2818023",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Hartlepool United",
+      "away_team": "Morecambe",
+      "score": "1 - 1",
+      "handicap": "0.75",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2818025",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Yeovil Town",
+      "away_team": "Wealdstone FC",
+      "score": "0 - 2",
+      "handicap": "0",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820775",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "AFC Totton",
+      "away_team": "Maidenhead United",
+      "score": "2 - 1",
+      "handicap": "-0.5",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820776",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Chippenham Town",
+      "away_team": "Salisbury FC",
+      "score": "2 - 2",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820777",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Dorking",
+      "away_team": "Enfield Town",
+      "score": "2 - 1",
+      "handicap": "1.25",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820778",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Eastbourne Borough",
+      "away_team": "Dagenham Redbridge",
+      "score": "1 - 2",
+      "handicap": "0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820779",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Ebbsfleet United",
+      "away_team": "Maidstone United",
+      "score": "1 - 0",
+      "handicap": "0",
+      "goal_line": "2.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820780",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Hemel Hempstead Town",
+      "away_team": "Weston Super Mare",
+      "score": "3 - 0",
+      "handicap": "0",
+      "goal_line": "2.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820781",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Hornchurch",
+      "away_team": "Chesham United",
+      "score": "1 - 1",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820782",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Horsham",
+      "away_team": "Dover Athletic",
+      "score": "1 - 1",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820783",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Slough Town",
+      "away_team": "Bath City",
+      "score": "2 - 3",
+      "handicap": "-0.25",
+      "goal_line": "2.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820784",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Tonbridge Angels",
+      "away_team": "Chelmsford City",
+      "score": "2 - 4",
+      "handicap": "-0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820224",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "AFC Telford United",
+      "away_team": "Merthyr Town",
+      "score": "2 - 4",
+      "handicap": "0.75",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820225",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Buxton FC",
+      "away_team": "Southport FC",
+      "score": "1 - 2",
+      "handicap": "1",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820226",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Chester FC",
+      "away_team": "Marine",
+      "score": "1 - 1",
+      "handicap": "0.5",
+      "goal_line": "2.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820227",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Chorley FC",
+      "away_team": "Alfreton Town",
+      "score": "0 - 1",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820228",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Curzon Ashton FC",
+      "away_team": "Spennymoor Town",
+      "score": "2 - 2",
+      "handicap": "0",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820229",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Darlington",
+      "away_team": "Worksop Town",
+      "score": "5 - 1",
+      "handicap": "0.25",
+      "goal_line": "3.00",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820230",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Kidderminster Harriers",
+      "away_team": "Bedford Town",
+      "score": "2 - 1",
+      "handicap": "0.5",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820231",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Kings Lynn",
+      "away_team": "Leamington",
+      "score": "2 - 0",
+      "handicap": "1",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820232",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Macclesfield Town",
+      "away_team": "Peterborough Sports",
+      "score": "3 - 1",
+      "handicap": "0.5",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2820233",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Oxford City",
+      "away_team": "Hereford FC",
+      "score": "3 - 0",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2828953",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Billericay Town",
+      "away_team": "Chatham Town",
+      "score": "2 - 1",
+      "handicap": "-0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2828957",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Cray Valley Paper Mills",
+      "away_team": "Aveley",
+      "score": "1 - 4",
+      "handicap": "-0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2828976",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Canvey Island",
+      "away_team": "Wingate Finchley",
+      "score": "1 - 1",
+      "handicap": "0",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2828994",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Welling United",
+      "away_team": "Folkestone",
+      "score": "0 - 3",
+      "handicap": "-0.25",
+      "goal_line": "3.00",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2849397",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Huddersfield Town",
+      "away_team": "Mansfield Town",
+      "score": "3 - 1",
+      "handicap": "0.5",
+      "goal_line": "3.00",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2895505",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Ballymena United",
+      "away_team": "Newington",
+      "score": "3 - 0",
+      "handicap": "1.75",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2895508",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Glentoran FC",
+      "away_team": "Crusaders",
+      "score": "2 - 1",
+      "handicap": "1.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2888622",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Cambrian Clydach",
+      "away_team": "Briton Ferry Athletic",
+      "score": "1 - 0",
+      "handicap": "0.25",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2888624",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "The New Saints",
+      "away_team": "Caernarfon",
+      "score": "3 - 0",
+      "handicap": "1.25",
+      "goal_line": "3.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2888625",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Newtown AFC",
+      "away_team": "Llandudno",
+      "score": "3 - 6",
+      "handicap": "-0.25",
+      "goal_line": "3.00",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2896697",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Felixstowe Walton United",
+      "away_team": "Brightlingsea Regent",
+      "score": "3 - 0",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2896674",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Hadley",
+      "away_team": "Ware",
+      "score": "6 - 1",
+      "handicap": "0.25",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2896676",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Bognor Regis Town",
+      "away_team": "Hayes Yeading United",
+      "score": "3 - 1",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2896702",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Faversham Town",
+      "away_team": "Hassocks",
+      "score": "1 - 1",
+      "handicap": "0.75",
+      "goal_line": "3.00",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2896666",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Carlton Town",
+      "away_team": "Rushden Diamonds",
+      "score": "3 - 2",
+      "handicap": "0.75",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2896668",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Mickleover Sports",
+      "away_team": "Sutton Coldfield Town",
+      "score": "2 - 2",
+      "handicap": "0.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2896669",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Congleton Town",
+      "away_team": "Runcorn Linnets",
+      "score": "1 - 1",
+      "handicap": "-0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2896678",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Consett AFC",
+      "away_team": "Newton Aycliffe",
+      "score": "0 - 1",
+      "handicap": "0.25",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2895489",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Cumbernauld Colts",
+      "away_team": "East Stirlingshire",
+      "score": "3 - 2",
+      "handicap": "0.75",
+      "goal_line": "3.00",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2895490",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Linlithgow Rose",
+      "away_team": "Albion Rovers",
+      "score": "2 - 1",
+      "handicap": "2",
+      "goal_line": "3.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2895491",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Tranent Juniors",
+      "away_team": "Civil Service Strollers FC",
+      "score": "4 - 0",
+      "handicap": "1.75",
+      "goal_line": "3.25",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2895492",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Gretna",
+      "away_team": "Stirling University",
+      "score": "2 - 2",
+      "handicap": "0.25",
+      "goal_line": "3.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2843084",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Sudbury",
+      "away_team": "Royston Town",
+      "score": "1 - 1",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2843092",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Spalding United",
+      "away_team": "Quorn",
+      "score": "1 - 1",
+      "handicap": "0.5",
+      "goal_line": "3.00",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2843096",
+      "time_obj": "2025-11-04T19:45:00",
+      "home_team": "Stratford Town",
+      "away_team": "Needham Market",
+      "score": "2 - 2",
+      "handicap": "-0.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:45"
+    },
+    {
+      "id": "2849396",
+      "time_obj": "2025-11-04T19:30:00",
+      "home_team": "Grimsby Town",
+      "away_team": "Everton U21",
+      "score": "5 - 3",
+      "handicap": "1.5",
+      "goal_line": "3.50",
+      "time": "04/11 21:30"
+    },
+    {
+      "id": "2849395",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "Notts County",
+      "away_team": "Manchester United U21",
+      "score": "0 - 2",
+      "handicap": "0.5",
+      "goal_line": "3.50",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2896489",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "Raja Club Athletic",
+      "away_team": "Kawkab de Marrakech",
+      "score": "1 - 0",
+      "handicap": "1",
+      "goal_line": "2.25",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2893680",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "San Antonio Bulo Bulo",
+      "away_team": "Always Ready",
+      "score": "0 - 1",
+      "handicap": "-0.25",
+      "goal_line": "3.00",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2896789",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "La Luz Reserves",
+      "away_team": "Albion fc Reserves",
+      "score": "5 - 0",
+      "handicap": "0.25",
+      "goal_line": "2.50",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2854057",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "Crystal Palace U21",
+      "away_team": "Valencia CF Mestalla",
+      "score": "0 - 1",
+      "handicap": "0",
+      "goal_line": "3.00",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2854058",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "Fulham U21",
+      "away_team": "Nordsjaelland U21",
+      "score": "0 - 1",
+      "handicap": "0.25",
+      "goal_line": "3.50",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2854059",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "Leicester City U21",
+      "away_team": "Monchengladbach AM.",
+      "score": "2 - 3",
+      "handicap": "-0.75",
+      "goal_line": "3.00",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2896686",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "Envigado FC U20",
+      "away_team": "Atletico Junior Barranquilla U20",
+      "score": "0 - 0",
+      "handicap": "0.25",
+      "goal_line": "2.75",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2842208",
+      "time_obj": "2025-11-04T19:00:00",
+      "home_team": "Cardiff City U21",
+      "away_team": "Queens Park R U21",
+      "score": "2 - 3",
+      "handicap": "0.75",
+      "goal_line": "4.00",
+      "time": "04/11 21:00"
+    },
+    {
+      "id": "2896693",
+      "time_obj": "2025-11-04T18:50:00",
+      "home_team": "Tzeirey Haifa",
+      "away_team": "MS Tirat HaCarmel",
+      "score": "0 - 1",
+      "handicap": "-1",
+      "goal_line": "3.25",
+      "time": "04/11 20:50"
+    },
+    {
+      "id": "2804166",
+      "time_obj": "2025-11-04T18:30:00",
+      "home_team": "Argentino de Quilmes",
+      "away_team": "Argentino de Merlo",
+      "score": "1 - 0",
+      "handicap": "0",
+      "goal_line": "1.75",
+      "time": "04/11 20:30"
+    },
+    {
+      "id": "2896803",
+      "time_obj": "2025-11-04T18:30:00",
+      "home_team": "Hakoach Macabi Ramat Gan U19",
+      "away_team": "Gadna Tel Aviv U19",
+      "score": "0 - 3",
+      "handicap": "0",
+      "goal_line": "3.00",
+      "time": "04/11 20:30"
+    },
+    {
+      "id": "2895528",
+      "time_obj": "2025-11-04T18:30:00",
+      "home_team": "Deportivo Espanol",
+      "away_team": "Leandro N Alem",
+      "score": "2 - 1",
+      "handicap": "0.5",
+      "goal_line": "1.50",
+      "time": "04/11 20:30"
+    },
+    {
+      "id": "2896706",
+      "time_obj": "2025-11-04T18:30:00",
+      "home_team": "Uniao Inhumas U20",
+      "away_team": "Itaucu Esporte Clube U20",
+      "score": "2 - 1",
+      "handicap": "-1",
+      "goal_line": "2.75",
+      "time": "04/11 20:30"
+    },
+    {
+      "id": "2896707",
+      "time_obj": "2025-11-04T18:30:00",
+      "home_team": "Planalto EC U20",
+      "away_team": "Aparecida EC U20",
+      "score": "2 - 0",
+      "handicap": "0.25",
+      "goal_line": "2.50",
+      "time": "04/11 20:30"
+    },
+    {
+      "id": "2896679",
+      "time_obj": "2025-11-04T18:30:00",
+      "home_team": "Belenense",
+      "away_team": "Venus AC",
+      "score": "3 - 1",
+      "handicap": "0.5",
+      "goal_line": "2.25",
+      "time": "04/11 20:30"
+    },
+    {
+      "id": "2860666",
+      "time_obj": "2025-11-04T18:15:00",
+      "home_team": "Al-Ittihad",
+      "away_team": "Al-Sharjah",
+      "score": "3 - 0",
+      "handicap": "1.5",
+      "goal_line": "3.25",
+      "time": "04/11 20:15"
+    },
+    {
+      "id": "2813538",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Viseu",
+      "away_team": "Lusitania FC",
+      "score": "3 - 2",
+      "handicap": "0.5",
+      "goal_line": "2.00",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2845698",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "El Mokawloon El Arab",
+      "away_team": "Smouha SC",
+      "score": "1 - 1",
+      "handicap": "0",
+      "goal_line": "1.75",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2845699",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "ZED FC",
+      "away_team": "NBE SC",
+      "score": "1 - 1",
+      "handicap": "-0.25",
+      "goal_line": "2.00",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2895517",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Osasuna (W)",
+      "away_team": "FC Levante Badalona (W)",
+      "score": "0 - 3",
+      "handicap": "-0.75",
+      "goal_line": "2.25",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2895518",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Colegio Aleman Valencia (W)",
+      "away_team": "RCD Espanyol (W)",
+      "score": "1 - 2",
+      "handicap": "-0.25",
+      "goal_line": "2.25",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2823911",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Fortuna Hjorring (W)",
+      "away_team": "Midtjylland (W)",
+      "score": "1 - 1",
+      "handicap": "1.25",
+      "goal_line": "3.25",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2890473",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Lincoln Red Imps FC U19",
+      "away_team": "AZ Alkmaar U19",
+      "score": "0 - 5",
+      "handicap": "-3.5",
+      "goal_line": "4.25",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2896680",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Dragones de Oaxaca II",
+      "away_team": "Pro Training Camp FC",
+      "score": "3 - 1",
+      "handicap": "0.5",
+      "goal_line": "2.50",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2896786",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Tuzos Pachuca",
+      "away_team": "Alebrijes Teotihuacan",
+      "score": "3 - 2",
+      "handicap": "1",
+      "goal_line": "3.50",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2896688",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Caucaia CE",
+      "away_team": "CEFAT Tirol",
+      "score": "0 - 3",
+      "handicap": "-1.25",
+      "goal_line": "2.25",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2896708",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "America PE Youth",
+      "away_team": "Atletico PE U20",
+      "score": "2 - 1",
+      "handicap": "1",
+      "goal_line": "2.50",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2823750",
+      "time_obj": "2025-11-04T18:00:00",
+      "home_team": "Union Berlin (W)",
+      "away_team": "VfL Wolfsburg (W)",
+      "score": "1 - 4",
+      "handicap": "-1.75",
+      "goal_line": "3.50",
+      "time": "04/11 20:00"
+    },
+    {
+      "id": "2861140",
+      "time_obj": "2025-11-04T17:45:00",
+      "home_team": "Slavia Praha",
+      "away_team": "Arsenal",
+      "score": "0 - 3",
+      "handicap": "-1.75",
+      "goal_line": "2.75",
+      "time": "04/11 19:45"
+    },
+    {
+      "id": "2861168",
+      "time_obj": "2025-11-04T17:45:00",
+      "home_team": "Napoli",
+      "away_team": "Eintracht Frankfurt",
+      "score": "0 - 0",
+      "handicap": "1",
+      "goal_line": "3.00",
+      "time": "04/11 19:45"
+    },
+    {
+      "id": "2844428",
+      "time_obj": "2025-11-04T17:30:00",
+      "home_team": "Sekhukhune United",
+      "away_team": "Richards Bay",
+      "score": "1 - 1",
+      "handicap": "0.5",
+      "goal_line": "1.75",
+      "time": "04/11 19:30"
+    },
+    {
+      "id": "2844429",
+      "time_obj": "2025-11-04T17:30:00",
+      "home_team": "Kaizer Chiefs",
+      "away_team": "Orbit College",
+      "score": "4 - 1",
+      "handicap": "1",
+      "goal_line": "2.00",
+      "time": "04/11 19:30"
+    },
+    {
+      "id": "2844430",
+      "time_obj": "2025-11-04T17:30:00",
+      "home_team": "Chippa United",
+      "away_team": "Magesi",
+      "score": "0 - 0",
+      "handicap": "0",
+      "goal_line": "1.75",
+      "time": "04/11 19:30"
+    },
+    {
+      "id": "2844431",
+      "time_obj": "2025-11-04T17:30:00",
+      "home_team": "AmaZulu",
+      "away_team": "Polokwane City FC",
+      "score": "0 - 1",
+      "handicap": "0.25",
+      "goal_line": "1.75",
+      "time": "04/11 19:30"
+    },
     {
       "id": "2882300",
       "time_obj": "2025-11-04T17:00:00",
@@ -2322,376 +4122,6 @@
       "handicap": "1.5",
       "goal_line": "2.75",
       "time": "04/11 07:30"
-    },
-    {
-      "id": "2891690",
-      "time_obj": "2025-11-04T03:50:00",
-      "home_team": "Seattle Sounders",
-      "away_team": "Minnesota United FC",
-      "score": "4 - 2",
-      "handicap": "1",
-      "goal_line": "2.75",
-      "time": "04/11 05:50"
-    },
-    {
-      "id": "2776259",
-      "time_obj": "2025-11-04T00:15:00",
-      "home_team": "Banfield",
-      "away_team": "Lanus",
-      "score": "2 - 1",
-      "handicap": "0.25",
-      "goal_line": "1.75",
-      "time": "04/11 02:15"
-    },
-    {
-      "id": "2776261",
-      "time_obj": "2025-11-04T00:15:00",
-      "home_team": "Belgrano",
-      "away_team": "Club Atletico Tigre",
-      "score": "0 - 0",
-      "handicap": "0.25",
-      "goal_line": "2.00",
-      "time": "04/11 02:15"
-    },
-    {
-      "id": "2804167",
-      "time_obj": "2025-11-04T00:10:00",
-      "home_team": "Comunicaciones BsAs",
-      "away_team": "UAI Urquiza",
-      "score": "0 - 3",
-      "handicap": "0.5",
-      "goal_line": "1.75",
-      "time": "04/11 02:10"
-    },
-    {
-      "id": "2884505",
-      "time_obj": "2025-11-04T00:00:00",
-      "home_team": "Libertad FC",
-      "away_team": "Independiente del Valle",
-      "score": "1 - 3",
-      "handicap": "-0.75",
-      "goal_line": "2.50",
-      "time": "04/11 02:00"
-    },
-    {
-      "id": "2893679",
-      "time_obj": "2025-11-03T23:30:00",
-      "home_team": "Aurora",
-      "away_team": "Independiente Petrolero",
-      "score": "2 - 3",
-      "handicap": "1",
-      "goal_line": "3.25",
-      "time": "04/11 01:30"
-    },
-    {
-      "id": "2776262",
-      "time_obj": "2025-11-03T22:00:00",
-      "home_team": "Central Cordoba SDE",
-      "away_team": "Racing Club",
-      "score": "0 - 0",
-      "handicap": "0.25",
-      "goal_line": "2.25",
-      "time": "04/11 00:00"
-    },
-    {
-      "id": "2745173",
-      "time_obj": "2025-11-03T22:00:00",
-      "home_team": "America MG",
-      "away_team": "Gremio Novorizontino",
-      "score": "2 - 2",
-      "handicap": "0.25",
-      "goal_line": "2.00",
-      "time": "04/11 00:00"
-    },
-    {
-      "id": "2745181",
-      "time_obj": "2025-11-03T22:00:00",
-      "home_team": "Volta Redonda",
-      "away_team": "Botafogo SP",
-      "score": "0 - 1",
-      "handicap": "0.5",
-      "goal_line": "2.25",
-      "time": "04/11 00:00"
-    },
-    {
-      "id": "2893667",
-      "time_obj": "2025-11-03T22:00:00",
-      "home_team": "Plaza Colonia",
-      "away_team": "Cerro Largo",
-      "score": "0 - 2",
-      "handicap": "0.25",
-      "goal_line": "2.00",
-      "time": "04/11 00:00"
-    },
-    {
-      "id": "2722775",
-      "time_obj": "2025-11-03T22:00:00",
-      "home_team": "Palestino",
-      "away_team": "Deportes Limache",
-      "score": "2 - 1",
-      "handicap": "0.5",
-      "goal_line": "2.75",
-      "time": "04/11 00:00"
-    },
-    {
-      "id": "2893678",
-      "time_obj": "2025-11-03T21:15:00",
-      "home_team": "Bolivar",
-      "away_team": "Universitario De Vinto",
-      "score": "3 - 0",
-      "handicap": "2.5",
-      "goal_line": "4.00",
-      "time": "03/11 23:15"
-    },
-    {
-      "id": "2896672",
-      "time_obj": "2025-11-03T21:15:00",
-      "home_team": "CD Olimpia Reservas",
-      "away_team": "Real Espana Reserves",
-      "score": "3 - 2",
-      "handicap": "0.75",
-      "goal_line": "3.00",
-      "time": "03/11 23:15"
-    },
-    {
-      "id": "2893602",
-      "time_obj": "2025-11-03T21:00:00",
-      "home_team": "Envigado FC",
-      "away_team": "Dep.Independiente Medellin",
-      "score": "0 - 1",
-      "handicap": "-1",
-      "goal_line": "2.50",
-      "time": "03/11 23:00"
-    },
-    {
-      "id": "2896648",
-      "time_obj": "2025-11-03T21:00:00",
-      "home_team": "CD Choloma Reserves",
-      "away_team": "Juticalpa Reserves",
-      "score": "2 - 0",
-      "handicap": "0.5",
-      "goal_line": "3.00",
-      "time": "03/11 23:00"
-    },
-    {
-      "id": "2896649",
-      "time_obj": "2025-11-03T21:00:00",
-      "home_team": "CD Marathon Reserves",
-      "away_team": "Motagua Reserves",
-      "score": "5 - 2",
-      "handicap": "0.75",
-      "goal_line": "3.25",
-      "time": "03/11 23:00"
-    },
-    {
-      "id": "2896671",
-      "time_obj": "2025-11-03T21:00:00",
-      "home_team": "Olancho FC Reserves",
-      "away_team": "Genesis de Comayagua Reserves",
-      "score": "2 - 0",
-      "handicap": "0.5",
-      "goal_line": "2.75",
-      "time": "03/11 23:00"
-    },
-    {
-      "id": "2814808",
-      "time_obj": "2025-11-03T20:45:00",
-      "home_team": "Gil Vicente",
-      "away_team": "Santa Clara",
-      "score": "1 - 0",
-      "handicap": "0.5",
-      "goal_line": "1.75",
-      "time": "03/11 22:45"
-    },
-    {
-      "id": "2789226",
-      "time_obj": "2025-11-03T20:00:00",
-      "home_team": "Sunderland A.F.C",
-      "away_team": "Everton",
-      "score": "1 - 1",
-      "handicap": "-0.25",
-      "goal_line": "2.00",
-      "time": "03/11 22:00"
-    },
-    {
-      "id": "2804402",
-      "time_obj": "2025-11-03T20:00:00",
-      "home_team": "Real Oviedo",
-      "away_team": "Osasuna",
-      "score": "0 - 0",
-      "handicap": "-0.25",
-      "goal_line": "2.25",
-      "time": "03/11 22:00"
-    },
-    {
-      "id": "2813540",
-      "time_obj": "2025-11-03T20:00:00",
-      "home_team": "Uniao Leiria",
-      "away_team": "GD Chaves",
-      "score": "2 - 1",
-      "handicap": "0",
-      "goal_line": "2.25",
-      "time": "03/11 22:00"
-    },
-    {
-      "id": "2896609",
-      "time_obj": "2025-11-03T20:00:00",
-      "home_team": "Cliftonville Reserves",
-      "away_team": "Glenavon Reserves",
-      "score": "1 - 1",
-      "handicap": "1.5",
-      "goal_line": "4.50",
-      "time": "03/11 22:00"
-    },
-    {
-      "id": "2896652",
-      "time_obj": "2025-11-03T20:00:00",
-      "home_team": "Larne Reserves",
-      "away_team": "Crusaders Reserves",
-      "score": "6 - 3",
-      "handicap": "0.5",
-      "goal_line": "3.50",
-      "time": "03/11 22:00"
-    },
-    {
-      "id": "2784574",
-      "time_obj": "2025-11-03T19:45:00",
-      "home_team": "Lazio",
-      "away_team": "Cagliari",
-      "score": "2 - 0",
-      "handicap": "0.75",
-      "goal_line": "2.25",
-      "time": "03/11 21:45"
-    },
-    {
-      "id": "2847370",
-      "time_obj": "2025-11-03T19:45:00",
-      "home_team": "Pau FC",
-      "away_team": "Troyes",
-      "score": "1 - 1",
-      "handicap": "-0.25",
-      "goal_line": "2.50",
-      "time": "03/11 21:45"
-    },
-    {
-      "id": "2776263",
-      "time_obj": "2025-11-03T19:45:00",
-      "home_team": "Defensa Y Justicia",
-      "away_team": "CA Huracan",
-      "score": "1 - 3",
-      "handicap": "0",
-      "goal_line": "1.75",
-      "time": "03/11 21:45"
-    },
-    {
-      "id": "2776269",
-      "time_obj": "2025-11-03T19:45:00",
-      "home_team": "CA Platense",
-      "away_team": "Sarmiento Junin",
-      "score": "1 - 1",
-      "handicap": "0.75",
-      "goal_line": "1.75",
-      "time": "03/11 21:45"
-    },
-    {
-      "id": "2896606",
-      "time_obj": "2025-11-03T19:45:00",
-      "home_team": "Biggleswade FC",
-      "away_team": "London Lions",
-      "score": "2 - 2",
-      "handicap": "1",
-      "goal_line": "3.25",
-      "time": "03/11 21:45"
-    },
-    {
-      "id": "2896653",
-      "time_obj": "2025-11-03T19:45:00",
-      "home_team": "Dungannon Swifts Reserves",
-      "away_team": "Portadown Reserves",
-      "score": "2 - 2",
-      "handicap": "0",
-      "goal_line": "4.00",
-      "time": "03/11 21:45"
-    },
-    {
-      "id": "2896654",
-      "time_obj": "2025-11-03T19:45:00",
-      "home_team": "Glentoran Reserves",
-      "away_team": "Carrick Rangers Reserves",
-      "score": "6 - 2",
-      "handicap": "2.25",
-      "goal_line": "4.25",
-      "time": "03/11 21:45"
-    },
-    {
-      "id": "2807751",
-      "time_obj": "2025-11-03T19:30:00",
-      "home_team": "Real Valladolid",
-      "away_team": "Granada CF",
-      "score": "2 - 1",
-      "handicap": "0.5",
-      "goal_line": "2.25",
-      "time": "03/11 21:30"
-    },
-    {
-      "id": "2893659",
-      "time_obj": "2025-11-03T19:30:00",
-      "home_team": "Tamworth",
-      "away_team": "Leyton Orient",
-      "score": "0 - 1",
-      "handicap": "-1",
-      "goal_line": "3.00",
-      "time": "03/11 21:30"
-    },
-    {
-      "id": "2840411",
-      "time_obj": "2025-11-03T19:30:00",
-      "home_team": "Albinoleffe",
-      "away_team": "Inter Milan U23",
-      "score": "1 - 3",
-      "handicap": "-0.25",
-      "goal_line": "2.25",
-      "time": "03/11 21:30"
-    },
-    {
-      "id": "2840412",
-      "time_obj": "2025-11-03T19:30:00",
-      "home_team": "ASD Alcione",
-      "away_team": "Pro Patria",
-      "score": "2 - 0",
-      "handicap": "0.5",
-      "goal_line": "2.00",
-      "time": "03/11 21:30"
-    },
-    {
-      "id": "2840417",
-      "time_obj": "2025-11-03T19:30:00",
-      "home_team": "A.C. Ospitaletto",
-      "away_team": "AC Dolomiti Bellunesi",
-      "score": "3 - 1",
-      "handicap": "0.25",
-      "goal_line": "2.25",
-      "time": "03/11 21:30"
-    },
-    {
-      "id": "2837497",
-      "time_obj": "2025-11-03T19:30:00",
-      "home_team": "Vis Pesaro",
-      "away_team": "JuventusU23",
-      "score": "1 - 0",
-      "handicap": "0.25",
-      "goal_line": "2.25",
-      "time": "03/11 21:30"
-    },
-    {
-      "id": "2785388",
-      "time_obj": "2025-11-03T19:30:00",
-      "home_team": "Cracovia Krakow",
-      "away_team": "Zaglebie Lubin",
-      "score": "0 - 0",
-      "handicap": "0.5",
-      "goal_line": "2.50",
-      "time": "03/11 21:30"
     }
   ]
 }
